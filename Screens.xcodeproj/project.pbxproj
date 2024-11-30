@@ -11,6 +11,11 @@
 		F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5011A2CFB526600492BAA /* HomeView.swift */; };
 		F2F5011D2CFB526900492BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F5011C2CFB526900492BAA /* Assets.xcassets */; };
 		F2F501202CFB526900492BAA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F5011F2CFB526900492BAA /* Preview Assets.xcassets */; };
+		F2F501282CFB54B300492BAA /* GuitarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501272CFB54B300492BAA /* GuitarView.swift */; };
+		F2F5012A2CFB54C900492BAA /* WaveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501292CFB54C900492BAA /* WaveView.swift */; };
+		F2F5012C2CFB76D800492BAA /* LogoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5012B2CFB76D800492BAA /* LogoView.swift */; };
+		F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5012D2CFB99DB00492BAA /* WoodView.swift */; };
+		F2F501302CFBA28100492BAA /* BottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5012F2CFBA28100492BAA /* BottomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		F2F5011A2CFB526600492BAA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		F2F5011C2CFB526900492BAA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F2F5011F2CFB526900492BAA /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F2F501272CFB54B300492BAA /* GuitarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuitarView.swift; sourceTree = "<group>"; };
+		F2F501292CFB54C900492BAA /* WaveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WaveView.swift; sourceTree = "<group>"; };
+		F2F5012B2CFB76D800492BAA /* LogoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoView.swift; sourceTree = "<group>"; };
+		F2F5012D2CFB99DB00492BAA /* WoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WoodView.swift; sourceTree = "<group>"; };
+		F2F5012F2CFBA28100492BAA /* BottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +61,7 @@
 		F2F501172CFB526600492BAA /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				F2F501262CFB548900492BAA /* GuitarView */,
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F5011C2CFB526900492BAA /* Assets.xcassets */,
@@ -65,6 +76,18 @@
 				F2F5011F2CFB526900492BAA /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F2F501262CFB548900492BAA /* GuitarView */ = {
+			isa = PBXGroup;
+			children = (
+				F2F501272CFB54B300492BAA /* GuitarView.swift */,
+				F2F501292CFB54C900492BAA /* WaveView.swift */,
+				F2F5012B2CFB76D800492BAA /* LogoView.swift */,
+				F2F5012D2CFB99DB00492BAA /* WoodView.swift */,
+				F2F5012F2CFBA28100492BAA /* BottomView.swift */,
+			);
+			path = GuitarView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,8 +160,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2F5012C2CFB76D800492BAA /* LogoView.swift in Sources */,
+				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
+				F2F5012A2CFB54C900492BAA /* WaveView.swift in Sources */,
 				F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */,
+				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
 				F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */,
+				F2F501282CFB54B300492BAA /* GuitarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -13,5 +13,6 @@ struct ScreensApp: App {
         WindowGroup {
             HomeView()
         }
+        
     }
 }
