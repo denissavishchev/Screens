@@ -61,9 +61,9 @@
 		F2F501172CFB526600492BAA /* Screens */ = {
 			isa = PBXGroup;
 			children = (
-				F2F501262CFB548900492BAA /* GuitarView */,
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
+				F2F501262CFB548900492BAA /* GuitarView */,
 				F2F5011C2CFB526900492BAA /* Assets.xcassets */,
 				F2F5011E2CFB526900492BAA /* Preview Content */,
 			);
