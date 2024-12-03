@@ -3,9 +3,8 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         TabView{
+            MealView()
             GuitarView()
-            Text("two")
-            Text("three")
         }
         .tabViewStyle(.page)
         .ignoresSafeArea()
