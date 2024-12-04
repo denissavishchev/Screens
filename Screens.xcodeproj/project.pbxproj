@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
 		F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5011A2CFB526600492BAA /* HomeView.swift */; };
 		F2F5011D2CFB526900492BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F5011C2CFB526900492BAA /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F501182CFB526600492BAA /* ScreensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensApp.swift; sourceTree = "<group>"; };
 		F2F5011A2CFB526600492BAA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				F2F501322CFE439A00492BAA /* MealView.swift */,
 				F2F501382CFF955200492BAA /* TopView.swift */,
 				F2F5013A2CFFA46700492BAA /* QuantityButton.swift */,
+				F2DF50A22D00B59300A23361 /* ButtonView.swift */,
 			);
 			path = MealView;
 			sourceTree = "<group>";
@@ -182,6 +185,7 @@
 			files = (
 				F2F5013B2CFFA46700492BAA /* QuantityButton.swift in Sources */,
 				F2F5012C2CFB76D800492BAA /* LogoView.swift in Sources */,
+				F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */,
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
 				F2F5012A2CFB54C900492BAA /* WaveView.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,

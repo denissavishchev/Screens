@@ -2,15 +2,14 @@ import SwiftUI
 
 struct MealView: View {
     
+    private let meal = ["Burger", "Pizza", "Drink"]
+    @State private var selectedItem: String = "Burger"
+    
     var body: some View {
         VStack{
             ZStack(alignment: .topLeading){
-                TopView()
-                Image("Burger")
-                    .resizable()
-                    .offset(x: 0, y: -60)
-                    .scaledToFit()
-                    .frame(maxHeight: 250)
+                TopView(name: selectedItem)
+                
                 HStack{
                     Spacer()
                     UnevenRoundedRectangle()
@@ -34,6 +33,17 @@ struct MealView: View {
                 .shadow(color: .gray, radius: 8, x: 5, y: 12)
                 
             }
+            HStack{
+                ForEach(meal, id: \.self){m in
+                    ButtonView(name: m, selectedItem: $selectedItem)
+                        .onTapGesture {
+                            withAnimation{
+                                selectedItem = m
+                            }
+                        }
+                }
+            }
+            .padding(.top, 30)
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(LinearGradient(gradient: Gradient(
@@ -44,4 +54,6 @@ struct MealView: View {
 #Preview {
     MealView()
 }
+
+
 

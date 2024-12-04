@@ -1,15 +1,9 @@
-//
-//  TopView.swift
-//  Screens
-//
-//  Created by Devis on 03/12/2024.
-//
-
 import SwiftUI
 
 struct TopView: View {
     
     @State private var quantity: Int = 0
+    let name: String
         
     var body: some View {
         ZStack{
@@ -36,11 +30,19 @@ struct TopView: View {
                 Spacer()
                 HStack{
                     VStack(alignment: .leading){
-                        Text("Double Burger")
+                        Text(name == "Burger"
+                             ? "Double Burger"
+                             : name == "Pizza"
+                             ? "Salami Pizza"
+                             : "Red Lemonade")
                             .font(.system(size: 24))
                             .bold()
                             .padding(.bottom, 2)
-                        Text("A Double Burger is a classic indulgence that features two juicy beef patties stacked on top of each other, offering a hearty and satisfying bite. Typically, each patty is seasoned to perfection and grilled or seared for a flavorful crust.")
+                        Text(name == "Burger"
+                             ? "A Double Burger is a classic indulgence that features two juicy beef patties stacked on top of each other, offering a hearty and satisfying bite. Typically, each patty is seasoned to perfection and grilled or seared for a flavorful crust."
+                             : name == "Pizza"
+                             ? "A crispy crust topped with tangy tomato sauce, melted mozzarella, and smoky salami slices. Finished with fresh herbs for a flavorful, savory bite."
+                             : "A refreshing, tangy drink made with fresh lemon juice, a splash of berry flavor, and a hint of sweetness. Perfectly chilled for a vibrant, thirst-quenching experience.")
                             .font(.system(size: 14))
                     }
                     VStack{
@@ -67,6 +69,11 @@ struct TopView: View {
                                        startPoint: .bottomLeading, endPoint: .topTrailing), lineWidth: 2)
                 .frame(width: .infinity, height: 400)
                 .padding(30)
+            Image(name)
+                .resizable()
+                .offset(x: -60, y: -140)
+                .scaledToFit()
+                .frame(maxHeight: name == "Pizza" ? 200 : 250)
         }
     }
 }
