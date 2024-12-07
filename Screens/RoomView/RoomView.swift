@@ -12,14 +12,20 @@ struct RoomView: View {
                 SofaView()
                 Spacer()
                 ControlView()
-                
             }
             .frame(maxWidth: .infinity, maxHeight: 160)
-            .background(Color(.systemGray5))
+            .background(.steamGray)
             .cornerRadius(44)
+            .overlay(
+            RoundedRectangle(cornerRadius: 44)
+                .stroke(lineWidth: 2)
+                .foregroundColor(.steamBrown.opacity(0.6))
+                .frame(maxWidth: .infinity, maxHeight: 160)
+            )
             Spacer()
         }
         .padding(12)
+        .background(.steamWhite)
         .ignoresSafeArea()
     }
 }
