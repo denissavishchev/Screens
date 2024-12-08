@@ -13,6 +13,8 @@
 		F270F3A52D044073007BBF4B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A42D044073007BBF4B /* RoomView.swift */; };
 		F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A62D045FF9007BBF4B /* SofaView.swift */; };
 		F270F3A92D046030007BBF4B /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A82D046030007BBF4B /* ControlView.swift */; };
+		F270F3AB2D05C786007BBF4B /* SegmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3AA2D05C786007BBF4B /* SegmentView.swift */; };
+		F270F3AE2D05EB81007BBF4B /* CarSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3AD2D05EB80007BBF4B /* CarSettingsView.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -37,6 +39,8 @@
 		F270F3A42D044073007BBF4B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 		F270F3A62D045FF9007BBF4B /* SofaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofaView.swift; sourceTree = "<group>"; };
 		F270F3A82D046030007BBF4B /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
+		F270F3AA2D05C786007BBF4B /* SegmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegmentView.swift; sourceTree = "<group>"; };
+		F270F3AD2D05EB80007BBF4B /* CarSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSettingsView.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -72,8 +76,17 @@
 				F270F3A42D044073007BBF4B /* RoomView.swift */,
 				F270F3A62D045FF9007BBF4B /* SofaView.swift */,
 				F270F3A82D046030007BBF4B /* ControlView.swift */,
+				F270F3AA2D05C786007BBF4B /* SegmentView.swift */,
 			);
 			path = RoomView;
+			sourceTree = "<group>";
+		};
+		F270F3AC2D05EB5E007BBF4B /* CarSettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				F270F3AD2D05EB80007BBF4B /* CarSettingsView.swift */,
+			);
+			path = CarSettingsView;
 			sourceTree = "<group>";
 		};
 		F2DF50AD2D021A5400A23361 /* Components */ = {
@@ -109,6 +122,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F270F3AC2D05EB5E007BBF4B /* CarSettingsView */,
 				F270F3A32D044059007BBF4B /* RoomView */,
 				F2F501262CFB548900492BAA /* GuitarView */,
 				F2F501312CFE437700492BAA /* MealView */,
@@ -237,7 +251,9 @@
 				F2F501392CFF955200492BAA /* TopView.swift in Sources */,
 				F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */,
 				F2F501372CFF8E5300492BAA /* CustomColors.swift in Sources */,
+				F270F3AE2D05EB81007BBF4B /* CarSettingsView.swift in Sources */,
 				F2F501282CFB54B300492BAA /* GuitarView.swift in Sources */,
+				F270F3AB2D05C786007BBF4B /* SegmentView.swift in Sources */,
 				F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
