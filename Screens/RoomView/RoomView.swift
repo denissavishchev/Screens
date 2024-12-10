@@ -9,6 +9,7 @@ struct RoomView: View {
                     .scaledToFit()
                     .frame(maxWidth: .infinity)
                     .cornerRadius(44)
+                CustomSlider()
                 SegmentView()
                 HStack{
                     SofaView()
