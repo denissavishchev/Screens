@@ -17,6 +17,7 @@
 		F270F3AE2D05EB81007BBF4B /* CarSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3AD2D05EB80007BBF4B /* CarSettingsView.swift */; };
 		F270F3B02D0784CD007BBF4B /* RoundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3AF2D0784CD007BBF4B /* RoundView.swift */; };
 		F270F3B22D078A23007BBF4B /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3B12D078A23007BBF4B /* CarView.swift */; };
+		F270F3B82D0A2763007BBF4B /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3B72D0A2763007BBF4B /* CustomSlider.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -45,6 +46,7 @@
 		F270F3AD2D05EB80007BBF4B /* CarSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarSettingsView.swift; sourceTree = "<group>"; };
 		F270F3AF2D0784CD007BBF4B /* RoundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundView.swift; sourceTree = "<group>"; };
 		F270F3B12D078A23007BBF4B /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
+		F270F3B72D0A2763007BBF4B /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -91,6 +93,7 @@
 				F270F3AD2D05EB80007BBF4B /* CarSettingsView.swift */,
 				F270F3AF2D0784CD007BBF4B /* RoundView.swift */,
 				F270F3B12D078A23007BBF4B /* CarView.swift */,
+				F270F3B72D0A2763007BBF4B /* CustomSlider.swift */,
 			);
 			path = CarSettingsView;
 			sourceTree = "<group>";
@@ -259,6 +262,7 @@
 				F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */,
 				F2F501372CFF8E5300492BAA /* CustomColors.swift in Sources */,
 				F270F3AE2D05EB81007BBF4B /* CarSettingsView.swift in Sources */,
+				F270F3B82D0A2763007BBF4B /* CustomSlider.swift in Sources */,
 				F2F501282CFB54B300492BAA /* GuitarView.swift in Sources */,
 				F270F3AB2D05C786007BBF4B /* SegmentView.swift in Sources */,
 				F270F3B22D078A23007BBF4B /* CarView.swift in Sources */,

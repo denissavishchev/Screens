@@ -2,6 +2,9 @@ import SwiftUI
 
 struct CarSettingsView: View {
     
+    private let images = ["A1", "A2", "A3", "A4"]
+    private let values = [250, 215, 455, 340]
+    
     var body: some View {
         VStack{
             
@@ -25,45 +28,26 @@ struct CarSettingsView: View {
                     .frame(width: 100, height: 50)
             }
             .padding(.bottom, 20)
-            CustomSlider()
+            VStack {
+                ForEach(Array(zip(images, values)), id: \.0){image, value in
+                    CustomSlider(image: image, value: value)
+                }
+            }
             Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.black)
     }
+    
+    
+    
 }
 
 #Preview {
     CarSettingsView()
 }
 
-struct CustomSlider: View {
-    
-    @State var offset: CGFloat = 0
-    
-    var body: some View {
-        ZStack(alignment: Alignment(horizontal: .leading, vertical: .center)){
-                Capsule()
-                    .fill(.white.opacity(0.5))
-                    .frame(height: 30)
-                Capsule()
-                    .fill(.orange.opacity(0.5))
-                    .frame(width: offset + 20, height: 30)
-                Circle()
-                    .fill(.yellow)
-                    .frame(width: 35, height: 35)
-                    .background(Circle().stroke(.white, lineWidth: 5))
-                    .offset(x: offset)
-                    .gesture(DragGesture()
-                        .onChanged({ (value) in
-                            if value.location.x > 20 && value.location.x <= UIScreen.main.bounds.width - 50{
-                                offset = value.location.x - 20
-                            }
-                        }))
-        }
-        .padding()
-    }
-}
+
 
 
 
