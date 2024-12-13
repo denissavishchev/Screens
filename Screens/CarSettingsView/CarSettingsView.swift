@@ -38,9 +38,6 @@ struct CarSettingsView: View {
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.black)
     }
-    
-    
-    
 }
 
 #Preview {
