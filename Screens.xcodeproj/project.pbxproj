@@ -19,6 +19,9 @@
 		F270F3B22D078A23007BBF4B /* CarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3B12D078A23007BBF4B /* CarView.swift */; };
 		F270F3B82D0A2763007BBF4B /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3B72D0A2763007BBF4B /* CustomSlider.swift */; };
 		F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3BA2D0B468B007BBF4B /* SmileView.swift */; };
+		F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3BD2D0EF48A007BBF4B /* CarouselView.swift */; };
+		F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */; };
+		F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -49,6 +52,9 @@
 		F270F3B12D078A23007BBF4B /* CarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarView.swift; sourceTree = "<group>"; };
 		F270F3B72D0A2763007BBF4B /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
 		F270F3BA2D0B468B007BBF4B /* SmileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmileView.swift; sourceTree = "<group>"; };
+		F270F3BD2D0EF48A007BBF4B /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
+		F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
+		F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -108,6 +114,16 @@
 			path = SmileView;
 			sourceTree = "<group>";
 		};
+		F270F3BC2D0EF46F007BBF4B /* CarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				F270F3BD2D0EF48A007BBF4B /* CarouselView.swift */,
+				F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */,
+				F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */,
+			);
+			path = CarouselView;
+			sourceTree = "<group>";
+		};
 		F2DF50AD2D021A5400A23361 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +157,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F270F3BC2D0EF46F007BBF4B /* CarouselView */,
 				F270F3B92D0B466F007BBF4B /* SmileView */,
 				F270F3AC2D05EB5E007BBF4B /* CarSettingsView */,
 				F270F3A32D044059007BBF4B /* RoomView */,
@@ -260,6 +277,7 @@
 				F2F5012C2CFB76D800492BAA /* LogoView.swift in Sources */,
 				F270F3A52D044073007BBF4B /* RoomView.swift in Sources */,
 				F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */,
+				F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */,
 				F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */,
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
 				F270F3A22D022AF5007BBF4B /* TaskProgress.swift in Sources */,
@@ -271,11 +289,13 @@
 				F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
 				F2F501392CFF955200492BAA /* TopView.swift in Sources */,
+				F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */,
 				F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */,
 				F2F501372CFF8E5300492BAA /* CustomColors.swift in Sources */,
 				F270F3AE2D05EB81007BBF4B /* CarSettingsView.swift in Sources */,
 				F270F3B82D0A2763007BBF4B /* CustomSlider.swift in Sources */,
 				F2F501282CFB54B300492BAA /* GuitarView.swift in Sources */,
+				F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */,
 				F270F3AB2D05C786007BBF4B /* SegmentView.swift in Sources */,
 				F270F3B22D078A23007BBF4B /* CarView.swift in Sources */,
 				F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */,

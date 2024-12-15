@@ -20,14 +20,7 @@ struct CarSettingsView: View {
                 Spacer()
             }
             .frame(maxWidth: .infinity)
-            CarView()
-            HStack{
-                Image(systemName: "battery.0")
-                    .resizable()
-                    .foregroundColor(.white)
-                    .frame(width: 100, height: 50)
-            }
-            .padding(.bottom, 20)
+            
             VStack {
                 ForEach(Array(zip(images, values)), id: \.0){image, value in
                     CustomSlider(image: image, value: value)
