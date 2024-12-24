@@ -1,10 +1,3 @@
-//
-//  CarouselView.swift
-//  Screens
-//
-//  Created by Devis on 15/12/2024.
-//
-
 import SwiftUI
 
 struct CarouselView: View {
