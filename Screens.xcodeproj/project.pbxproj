@@ -25,6 +25,7 @@
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9032D1B2E6F0023C830 /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9022D1B2E6F0023C830 /* MoodView.swift */; };
+		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -61,6 +62,7 @@
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9022D1B2E6F0023C830 /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
+		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +137,7 @@
 			children = (
 				F2C5D8FD2D1AEC590023C830 /* SushiView.swift */,
 				F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */,
+				F2C5D9042D1C38820023C830 /* IngredientsView.swift */,
 			);
 			path = SushiView;
 			sourceTree = "<group>";
@@ -315,6 +318,7 @@
 				F2C5D9032D1B2E6F0023C830 /* MoodView.swift in Sources */,
 				F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
+				F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */,
 				F2F501392CFF955200492BAA /* TopView.swift in Sources */,
 				F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */,
 				F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */,
