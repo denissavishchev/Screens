@@ -3,6 +3,7 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         TabView{
+            AmpView()
             MoodView()
             SushiView()
             CarouselView()
