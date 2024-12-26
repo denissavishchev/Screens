@@ -10,7 +10,7 @@ import SwiftUI
 struct SoundButtonsView: View {
     
     let names: [String] = ["OD", "DLY", "EQ"]
-    @State private var states: [String: Bool] = ["OD": false, "DLY": false, "EQ": false]
+    @State private var states: [String: Bool] = ["OD": true, "DLY": false, "EQ": false]
     
     var body: some View {
         HStack(spacing: 40){
@@ -43,7 +43,7 @@ struct SoundButton: View {
                             .stroke(LinearGradient(colors: [.clear, .white.opacity(0.8)], startPoint: .top, endPoint: .bottom), lineWidth: 1.5)
                     }
                 )
-                .frame(width: 70, height: 120)
+                .frame(width: 65, height: 120)
             Capsule()
                 .fill(LinearGradient(colors: [.ampWhite, .ampGray], startPoint: .top, endPoint: .bottom)
                     .shadow(.inner(color: .ampDark.opacity(0.7), radius: 5, x: 5, y: 5))
@@ -58,7 +58,7 @@ struct SoundButton: View {
                             .stroke(LinearGradient(colors: [.ampWhite.opacity(0.8), .clear], startPoint: .top, endPoint: .bottom), lineWidth: 1.5)
                     }
                 )
-                .frame(width: 50, height: 100)
+                .frame(width: 45, height: 100)
             VStack(spacing: 5){
                 Text(name)
                     .font(.system(size: 20))
@@ -75,7 +75,7 @@ struct SoundButton: View {
                     .foregroundColor(isOn ? .ampGreen : .ampWhite.opacity(0.8))
                     .shadow(color: .white, radius: 3)
             }
-            .frame(width: 70, height: 100)
+            .frame(width: 65, height: 100)
         }
         .onTapGesture {
             withAnimation{

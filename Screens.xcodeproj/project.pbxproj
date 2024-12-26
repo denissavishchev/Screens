@@ -29,6 +29,7 @@
 		F2C5D9082D1C57D10023C830 /* AmpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9072D1C57D10023C830 /* AmpView.swift */; };
 		F2C5D90A2D1D885A0023C830 /* SettingsBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9092D1D885A0023C830 /* SettingsBottomView.swift */; };
 		F2C5D90C2D1DA20C0023C830 /* SoundButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D90B2D1DA20C0023C830 /* SoundButtonsView.swift */; };
+		F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D90D2D1DCC9A0023C830 /* SettingSwitch.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -69,6 +70,7 @@
 		F2C5D9072D1C57D10023C830 /* AmpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpView.swift; sourceTree = "<group>"; };
 		F2C5D9092D1D885A0023C830 /* SettingsBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBottomView.swift; sourceTree = "<group>"; };
 		F2C5D90B2D1DA20C0023C830 /* SoundButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundButtonsView.swift; sourceTree = "<group>"; };
+		F2C5D90D2D1DCC9A0023C830 /* SettingSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSwitch.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -162,6 +164,7 @@
 				F2C5D9072D1C57D10023C830 /* AmpView.swift */,
 				F2C5D90B2D1DA20C0023C830 /* SoundButtonsView.swift */,
 				F2C5D9092D1D885A0023C830 /* SettingsBottomView.swift */,
+				F2C5D90D2D1DCC9A0023C830 /* SettingSwitch.swift */,
 			);
 			path = AmpView;
 			sourceTree = "<group>";
@@ -350,6 +353,7 @@
 				F2C5D9082D1C57D10023C830 /* AmpView.swift in Sources */,
 				F270F3B22D078A23007BBF4B /* CarView.swift in Sources */,
 				F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */,
+				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
 				F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
