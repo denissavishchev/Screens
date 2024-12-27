@@ -13,7 +13,7 @@ struct SettingSwitch: View {
     @Binding var isOn: Bool
     
     var body: some View {
-        VStack{
+        VStack(spacing: 0){
             HStack{
                 Text("\(name):")
                     .font(.system(size: 16))
@@ -22,6 +22,7 @@ struct SettingSwitch: View {
                     .font(.system(size: 16))
                     .foregroundColor(.gray.opacity(0.8))
             }
+            .padding(.bottom, 8)
             ZStack(alignment: isOn ? .trailing : .leading){
                 RoundedRectangle(cornerRadius: 30)
                     .fill(LinearGradient(gradient: Gradient(colors: [.ampWhite, .ampDarkGray]), startPoint: .topLeading, endPoint: .bottom)
