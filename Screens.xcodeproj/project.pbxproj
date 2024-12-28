@@ -24,13 +24,13 @@
 		F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
-		F2C5D9032D1B2E6F0023C830 /* MoodView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9022D1B2E6F0023C830 /* MoodView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
 		F2C5D9082D1C57D10023C830 /* AmpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9072D1C57D10023C830 /* AmpView.swift */; };
 		F2C5D90A2D1D885A0023C830 /* SettingsBottomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9092D1D885A0023C830 /* SettingsBottomView.swift */; };
 		F2C5D90C2D1DA20C0023C830 /* SoundButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D90B2D1DA20C0023C830 /* SoundButtonsView.swift */; };
 		F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D90D2D1DCC9A0023C830 /* SettingSwitch.swift */; };
 		F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D90F2D1F31A50023C830 /* EQSlider.swift */; };
+		F2C5D9132D1F37DB0023C830 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9122D1F37DB0023C830 /* WatchView.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -66,13 +66,13 @@
 		F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
-		F2C5D9022D1B2E6F0023C830 /* MoodView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoodView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
 		F2C5D9072D1C57D10023C830 /* AmpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AmpView.swift; sourceTree = "<group>"; };
 		F2C5D9092D1D885A0023C830 /* SettingsBottomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsBottomView.swift; sourceTree = "<group>"; };
 		F2C5D90B2D1DA20C0023C830 /* SoundButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundButtonsView.swift; sourceTree = "<group>"; };
 		F2C5D90D2D1DCC9A0023C830 /* SettingSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSwitch.swift; sourceTree = "<group>"; };
 		F2C5D90F2D1F31A50023C830 /* EQSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EQSlider.swift; sourceTree = "<group>"; };
+		F2C5D9122D1F37DB0023C830 /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -152,14 +152,6 @@
 			path = SushiView;
 			sourceTree = "<group>";
 		};
-		F2C5D9012D1B2E570023C830 /* MoodView */ = {
-			isa = PBXGroup;
-			children = (
-				F2C5D9022D1B2E6F0023C830 /* MoodView.swift */,
-			);
-			path = MoodView;
-			sourceTree = "<group>";
-		};
 		F2C5D9062D1C57BE0023C830 /* AmpView */ = {
 			isa = PBXGroup;
 			children = (
@@ -170,6 +162,14 @@
 				F2C5D90F2D1F31A50023C830 /* EQSlider.swift */,
 			);
 			path = AmpView;
+			sourceTree = "<group>";
+		};
+		F2C5D9112D1F37C10023C830 /* WatchView */ = {
+			isa = PBXGroup;
+			children = (
+				F2C5D9122D1F37DB0023C830 /* WatchView.swift */,
+			);
+			path = WatchView;
 			sourceTree = "<group>";
 		};
 		F2DF50AD2D021A5400A23361 /* Components */ = {
@@ -205,8 +205,8 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2C5D9112D1F37C10023C830 /* WatchView */,
 				F2C5D9062D1C57BE0023C830 /* AmpView */,
-				F2C5D9012D1B2E570023C830 /* MoodView */,
 				F2C5D8FC2D1AEC360023C830 /* SushiView */,
 				F270F3BC2D0EF46F007BBF4B /* CarouselView */,
 				F270F3B92D0B466F007BBF4B /* SmileView */,
@@ -324,6 +324,7 @@
 			files = (
 				F2C5D90A2D1D885A0023C830 /* SettingsBottomView.swift in Sources */,
 				F2F5013B2CFFA46700492BAA /* QuantityButton.swift in Sources */,
+				F2C5D9132D1F37DB0023C830 /* WatchView.swift in Sources */,
 				F270F3B02D0784CD007BBF4B /* RoundView.swift in Sources */,
 				F2C5D90C2D1DA20C0023C830 /* SoundButtonsView.swift in Sources */,
 				F270F3A92D046030007BBF4B /* ControlView.swift in Sources */,
@@ -341,7 +342,6 @@
 				F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */,
 				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
 				F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */,
-				F2C5D9032D1B2E6F0023C830 /* MoodView.swift in Sources */,
 				F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
 				F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */,
