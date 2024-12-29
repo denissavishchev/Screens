@@ -31,6 +31,10 @@
 		F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D90D2D1DCC9A0023C830 /* SettingSwitch.swift */; };
 		F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D90F2D1F31A50023C830 /* EQSlider.swift */; };
 		F2C5D9132D1F37DB0023C830 /* WatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9122D1F37DB0023C830 /* WatchView.swift */; };
+		F2C5D91D2D2176E10023C830 /* Container.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D91C2D2176E10023C830 /* Container.swift */; };
+		F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D91E2D217E1C0023C830 /* WatchButtonView.swift */; };
+		F2C5D9212D21BD7C0023C830 /* WatchFourButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9202D21BD7C0023C830 /* WatchFourButtons.swift */; };
+		F2C5D9232D21C3D30023C830 /* ContainerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9222D21C3D30023C830 /* ContainerOverlay.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -73,6 +77,10 @@
 		F2C5D90D2D1DCC9A0023C830 /* SettingSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingSwitch.swift; sourceTree = "<group>"; };
 		F2C5D90F2D1F31A50023C830 /* EQSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EQSlider.swift; sourceTree = "<group>"; };
 		F2C5D9122D1F37DB0023C830 /* WatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchView.swift; sourceTree = "<group>"; };
+		F2C5D91C2D2176E10023C830 /* Container.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Container.swift; sourceTree = "<group>"; };
+		F2C5D91E2D217E1C0023C830 /* WatchButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchButtonView.swift; sourceTree = "<group>"; };
+		F2C5D9202D21BD7C0023C830 /* WatchFourButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFourButtons.swift; sourceTree = "<group>"; };
+		F2C5D9222D21C3D30023C830 /* ContainerOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerOverlay.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -168,6 +176,10 @@
 			isa = PBXGroup;
 			children = (
 				F2C5D9122D1F37DB0023C830 /* WatchView.swift */,
+				F2C5D91C2D2176E10023C830 /* Container.swift */,
+				F2C5D91E2D217E1C0023C830 /* WatchButtonView.swift */,
+				F2C5D9202D21BD7C0023C830 /* WatchFourButtons.swift */,
+				F2C5D9222D21C3D30023C830 /* ContainerOverlay.swift */,
 			);
 			path = WatchView;
 			sourceTree = "<group>";
@@ -333,18 +345,22 @@
 				F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */,
 				F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */,
 				F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */,
+				F2C5D9212D21BD7C0023C830 /* WatchFourButtons.swift in Sources */,
+				F2C5D9232D21C3D30023C830 /* ContainerOverlay.swift in Sources */,
 				F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */,
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
 				F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */,
 				F270F3A22D022AF5007BBF4B /* TaskProgress.swift in Sources */,
 				F2F5012A2CFB54C900492BAA /* WaveView.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
+				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
 				F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */,
 				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
 				F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */,
 				F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
 				F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */,
+				F2C5D91D2D2176E10023C830 /* Container.swift in Sources */,
 				F2F501392CFF955200492BAA /* TopView.swift in Sources */,
 				F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */,
 				F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */,
