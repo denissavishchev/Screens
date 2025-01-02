@@ -37,6 +37,11 @@
 		F2C5D9232D21C3D30023C830 /* ContainerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9222D21C3D30023C830 /* ContainerOverlay.swift */; };
 		F2C5D9292D253B320023C830 /* GoodMorningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9282D253B320023C830 /* GoodMorningView.swift */; };
 		F2C5D92B2D25CDEF0023C830 /* GreenContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D92A2D25CDEF0023C830 /* GreenContainer.swift */; };
+		F2C5D92D2D26EFF30023C830 /* GreenContainerImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D92C2D26EFF30023C830 /* GreenContainerImages.swift */; };
+		F2C5D92F2D26F0730023C830 /* GreenYellowSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D92E2D26F0730023C830 /* GreenYellowSwitch.swift */; };
+		F2C5D9312D26F0F60023C830 /* BlueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9302D26F0F60023C830 /* BlueContainer.swift */; };
+		F2C5D9332D2703370023C830 /* GeneralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9322D2703370023C830 /* GeneralModel.swift */; };
+		F2C5D9352D2708E50023C830 /* GreenContainerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9342D2708E50023C830 /* GreenContainerOverlay.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -85,6 +90,11 @@
 		F2C5D9222D21C3D30023C830 /* ContainerOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerOverlay.swift; sourceTree = "<group>"; };
 		F2C5D9282D253B320023C830 /* GoodMorningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodMorningView.swift; sourceTree = "<group>"; };
 		F2C5D92A2D25CDEF0023C830 /* GreenContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenContainer.swift; sourceTree = "<group>"; };
+		F2C5D92C2D26EFF30023C830 /* GreenContainerImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenContainerImages.swift; sourceTree = "<group>"; };
+		F2C5D92E2D26F0730023C830 /* GreenYellowSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenYellowSwitch.swift; sourceTree = "<group>"; };
+		F2C5D9302D26F0F60023C830 /* BlueContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueContainer.swift; sourceTree = "<group>"; };
+		F2C5D9322D2703370023C830 /* GeneralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralModel.swift; sourceTree = "<group>"; };
+		F2C5D9342D2708E50023C830 /* GreenContainerOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenContainerOverlay.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -193,6 +203,11 @@
 			children = (
 				F2C5D9282D253B320023C830 /* GoodMorningView.swift */,
 				F2C5D92A2D25CDEF0023C830 /* GreenContainer.swift */,
+				F2C5D92C2D26EFF30023C830 /* GreenContainerImages.swift */,
+				F2C5D92E2D26F0730023C830 /* GreenYellowSwitch.swift */,
+				F2C5D9302D26F0F60023C830 /* BlueContainer.swift */,
+				F2C5D9322D2703370023C830 /* GeneralModel.swift */,
+				F2C5D9342D2708E50023C830 /* GreenContainerOverlay.swift */,
 			);
 			path = GoodMorningView;
 			sourceTree = "<group>";
@@ -354,10 +369,14 @@
 				F270F3B02D0784CD007BBF4B /* RoundView.swift in Sources */,
 				F2C5D90C2D1DA20C0023C830 /* SoundButtonsView.swift in Sources */,
 				F270F3A92D046030007BBF4B /* ControlView.swift in Sources */,
+				F2C5D9332D2703370023C830 /* GeneralModel.swift in Sources */,
 				F2F5012C2CFB76D800492BAA /* LogoView.swift in Sources */,
 				F270F3A52D044073007BBF4B /* RoomView.swift in Sources */,
 				F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */,
+				F2C5D9312D26F0F60023C830 /* BlueContainer.swift in Sources */,
 				F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */,
+				F2C5D9352D2708E50023C830 /* GreenContainerOverlay.swift in Sources */,
+				F2C5D92D2D26EFF30023C830 /* GreenContainerImages.swift in Sources */,
 				F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */,
 				F2C5D9212D21BD7C0023C830 /* WatchFourButtons.swift in Sources */,
 				F2C5D9232D21C3D30023C830 /* ContainerOverlay.swift in Sources */,
@@ -373,6 +392,7 @@
 				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
 				F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */,
 				F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */,
+				F2C5D92F2D26F0730023C830 /* GreenYellowSwitch.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
 				F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */,
 				F2C5D91D2D2176E10023C830 /* Container.swift in Sources */,
