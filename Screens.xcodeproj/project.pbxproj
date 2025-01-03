@@ -42,6 +42,8 @@
 		F2C5D9312D26F0F60023C830 /* BlueContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9302D26F0F60023C830 /* BlueContainer.swift */; };
 		F2C5D9332D2703370023C830 /* GeneralModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9322D2703370023C830 /* GeneralModel.swift */; };
 		F2C5D9352D2708E50023C830 /* GreenContainerOverlay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9342D2708E50023C830 /* GreenContainerOverlay.swift */; };
+		F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9362D286F3C0023C830 /* OnOffSwitch.swift */; };
+		F2C5D9392D2874000023C830 /* YellowContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9382D2874000023C830 /* YellowContainer.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -95,6 +97,8 @@
 		F2C5D9302D26F0F60023C830 /* BlueContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueContainer.swift; sourceTree = "<group>"; };
 		F2C5D9322D2703370023C830 /* GeneralModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralModel.swift; sourceTree = "<group>"; };
 		F2C5D9342D2708E50023C830 /* GreenContainerOverlay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenContainerOverlay.swift; sourceTree = "<group>"; };
+		F2C5D9362D286F3C0023C830 /* OnOffSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffSwitch.swift; sourceTree = "<group>"; };
+		F2C5D9382D2874000023C830 /* YellowContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowContainer.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,6 +212,8 @@
 				F2C5D9302D26F0F60023C830 /* BlueContainer.swift */,
 				F2C5D9322D2703370023C830 /* GeneralModel.swift */,
 				F2C5D9342D2708E50023C830 /* GreenContainerOverlay.swift */,
+				F2C5D9362D286F3C0023C830 /* OnOffSwitch.swift */,
+				F2C5D9382D2874000023C830 /* YellowContainer.swift */,
 			);
 			path = GoodMorningView;
 			sourceTree = "<group>";
@@ -408,6 +414,8 @@
 				F2C5D9082D1C57D10023C830 /* AmpView.swift in Sources */,
 				F270F3B22D078A23007BBF4B /* CarView.swift in Sources */,
 				F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */,
+				F2C5D9392D2874000023C830 /* YellowContainer.swift in Sources */,
+				F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */,
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
 				F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */,
 				F2C5D92B2D25CDEF0023C830 /* GreenContainer.swift in Sources */,

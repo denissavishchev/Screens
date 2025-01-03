@@ -17,20 +17,7 @@ struct GoodMorningView: View {
                 GreenYellowSwitch()
                     .offset(x: -1.5, y: 4)
             }
-            HStack{
-                VStack{
-                    
-                }
-                .frame(maxWidth: .infinity, maxHeight: 200)
-                UnevenRoundedRectangle(cornerRadii: .init(
-                    topLeading: 40,
-                    bottomLeading: 40,
-                    bottomTrailing: 40,
-                    topTrailing: 0
-                ))
-                .foregroundColor(.goodYellow)
-            }
-            .frame(maxWidth: .infinity, maxHeight: 200)
+            YellowContainer()
             Spacer()
         }
         .padding(8)
@@ -43,4 +30,7 @@ struct GoodMorningView: View {
 #Preview {
     GoodMorningView()
 }
+
+
+
 

@@ -1,10 +1,3 @@
-//
-//  GreenYellowSwitch.swift
-//  Screens
-//
-//  Created by Devis on 02/01/2025.
-//
-
 import SwiftUI
 
 struct GreenYellowSwitch: View {
