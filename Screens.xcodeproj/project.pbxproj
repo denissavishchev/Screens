@@ -45,6 +45,7 @@
 		F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9362D286F3C0023C830 /* OnOffSwitch.swift */; };
 		F2C5D9392D2874000023C830 /* YellowContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9382D2874000023C830 /* YellowContainer.swift */; };
 		F2C5D93B2D2939C20023C830 /* CCTVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D93A2D2939C20023C830 /* CCTVView.swift */; };
+		F2C5D93D2D29F6750023C830 /* CleaningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D93C2D29F6750023C830 /* CleaningView.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -101,6 +102,7 @@
 		F2C5D9362D286F3C0023C830 /* OnOffSwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnOffSwitch.swift; sourceTree = "<group>"; };
 		F2C5D9382D2874000023C830 /* YellowContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowContainer.swift; sourceTree = "<group>"; };
 		F2C5D93A2D2939C20023C830 /* CCTVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTVView.swift; sourceTree = "<group>"; };
+		F2C5D93C2D29F6750023C830 /* CleaningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleaningView.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -217,6 +219,7 @@
 				F2C5D9362D286F3C0023C830 /* OnOffSwitch.swift */,
 				F2C5D9382D2874000023C830 /* YellowContainer.swift */,
 				F2C5D93A2D2939C20023C830 /* CCTVView.swift */,
+				F2C5D93C2D29F6750023C830 /* CleaningView.swift */,
 			);
 			path = GoodMorningView;
 			sourceTree = "<group>";
@@ -401,6 +404,7 @@
 				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
 				F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */,
 				F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */,
+				F2C5D93D2D29F6750023C830 /* CleaningView.swift in Sources */,
 				F2C5D92F2D26F0730023C830 /* GreenYellowSwitch.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
 				F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */,

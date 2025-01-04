@@ -2,7 +2,7 @@ import SwiftUI
 
 struct YellowContainer: View {
     
-    @State var blueOnOffSwitch = false
+    @State var blueOnOffSwitch = true
     
     var body: some View {
         HStack{

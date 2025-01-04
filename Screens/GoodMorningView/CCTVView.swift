@@ -2,7 +2,7 @@ import SwiftUI
 
 struct CCTVView: View {
     
-    @State var cctvSwitch: Bool = false
+    @State var cctvSwitch: Bool = true
     
     var body: some View {
         VStack{
