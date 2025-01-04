@@ -40,7 +40,7 @@ struct GoodMorningView: View {
 struct CleaningView: View {
     var body: some View {
         VStack{
-            
+            Text("")
         }
         .frame(maxWidth: .infinity, maxHeight: 200)
         .background(.white.opacity(0.2))
