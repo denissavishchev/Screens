@@ -46,6 +46,10 @@
 		F2C5D9392D2874000023C830 /* YellowContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9382D2874000023C830 /* YellowContainer.swift */; };
 		F2C5D93B2D2939C20023C830 /* CCTVView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D93A2D2939C20023C830 /* CCTVView.swift */; };
 		F2C5D93D2D29F6750023C830 /* CleaningView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D93C2D29F6750023C830 /* CleaningView.swift */; };
+		F2C5D9402D2A93C10023C830 /* ChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D93F2D2A93C10023C830 /* ChartsView.swift */; };
+		F2C5D9422D2AAEFF0023C830 /* ChartsDownloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9412D2AAEFF0023C830 /* ChartsDownloads.swift */; };
+		F2C5D9442D2AB3A30023C830 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9432D2AB3A30023C830 /* Home.swift */; };
+		F2C5D9462D2AB45B0023C830 /* GraphType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9452D2AB45B0023C830 /* GraphType.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -103,6 +107,10 @@
 		F2C5D9382D2874000023C830 /* YellowContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YellowContainer.swift; sourceTree = "<group>"; };
 		F2C5D93A2D2939C20023C830 /* CCTVView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CCTVView.swift; sourceTree = "<group>"; };
 		F2C5D93C2D29F6750023C830 /* CleaningView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CleaningView.swift; sourceTree = "<group>"; };
+		F2C5D93F2D2A93C10023C830 /* ChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsView.swift; sourceTree = "<group>"; };
+		F2C5D9412D2AAEFF0023C830 /* ChartsDownloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDownloads.swift; sourceTree = "<group>"; };
+		F2C5D9432D2AB3A30023C830 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		F2C5D9452D2AB45B0023C830 /* GraphType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphType.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -224,6 +232,17 @@
 			path = GoodMorningView;
 			sourceTree = "<group>";
 		};
+		F2C5D93E2D2A93720023C830 /* ChartsView */ = {
+			isa = PBXGroup;
+			children = (
+				F2C5D93F2D2A93C10023C830 /* ChartsView.swift */,
+				F2C5D9412D2AAEFF0023C830 /* ChartsDownloads.swift */,
+				F2C5D9432D2AB3A30023C830 /* Home.swift */,
+				F2C5D9452D2AB45B0023C830 /* GraphType.swift */,
+			);
+			path = ChartsView;
+			sourceTree = "<group>";
+		};
 		F2DF50AD2D021A5400A23361 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -257,6 +276,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2C5D93E2D2A93720023C830 /* ChartsView */,
 				F2C5D9272D253B130023C830 /* GoodMorningView */,
 				F2C5D9112D1F37C10023C830 /* WatchView */,
 				F2C5D9062D1C57BE0023C830 /* AmpView */,
@@ -386,6 +406,7 @@
 				F270F3A52D044073007BBF4B /* RoomView.swift in Sources */,
 				F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */,
 				F2C5D9312D26F0F60023C830 /* BlueContainer.swift in Sources */,
+				F2C5D9402D2A93C10023C830 /* ChartsView.swift in Sources */,
 				F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */,
 				F2C5D9352D2708E50023C830 /* GreenContainerOverlay.swift in Sources */,
 				F2C5D92D2D26EFF30023C830 /* GreenContainerImages.swift in Sources */,
@@ -396,6 +417,7 @@
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
 				F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */,
 				F270F3A22D022AF5007BBF4B /* TaskProgress.swift in Sources */,
+				F2C5D9462D2AB45B0023C830 /* GraphType.swift in Sources */,
 				F2F5012A2CFB54C900492BAA /* WaveView.swift in Sources */,
 				F2C5D9292D253B320023C830 /* GoodMorningView.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
@@ -418,8 +440,10 @@
 				F2F501282CFB54B300492BAA /* GuitarView.swift in Sources */,
 				F2C5D93B2D2939C20023C830 /* CCTVView.swift in Sources */,
 				F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */,
+				F2C5D9422D2AAEFF0023C830 /* ChartsDownloads.swift in Sources */,
 				F270F3AB2D05C786007BBF4B /* SegmentView.swift in Sources */,
 				F2C5D9082D1C57D10023C830 /* AmpView.swift in Sources */,
+				F2C5D9442D2AB3A30023C830 /* Home.swift in Sources */,
 				F270F3B22D078A23007BBF4B /* CarView.swift in Sources */,
 				F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */,
 				F2C5D9392D2874000023C830 /* YellowContainer.swift in Sources */,
