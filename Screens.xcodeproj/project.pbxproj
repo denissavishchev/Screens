@@ -52,6 +52,7 @@
 		F2C5D9462D2AB45B0023C830 /* GraphType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9452D2AB45B0023C830 /* GraphType.swift */; };
 		F2C5D9492D2BCE950023C830 /* LampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9482D2BCE950023C830 /* LampView.swift */; };
 		F2C5D94B2D2BEFBA0023C830 /* LightShine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D94A2D2BEFBA0023C830 /* LightShine.swift */; };
+		F2C5D94D2D2C31E10023C830 /* LightSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D94C2D2C31E10023C830 /* LightSlider.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -115,6 +116,7 @@
 		F2C5D9452D2AB45B0023C830 /* GraphType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphType.swift; sourceTree = "<group>"; };
 		F2C5D9482D2BCE950023C830 /* LampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampView.swift; sourceTree = "<group>"; };
 		F2C5D94A2D2BEFBA0023C830 /* LightShine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightShine.swift; sourceTree = "<group>"; };
+		F2C5D94C2D2C31E10023C830 /* LightSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSlider.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -252,6 +254,7 @@
 			children = (
 				F2C5D9482D2BCE950023C830 /* LampView.swift */,
 				F2C5D94A2D2BEFBA0023C830 /* LightShine.swift */,
+				F2C5D94C2D2C31E10023C830 /* LightSlider.swift */,
 			);
 			path = LampView;
 			sourceTree = "<group>";
@@ -409,6 +412,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2C5D94D2D2C31E10023C830 /* LightSlider.swift in Sources */,
 				F2C5D90A2D1D885A0023C830 /* SettingsBottomView.swift in Sources */,
 				F2C5D9492D2BCE950023C830 /* LampView.swift in Sources */,
 				F2F5013B2CFFA46700492BAA /* QuantityButton.swift in Sources */,
