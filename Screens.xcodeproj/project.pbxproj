@@ -50,6 +50,8 @@
 		F2C5D9422D2AAEFF0023C830 /* ChartsDownloads.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9412D2AAEFF0023C830 /* ChartsDownloads.swift */; };
 		F2C5D9442D2AB3A30023C830 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9432D2AB3A30023C830 /* Home.swift */; };
 		F2C5D9462D2AB45B0023C830 /* GraphType.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9452D2AB45B0023C830 /* GraphType.swift */; };
+		F2C5D9492D2BCE950023C830 /* LampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9482D2BCE950023C830 /* LampView.swift */; };
+		F2C5D94B2D2BEFBA0023C830 /* LightShine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D94A2D2BEFBA0023C830 /* LightShine.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
@@ -111,6 +113,8 @@
 		F2C5D9412D2AAEFF0023C830 /* ChartsDownloads.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartsDownloads.swift; sourceTree = "<group>"; };
 		F2C5D9432D2AB3A30023C830 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 		F2C5D9452D2AB45B0023C830 /* GraphType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphType.swift; sourceTree = "<group>"; };
+		F2C5D9482D2BCE950023C830 /* LampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampView.swift; sourceTree = "<group>"; };
+		F2C5D94A2D2BEFBA0023C830 /* LightShine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightShine.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -243,6 +247,15 @@
 			path = ChartsView;
 			sourceTree = "<group>";
 		};
+		F2C5D9472D2BCE7C0023C830 /* LampView */ = {
+			isa = PBXGroup;
+			children = (
+				F2C5D9482D2BCE950023C830 /* LampView.swift */,
+				F2C5D94A2D2BEFBA0023C830 /* LightShine.swift */,
+			);
+			path = LampView;
+			sourceTree = "<group>";
+		};
 		F2DF50AD2D021A5400A23361 /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -276,6 +289,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2C5D9472D2BCE7C0023C830 /* LampView */,
 				F2C5D93E2D2A93720023C830 /* ChartsView */,
 				F2C5D9272D253B130023C830 /* GoodMorningView */,
 				F2C5D9112D1F37C10023C830 /* WatchView */,
@@ -396,6 +410,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2C5D90A2D1D885A0023C830 /* SettingsBottomView.swift in Sources */,
+				F2C5D9492D2BCE950023C830 /* LampView.swift in Sources */,
 				F2F5013B2CFFA46700492BAA /* QuantityButton.swift in Sources */,
 				F2C5D9132D1F37DB0023C830 /* WatchView.swift in Sources */,
 				F270F3B02D0784CD007BBF4B /* RoundView.swift in Sources */,
@@ -428,6 +443,7 @@
 				F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */,
 				F2C5D93D2D29F6750023C830 /* CleaningView.swift in Sources */,
 				F2C5D92F2D26F0730023C830 /* GreenYellowSwitch.swift in Sources */,
+				F2C5D94B2D2BEFBA0023C830 /* LightShine.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
 				F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */,
 				F2C5D91D2D2176E10023C830 /* Container.swift in Sources */,
