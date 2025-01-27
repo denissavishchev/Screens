@@ -22,6 +22,9 @@
 		F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3BD2D0EF48A007BBF4B /* CarouselView.swift */; };
 		F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */; };
 		F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */; };
+		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
+		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
+		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -86,6 +89,9 @@
 		F270F3BD2D0EF48A007BBF4B /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
+		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
+		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
+		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -184,6 +190,16 @@
 				F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */,
 			);
 			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		F2BEB7822D481FAE007C2BDA /* Cinema */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEB7832D481FC3007C2BDA /* CinemaView.swift */,
+				F2BEB7852D4831F7007C2BDA /* TicketShape.swift */,
+				F2BEB7872D483253007C2BDA /* TicketsView.swift */,
+			);
+			path = Cinema;
 			sourceTree = "<group>";
 		};
 		F2C5D8FC2D1AEC360023C830 /* SushiView */ = {
@@ -292,6 +308,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2BEB7822D481FAE007C2BDA /* Cinema */,
 				F2C5D9472D2BCE7C0023C830 /* LampView */,
 				F2C5D93E2D2A93720023C830 /* ChartsView */,
 				F2C5D9272D253B130023C830 /* GoodMorningView */,
@@ -436,9 +453,11 @@
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
 				F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */,
 				F270F3A22D022AF5007BBF4B /* TaskProgress.swift in Sources */,
+				F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */,
 				F2C5D9462D2AB45B0023C830 /* GraphType.swift in Sources */,
 				F2F5012A2CFB54C900492BAA /* WaveView.swift in Sources */,
 				F2C5D9292D253B320023C830 /* GoodMorningView.swift in Sources */,
+				F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
 				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
 				F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */,
@@ -467,6 +486,7 @@
 				F270F3B22D078A23007BBF4B /* CarView.swift in Sources */,
 				F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */,
 				F2C5D9392D2874000023C830 /* YellowContainer.swift in Sources */,
+				F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */,
 				F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */,
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
 				F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */,
