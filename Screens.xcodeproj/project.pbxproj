@@ -25,6 +25,8 @@
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
+		F2BEB78A2D494816007C2BDA /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7892D494816007C2BDA /* SeatsView.swift */; };
+		F2BEB78C2D497A59007C2BDA /* ScreenWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB78B2D497A59007C2BDA /* ScreenWidget.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -92,6 +94,8 @@
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
+		F2BEB7892D494816007C2BDA /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
+		F2BEB78B2D497A59007C2BDA /* ScreenWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenWidget.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -198,6 +202,8 @@
 				F2BEB7832D481FC3007C2BDA /* CinemaView.swift */,
 				F2BEB7852D4831F7007C2BDA /* TicketShape.swift */,
 				F2BEB7872D483253007C2BDA /* TicketsView.swift */,
+				F2BEB7892D494816007C2BDA /* SeatsView.swift */,
+				F2BEB78B2D497A59007C2BDA /* ScreenWidget.swift */,
 			);
 			path = Cinema;
 			sourceTree = "<group>";
@@ -460,6 +466,7 @@
 				F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
 				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
+				F2BEB78A2D494816007C2BDA /* SeatsView.swift in Sources */,
 				F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */,
 				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
 				F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */,
@@ -477,6 +484,7 @@
 				F270F3AE2D05EB81007BBF4B /* CarSettingsView.swift in Sources */,
 				F270F3B82D0A2763007BBF4B /* CustomSlider.swift in Sources */,
 				F2F501282CFB54B300492BAA /* GuitarView.swift in Sources */,
+				F2BEB78C2D497A59007C2BDA /* ScreenWidget.swift in Sources */,
 				F2C5D93B2D2939C20023C830 /* CCTVView.swift in Sources */,
 				F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */,
 				F2C5D9422D2AAEFF0023C830 /* ChartsDownloads.swift in Sources */,
