@@ -27,6 +27,8 @@
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
 		F2BEB78A2D494816007C2BDA /* SeatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7892D494816007C2BDA /* SeatsView.swift */; };
 		F2BEB78C2D497A59007C2BDA /* ScreenWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB78B2D497A59007C2BDA /* ScreenWidget.swift */; };
+		F2BEB78F2D4AAF6D007C2BDA /* JellyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB78E2D4AAF6D007C2BDA /* JellyView.swift */; };
+		F2BEB7912D4AB5B0007C2BDA /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7902D4AB5B0007C2BDA /* BackgroundView.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -96,6 +98,8 @@
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
 		F2BEB7892D494816007C2BDA /* SeatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeatsView.swift; sourceTree = "<group>"; };
 		F2BEB78B2D497A59007C2BDA /* ScreenWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenWidget.swift; sourceTree = "<group>"; };
+		F2BEB78E2D4AAF6D007C2BDA /* JellyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyView.swift; sourceTree = "<group>"; };
+		F2BEB7902D4AB5B0007C2BDA /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -208,6 +212,15 @@
 			path = Cinema;
 			sourceTree = "<group>";
 		};
+		F2BEB78D2D4AAF53007C2BDA /* JellyView */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEB78E2D4AAF6D007C2BDA /* JellyView.swift */,
+				F2BEB7902D4AB5B0007C2BDA /* BackgroundView.swift */,
+			);
+			path = JellyView;
+			sourceTree = "<group>";
+		};
 		F2C5D8FC2D1AEC360023C830 /* SushiView */ = {
 			isa = PBXGroup;
 			children = (
@@ -314,6 +327,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2BEB78D2D4AAF53007C2BDA /* JellyView */,
 				F2BEB7822D481FAE007C2BDA /* Cinema */,
 				F2C5D9472D2BCE7C0023C830 /* LampView */,
 				F2C5D93E2D2A93720023C830 /* ChartsView */,
@@ -459,6 +473,7 @@
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
 				F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */,
 				F270F3A22D022AF5007BBF4B /* TaskProgress.swift in Sources */,
+				F2BEB7912D4AB5B0007C2BDA /* BackgroundView.swift in Sources */,
 				F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */,
 				F2C5D9462D2AB45B0023C830 /* GraphType.swift in Sources */,
 				F2F5012A2CFB54C900492BAA /* WaveView.swift in Sources */,
@@ -480,6 +495,7 @@
 				F2F501392CFF955200492BAA /* TopView.swift in Sources */,
 				F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */,
 				F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */,
+				F2BEB78F2D4AAF6D007C2BDA /* JellyView.swift in Sources */,
 				F2F501372CFF8E5300492BAA /* CustomColors.swift in Sources */,
 				F270F3AE2D05EB81007BBF4B /* CarSettingsView.swift in Sources */,
 				F270F3B82D0A2763007BBF4B /* CustomSlider.swift in Sources */,
