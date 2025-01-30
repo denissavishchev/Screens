@@ -3,6 +3,8 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         TabView{
+            JellyView()
+            CinemaView()
             LampView()
             ChartsView()
             GoodMorningView()

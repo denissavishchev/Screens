@@ -6,9 +6,13 @@ struct JellyView: View {
             BackgroundView()
             
             VStack{
-                
+                TopButtons()
+                Spacer()
             }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
+            .padding(12)
+            .ignoresSafeArea()
+            
         }
         
     }
