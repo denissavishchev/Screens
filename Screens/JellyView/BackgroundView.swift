@@ -22,7 +22,7 @@ struct BackgroundView: View {
             }
             Rectangle()
                 .frame(maxWidth: .infinity, maxHeight: .infinity)
-                .foregroundStyle(LinearGradient(gradient: Gradient(colors: [.ampNavy.opacity(0.1), .watchBlue]),
+                .foregroundStyle(LinearGradient(gradient: Gradient(colors: [.ampNavy.opacity(0.3), .watchBlue]),
                                                 startPoint: .top, endPoint: .bottom))
                 .ignoresSafeArea()
         }

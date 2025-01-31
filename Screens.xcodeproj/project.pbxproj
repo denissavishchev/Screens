@@ -30,6 +30,10 @@
 		F2BEB78F2D4AAF6D007C2BDA /* JellyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB78E2D4AAF6D007C2BDA /* JellyView.swift */; };
 		F2BEB7912D4AB5B0007C2BDA /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7902D4AB5B0007C2BDA /* BackgroundView.swift */; };
 		F2BEB7932D4C0418007C2BDA /* TopButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7922D4C0418007C2BDA /* TopButtons.swift */; };
+		F2BEB7952D4D4F9B007C2BDA /* StarsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7942D4D4F9B007C2BDA /* StarsView.swift */; };
+		F2BEB7972D4D5DA8007C2BDA /* MiddleButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7962D4D5DA8007C2BDA /* MiddleButtons.swift */; };
+		F2BEB7992D4D62CE007C2BDA /* DottedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7982D4D62CE007C2BDA /* DottedButton.swift */; };
+		F2BEB79B2D4D667E007C2BDA /* PaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB79A2D4D667E007C2BDA /* PaintView.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -102,6 +106,10 @@
 		F2BEB78E2D4AAF6D007C2BDA /* JellyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JellyView.swift; sourceTree = "<group>"; };
 		F2BEB7902D4AB5B0007C2BDA /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 		F2BEB7922D4C0418007C2BDA /* TopButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopButtons.swift; sourceTree = "<group>"; };
+		F2BEB7942D4D4F9B007C2BDA /* StarsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarsView.swift; sourceTree = "<group>"; };
+		F2BEB7962D4D5DA8007C2BDA /* MiddleButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiddleButtons.swift; sourceTree = "<group>"; };
+		F2BEB7982D4D62CE007C2BDA /* DottedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedButton.swift; sourceTree = "<group>"; };
+		F2BEB79A2D4D667E007C2BDA /* PaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintView.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -220,6 +228,10 @@
 				F2BEB78E2D4AAF6D007C2BDA /* JellyView.swift */,
 				F2BEB7902D4AB5B0007C2BDA /* BackgroundView.swift */,
 				F2BEB7922D4C0418007C2BDA /* TopButtons.swift */,
+				F2BEB7942D4D4F9B007C2BDA /* StarsView.swift */,
+				F2BEB7962D4D5DA8007C2BDA /* MiddleButtons.swift */,
+				F2BEB7982D4D62CE007C2BDA /* DottedButton.swift */,
+				F2BEB79A2D4D667E007C2BDA /* PaintView.swift */,
 			);
 			path = JellyView;
 			sourceTree = "<group>";
@@ -485,7 +497,9 @@
 				F2BEB7932D4C0418007C2BDA /* TopButtons.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
 				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
+				F2BEB7992D4D62CE007C2BDA /* DottedButton.swift in Sources */,
 				F2BEB78A2D494816007C2BDA /* SeatsView.swift in Sources */,
+				F2BEB7952D4D4F9B007C2BDA /* StarsView.swift in Sources */,
 				F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */,
 				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
 				F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */,
@@ -497,6 +511,8 @@
 				F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */,
 				F2C5D91D2D2176E10023C830 /* Container.swift in Sources */,
 				F2F501392CFF955200492BAA /* TopView.swift in Sources */,
+				F2BEB7972D4D5DA8007C2BDA /* MiddleButtons.swift in Sources */,
+				F2BEB79B2D4D667E007C2BDA /* PaintView.swift in Sources */,
 				F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */,
 				F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */,
 				F2BEB78F2D4AAF6D007C2BDA /* JellyView.swift in Sources */,
