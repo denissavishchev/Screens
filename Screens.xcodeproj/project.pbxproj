@@ -35,6 +35,7 @@
 		F2BEB7992D4D62CE007C2BDA /* DottedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7982D4D62CE007C2BDA /* DottedButton.swift */; };
 		F2BEB79B2D4D667E007C2BDA /* PaintView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB79A2D4D667E007C2BDA /* PaintView.swift */; };
 		F2BEB79D2D4E9E9C007C2BDA /* UnderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB79C2D4E9E9C007C2BDA /* UnderView.swift */; };
+		F2BEB7A02D4EA33E007C2BDA /* BikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB79F2D4EA33E007C2BDA /* BikeView.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -112,6 +113,7 @@
 		F2BEB7982D4D62CE007C2BDA /* DottedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DottedButton.swift; sourceTree = "<group>"; };
 		F2BEB79A2D4D667E007C2BDA /* PaintView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintView.swift; sourceTree = "<group>"; };
 		F2BEB79C2D4E9E9C007C2BDA /* UnderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnderView.swift; sourceTree = "<group>"; };
+		F2BEB79F2D4EA33E007C2BDA /* BikeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeView.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -239,6 +241,14 @@
 			path = JellyView;
 			sourceTree = "<group>";
 		};
+		F2BEB79E2D4EA32A007C2BDA /* BikeView */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEB79F2D4EA33E007C2BDA /* BikeView.swift */,
+			);
+			path = BikeView;
+			sourceTree = "<group>";
+		};
 		F2C5D8FC2D1AEC360023C830 /* SushiView */ = {
 			isa = PBXGroup;
 			children = (
@@ -345,6 +355,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2BEB79E2D4EA32A007C2BDA /* BikeView */,
 				F2BEB78D2D4AAF53007C2BDA /* JellyView */,
 				F2BEB7822D481FAE007C2BDA /* Cinema */,
 				F2C5D9472D2BCE7C0023C830 /* LampView */,
@@ -535,6 +546,7 @@
 				F2C5D9392D2874000023C830 /* YellowContainer.swift in Sources */,
 				F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */,
 				F2BEB79D2D4E9E9C007C2BDA /* UnderView.swift in Sources */,
+				F2BEB7A02D4EA33E007C2BDA /* BikeView.swift in Sources */,
 				F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */,
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
 				F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */,
