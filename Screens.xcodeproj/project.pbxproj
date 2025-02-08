@@ -39,6 +39,8 @@
 		F2BEB7A22D4FF998007C2BDA /* TopMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7A12D4FF998007C2BDA /* TopMenu.swift */; };
 		F2BEB7A42D4FF9DC007C2BDA /* BikeUnitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7A32D4FF9DC007C2BDA /* BikeUnitView.swift */; };
 		F2BEB7A62D555A29007C2BDA /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7A52D555A28007C2BDA /* MenuView.swift */; };
+		F2BEB7A92D575087007C2BDA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7A82D575087007C2BDA /* LoginView.swift */; };
+		F2BEB7AB2D575131007C2BDA /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7AA2D575131007C2BDA /* FloatingTextField.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -120,6 +122,8 @@
 		F2BEB7A12D4FF998007C2BDA /* TopMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopMenu.swift; sourceTree = "<group>"; };
 		F2BEB7A32D4FF9DC007C2BDA /* BikeUnitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeUnitView.swift; sourceTree = "<group>"; };
 		F2BEB7A52D555A28007C2BDA /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		F2BEB7A82D575087007C2BDA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		F2BEB7AA2D575131007C2BDA /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -258,6 +262,15 @@
 			path = BikeView;
 			sourceTree = "<group>";
 		};
+		F2BEB7A72D57506E007C2BDA /* LoginView */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEB7A82D575087007C2BDA /* LoginView.swift */,
+				F2BEB7AA2D575131007C2BDA /* FloatingTextField.swift */,
+			);
+			path = LoginView;
+			sourceTree = "<group>";
+		};
 		F2C5D8FC2D1AEC360023C830 /* SushiView */ = {
 			isa = PBXGroup;
 			children = (
@@ -364,6 +377,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2BEB7A72D57506E007C2BDA /* LoginView */,
 				F2BEB79E2D4EA32A007C2BDA /* BikeView */,
 				F2BEB78D2D4AAF53007C2BDA /* JellyView */,
 				F2BEB7822D481FAE007C2BDA /* Cinema */,
@@ -495,6 +509,7 @@
 				F270F3B02D0784CD007BBF4B /* RoundView.swift in Sources */,
 				F2C5D90C2D1DA20C0023C830 /* SoundButtonsView.swift in Sources */,
 				F270F3A92D046030007BBF4B /* ControlView.swift in Sources */,
+				F2BEB7A92D575087007C2BDA /* LoginView.swift in Sources */,
 				F2C5D9332D2703370023C830 /* GeneralModel.swift in Sources */,
 				F2F5012C2CFB76D800492BAA /* LogoView.swift in Sources */,
 				F270F3A52D044073007BBF4B /* RoomView.swift in Sources */,
@@ -511,6 +526,7 @@
 				F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */,
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
 				F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */,
+				F2BEB7AB2D575131007C2BDA /* FloatingTextField.swift in Sources */,
 				F270F3A22D022AF5007BBF4B /* TaskProgress.swift in Sources */,
 				F2BEB7A42D4FF9DC007C2BDA /* BikeUnitView.swift in Sources */,
 				F2BEB7912D4AB5B0007C2BDA /* BackgroundView.swift in Sources */,
