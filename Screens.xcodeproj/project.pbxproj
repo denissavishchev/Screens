@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */; };
 		F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39F2D022766007BBF4B /* TabBarPicker.swift */; };
-		F270F3A22D022AF5007BBF4B /* TaskProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A12D022AF5007BBF4B /* TaskProgress.swift */; };
 		F270F3A52D044073007BBF4B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A42D044073007BBF4B /* RoomView.swift */; };
 		F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A62D045FF9007BBF4B /* SofaView.swift */; };
 		F270F3A92D046030007BBF4B /* ControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A82D046030007BBF4B /* ControlView.swift */; };
@@ -42,6 +41,7 @@
 		F2BEB7A92D575087007C2BDA /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7A82D575087007C2BDA /* LoginView.swift */; };
 		F2BEB7AB2D575131007C2BDA /* FloatingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7AA2D575131007C2BDA /* FloatingTextField.swift */; };
 		F2BEB7AD2D588F3E007C2BDA /* BouncingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7AC2D588F3E007C2BDA /* BouncingButton.swift */; };
+		F2BEB7AF2D589E72007C2BDA /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7AE2D589E72007C2BDA /* CapsuleButton.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -93,7 +93,6 @@
 /* Begin PBXFileReference section */
 		F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		F270F39F2D022766007BBF4B /* TabBarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPicker.swift; sourceTree = "<group>"; };
-		F270F3A12D022AF5007BBF4B /* TaskProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskProgress.swift; sourceTree = "<group>"; };
 		F270F3A42D044073007BBF4B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
 		F270F3A62D045FF9007BBF4B /* SofaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SofaView.swift; sourceTree = "<group>"; };
 		F270F3A82D046030007BBF4B /* ControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlView.swift; sourceTree = "<group>"; };
@@ -126,6 +125,7 @@
 		F2BEB7A82D575087007C2BDA /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		F2BEB7AA2D575131007C2BDA /* FloatingTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FloatingTextField.swift; sourceTree = "<group>"; };
 		F2BEB7AC2D588F3E007C2BDA /* BouncingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingButton.swift; sourceTree = "<group>"; };
+		F2BEB7AE2D589E72007C2BDA /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -352,8 +352,8 @@
 				F2DF50AE2D021A7100A23361 /* ComponentsView.swift */,
 				F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */,
 				F270F39F2D022766007BBF4B /* TabBarPicker.swift */,
-				F270F3A12D022AF5007BBF4B /* TaskProgress.swift */,
 				F2BEB7AC2D588F3E007C2BDA /* BouncingButton.swift */,
+				F2BEB7AE2D589E72007C2BDA /* CapsuleButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -519,6 +519,7 @@
 				F270F3A52D044073007BBF4B /* RoomView.swift in Sources */,
 				F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */,
 				F2C5D9312D26F0F60023C830 /* BlueContainer.swift in Sources */,
+				F2BEB7AF2D589E72007C2BDA /* CapsuleButton.swift in Sources */,
 				F2C5D9402D2A93C10023C830 /* ChartsView.swift in Sources */,
 				F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */,
 				F2C5D9352D2708E50023C830 /* GreenContainerOverlay.swift in Sources */,
@@ -531,7 +532,6 @@
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
 				F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */,
 				F2BEB7AB2D575131007C2BDA /* FloatingTextField.swift in Sources */,
-				F270F3A22D022AF5007BBF4B /* TaskProgress.swift in Sources */,
 				F2BEB7A42D4FF9DC007C2BDA /* BikeUnitView.swift in Sources */,
 				F2BEB7912D4AB5B0007C2BDA /* BackgroundView.swift in Sources */,
 				F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */,
