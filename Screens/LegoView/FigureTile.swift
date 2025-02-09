@@ -11,9 +11,10 @@ struct FigureTile: View {
                     if let image = image.image{
                         image
                             .resizable()
-                            .scaledToFill()
-                            .frame(width: 260, height: 150)
-                            .cornerRadius(10)
+                            .scaledToFit()
+                            .cornerRadius(20)
+                            .frame(maxWidth: .infinity)
+                            
                     }else{
                         ZStack{
                             Rectangle()
@@ -39,7 +40,8 @@ struct FigureTile: View {
             }
             .frame(maxWidth: .infinity, alignment: .leading)
         }
-        .frame(width: 260, height: 260)
+        .frame(maxWidth: .infinity)
+        .frame(height: 260)
         .padding(10)
         .background(.background)
         .cornerRadius(10)

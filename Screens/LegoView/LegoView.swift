@@ -13,8 +13,8 @@ struct LegoView: View {
                 .padding(.leading)
                 .padding(.top)
             
-            ScrollView(.horizontal, showsIndicators: false){
-                HStack(spacing: 12){
+            ScrollView(.vertical, showsIndicators: false){
+                VStack(spacing: 12){
                     ForEach(lvm.minifigures, id: \.setImgUrl) { minifigure in
                         FigureTile(minifigures: minifigure)
                         
