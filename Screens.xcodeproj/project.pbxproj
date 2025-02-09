@@ -43,6 +43,11 @@
 		F2BEB7AD2D588F3E007C2BDA /* BouncingButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7AC2D588F3E007C2BDA /* BouncingButton.swift */; };
 		F2BEB7AF2D589E72007C2BDA /* CapsuleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7AE2D589E72007C2BDA /* CapsuleButton.swift */; };
 		F2BEB7B12D58AB47007C2BDA /* GradientButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7B02D58AB47007C2BDA /* GradientButton.swift */; };
+		F2BEB7B42D58AC1A007C2BDA /* LegoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7B32D58AC1A007C2BDA /* LegoView.swift */; };
+		F2BEB7B62D58AC89007C2BDA /* LegoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7B52D58AC89007C2BDA /* LegoModel.swift */; };
+		F2BEB7BA2D58AFA8007C2BDA /* LegoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7B92D58AFA8007C2BDA /* LegoViewModel.swift */; };
+		F2BEB7BC2D58B0C1007C2BDA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7BB2D58B0C1007C2BDA /* NetworkManager.swift */; };
+		F2BEB7BE2D58B6E1007C2BDA /* FigureTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7BD2D58B6E1007C2BDA /* FigureTile.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -128,6 +133,11 @@
 		F2BEB7AC2D588F3E007C2BDA /* BouncingButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingButton.swift; sourceTree = "<group>"; };
 		F2BEB7AE2D589E72007C2BDA /* CapsuleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapsuleButton.swift; sourceTree = "<group>"; };
 		F2BEB7B02D58AB47007C2BDA /* GradientButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientButton.swift; sourceTree = "<group>"; };
+		F2BEB7B32D58AC1A007C2BDA /* LegoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoView.swift; sourceTree = "<group>"; };
+		F2BEB7B52D58AC89007C2BDA /* LegoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoModel.swift; sourceTree = "<group>"; };
+		F2BEB7B92D58AFA8007C2BDA /* LegoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegoViewModel.swift; sourceTree = "<group>"; };
+		F2BEB7BB2D58B0C1007C2BDA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		F2BEB7BD2D58B6E1007C2BDA /* FigureTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureTile.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -275,6 +285,18 @@
 			path = LoginView;
 			sourceTree = "<group>";
 		};
+		F2BEB7B22D58AC03007C2BDA /* LegoView */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEB7B32D58AC1A007C2BDA /* LegoView.swift */,
+				F2BEB7B52D58AC89007C2BDA /* LegoModel.swift */,
+				F2BEB7B92D58AFA8007C2BDA /* LegoViewModel.swift */,
+				F2BEB7BB2D58B0C1007C2BDA /* NetworkManager.swift */,
+				F2BEB7BD2D58B6E1007C2BDA /* FigureTile.swift */,
+			);
+			path = LegoView;
+			sourceTree = "<group>";
+		};
 		F2C5D8FC2D1AEC360023C830 /* SushiView */ = {
 			isa = PBXGroup;
 			children = (
@@ -383,6 +405,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2BEB7B22D58AC03007C2BDA /* LegoView */,
 				F2BEB7A72D57506E007C2BDA /* LoginView */,
 				F2BEB79E2D4EA32A007C2BDA /* BikeView */,
 				F2BEB78D2D4AAF53007C2BDA /* JellyView */,
@@ -534,8 +557,10 @@
 				F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */,
 				F2BEB7B12D58AB47007C2BDA /* GradientButton.swift in Sources */,
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
+				F2BEB7BC2D58B0C1007C2BDA /* NetworkManager.swift in Sources */,
 				F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */,
 				F2BEB7AB2D575131007C2BDA /* FloatingTextField.swift in Sources */,
+				F2BEB7BA2D58AFA8007C2BDA /* LegoViewModel.swift in Sources */,
 				F2BEB7A42D4FF9DC007C2BDA /* BikeUnitView.swift in Sources */,
 				F2BEB7912D4AB5B0007C2BDA /* BackgroundView.swift in Sources */,
 				F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */,
@@ -547,6 +572,7 @@
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
 				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
 				F2BEB7992D4D62CE007C2BDA /* DottedButton.swift in Sources */,
+				F2BEB7B42D58AC1A007C2BDA /* LegoView.swift in Sources */,
 				F2BEB78A2D494816007C2BDA /* SeatsView.swift in Sources */,
 				F2BEB7952D4D4F9B007C2BDA /* StarsView.swift in Sources */,
 				F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */,
@@ -557,9 +583,11 @@
 				F2C5D93D2D29F6750023C830 /* CleaningView.swift in Sources */,
 				F2C5D92F2D26F0730023C830 /* GreenYellowSwitch.swift in Sources */,
 				F2C5D94B2D2BEFBA0023C830 /* LightShine.swift in Sources */,
+				F2BEB7BE2D58B6E1007C2BDA /* FigureTile.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
 				F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */,
 				F2C5D91D2D2176E10023C830 /* Container.swift in Sources */,
+				F2BEB7B62D58AC89007C2BDA /* LegoModel.swift in Sources */,
 				F2F501392CFF955200492BAA /* TopView.swift in Sources */,
 				F2BEB7972D4D5DA8007C2BDA /* MiddleButtons.swift in Sources */,
 				F2BEB79B2D4D667E007C2BDA /* PaintView.swift in Sources */,
