@@ -34,16 +34,16 @@ struct FigureTile: View {
             }
             VStack(alignment: .leading){
                 Text(minifigures.name)
-                    .foregroundStyle(.primary)
+                    .foregroundStyle(.white)
                     .font(.system(size: 16, weight: .bold, design: .rounded))
                     .opacity(0.8)
             }
-            .frame(maxWidth: .infinity, alignment: .leading)
+            .frame(maxWidth: .infinity, alignment: .center)
         }
         .frame(maxWidth: .infinity)
         .frame(height: 260)
         .padding(10)
-        .background(.background)
+        .background(.black.opacity(0.5))
         .cornerRadius(10)
     }
 }
