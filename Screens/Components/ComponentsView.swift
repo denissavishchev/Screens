@@ -3,7 +3,8 @@ import SwiftUI
 struct ComponentsView: View {
     var body: some View {
         VStack{
-            
+            GradientButton()
+                .padding(.bottom, 10)
             CapsuleButton()
                 .padding(.bottom, 10)
             BouncingButton()
@@ -21,7 +22,5 @@ struct ComponentsView: View {
 #Preview {
     ComponentsView()
 }
-
-
 
 
