@@ -3,6 +3,9 @@ import SwiftUI
 struct ComponentsView: View {
     var body: some View {
         VStack{
+            
+            BouncingButton()
+                .padding(.bottom, 10)
             CustomTabBar()
                 .padding(.bottom, 10)
             TabBarPicker()
@@ -13,6 +16,10 @@ struct ComponentsView: View {
     }
 }
 
+
+
 #Preview {
     ComponentsView()
 }
+
+
