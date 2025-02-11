@@ -49,6 +49,8 @@
 		F2BEB7BC2D58B0C1007C2BDA /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7BB2D58B0C1007C2BDA /* NetworkManager.swift */; };
 		F2BEB7BE2D58B6E1007C2BDA /* FigureTile.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7BD2D58B6E1007C2BDA /* FigureTile.swift */; };
 		F2BEB7C12D5A8BBF007C2BDA /* RetroView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7C02D5A8BBF007C2BDA /* RetroView.swift */; };
+		F2BEB7C32D5BDC46007C2BDA /* CircularIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7C22D5BDC46007C2BDA /* CircularIcon.swift */; };
+		F2BEB7C52D5BDEFD007C2BDA /* TopContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7C42D5BDEFD007C2BDA /* TopContainer.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -140,6 +142,8 @@
 		F2BEB7BB2D58B0C1007C2BDA /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		F2BEB7BD2D58B6E1007C2BDA /* FigureTile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FigureTile.swift; sourceTree = "<group>"; };
 		F2BEB7C02D5A8BBF007C2BDA /* RetroView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RetroView.swift; sourceTree = "<group>"; };
+		F2BEB7C22D5BDC46007C2BDA /* CircularIcon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularIcon.swift; sourceTree = "<group>"; };
+		F2BEB7C42D5BDEFD007C2BDA /* TopContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopContainer.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -303,6 +307,8 @@
 			isa = PBXGroup;
 			children = (
 				F2BEB7C02D5A8BBF007C2BDA /* RetroView.swift */,
+				F2BEB7C22D5BDC46007C2BDA /* CircularIcon.swift */,
+				F2BEB7C42D5BDEFD007C2BDA /* TopContainer.swift */,
 			);
 			path = RetroView;
 			sourceTree = "<group>";
@@ -572,6 +578,7 @@
 				F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */,
 				F2BEB7AB2D575131007C2BDA /* FloatingTextField.swift in Sources */,
 				F2BEB7BA2D58AFA8007C2BDA /* LegoViewModel.swift in Sources */,
+				F2BEB7C32D5BDC46007C2BDA /* CircularIcon.swift in Sources */,
 				F2BEB7A42D4FF9DC007C2BDA /* BikeUnitView.swift in Sources */,
 				F2BEB7912D4AB5B0007C2BDA /* BackgroundView.swift in Sources */,
 				F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */,
@@ -615,6 +622,7 @@
 				F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */,
 				F2C5D9422D2AAEFF0023C830 /* ChartsDownloads.swift in Sources */,
 				F270F3AB2D05C786007BBF4B /* SegmentView.swift in Sources */,
+				F2BEB7C52D5BDEFD007C2BDA /* TopContainer.swift in Sources */,
 				F2C5D9082D1C57D10023C830 /* AmpView.swift in Sources */,
 				F2C5D9442D2AB3A30023C830 /* Home.swift in Sources */,
 				F270F3B22D078A23007BBF4B /* CarView.swift in Sources */,

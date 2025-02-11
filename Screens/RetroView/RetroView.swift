@@ -23,25 +23,7 @@ struct RetroView: View {
     RetroView()
 }
 
-struct TopContainer: View {
-    var body: some View {
-        VStack{
-            VStack{
-                Text("Top")
-            }
-        }
-        .frame(maxWidth: .infinity, maxHeight: 330)
-        .background(.retroBlack)
-        .clipShape(UnevenRoundedRectangle(cornerRadii: .init(
-            topLeading: 50,
-            bottomLeading: 8,
-            bottomTrailing: 8,
-            topTrailing: 50
-        )))
-        .padding(.horizontal, 3)
-        .padding(.top, 3)
-    }
-}
+
 
 struct BottomContainer: View {
     var body: some View {
@@ -63,3 +45,5 @@ struct BottomContainer: View {
         .padding(.bottom, 12)
     }
 }
+
+
