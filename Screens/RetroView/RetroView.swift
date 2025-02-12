@@ -28,9 +28,17 @@ struct RetroView: View {
 struct BottomContainer: View {
     var body: some View {
         VStack{
-            VStack{
-                Text("Bottom")
+            HStack(spacing: 3){
+               RoundedRectangle(cornerRadius: 5)
+                    .frame(maxWidth: .infinity, maxHeight: 90)
+                    .foregroundColor(.retroWhite)
+                RoundedRectangle(cornerRadius: 5)
+                     .frame(maxWidth: .infinity, maxHeight: 90)
+                     .foregroundColor(.retroWhite)
             }
+            .padding(.horizontal, 4)
+            .padding(.top, 3)
+            Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.retroBlack)
