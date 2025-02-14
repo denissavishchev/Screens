@@ -55,6 +55,7 @@
 		F2BEB7C92D5D3B12007C2BDA /* BottomContainerTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7C82D5D3B12007C2BDA /* BottomContainerTwo.swift */; };
 		F2BEB7CB2D5E81DB007C2BDA /* BottomContainerThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7CA2D5E81DB007C2BDA /* BottomContainerThree.swift */; };
 		F2BEB7CD2D5E85A5007C2BDA /* BottomContainerFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7CC2D5E85A5007C2BDA /* BottomContainerFour.swift */; };
+		F2BEB7D02D5E8858007C2BDA /* DroneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7CF2D5E8858007C2BDA /* DroneView.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -152,6 +153,7 @@
 		F2BEB7C82D5D3B12007C2BDA /* BottomContainerTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomContainerTwo.swift; sourceTree = "<group>"; };
 		F2BEB7CA2D5E81DB007C2BDA /* BottomContainerThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomContainerThree.swift; sourceTree = "<group>"; };
 		F2BEB7CC2D5E85A5007C2BDA /* BottomContainerFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomContainerFour.swift; sourceTree = "<group>"; };
+		F2BEB7CF2D5E8858007C2BDA /* DroneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DroneView.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -325,6 +327,14 @@
 			path = RetroView;
 			sourceTree = "<group>";
 		};
+		F2BEB7CE2D5E8840007C2BDA /* DroneView */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEB7CF2D5E8858007C2BDA /* DroneView.swift */,
+			);
+			path = DroneView;
+			sourceTree = "<group>";
+		};
 		F2C5D8FC2D1AEC360023C830 /* SushiView */ = {
 			isa = PBXGroup;
 			children = (
@@ -433,6 +443,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2BEB7CE2D5E8840007C2BDA /* DroneView */,
 				F2BEB7BF2D5A8BA6007C2BDA /* RetroView */,
 				F2BEB7B22D58AC03007C2BDA /* LegoView */,
 				F2BEB7A72D57506E007C2BDA /* LoginView */,
@@ -575,6 +586,7 @@
 				F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */,
 				F2C5D9312D26F0F60023C830 /* BlueContainer.swift in Sources */,
 				F2BEB7AF2D589E72007C2BDA /* CapsuleButton.swift in Sources */,
+				F2BEB7D02D5E8858007C2BDA /* DroneView.swift in Sources */,
 				F2C5D9402D2A93C10023C830 /* ChartsView.swift in Sources */,
 				F2BEB7C92D5D3B12007C2BDA /* BottomContainerTwo.swift in Sources */,
 				F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */,
