@@ -3,10 +3,18 @@ import SwiftUI
 struct DroneView: View {
     var body: some View {
         VStack{
-            Image("Drone")
-                .resizable()
-                .scaledToFit()
-                .frame(width: 300)
+            TopDronView()
+                .padding(.bottom, 12)
+            
+            ZStack{
+                MinsFlyingLeft()
+                
+                CurveWave()
+                
+                    
+            }
+            .frame(maxWidth: .infinity, maxHeight: 200)
+            .background(.retroWhite.opacity(0.1))
             
             Spacer()
         }
@@ -22,3 +30,8 @@ struct DroneView: View {
 #Preview {
     DroneView()
 }
+
+
+
+
+
