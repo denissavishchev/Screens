@@ -11,10 +11,11 @@ struct DroneView: View {
                 
                 CurveWave()
                 
-                    
+                CurveContainer()
+                    .foregroundColor(.ampWhite.opacity(0.05))
             }
             .frame(maxWidth: .infinity, maxHeight: 200)
-            .background(.retroWhite.opacity(0.1))
+
             
             Spacer()
         }
@@ -30,8 +31,4 @@ struct DroneView: View {
 #Preview {
     DroneView()
 }
-
-
-
-
 
