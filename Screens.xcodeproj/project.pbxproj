@@ -60,6 +60,7 @@
 		F2BEB7D42D5FC672007C2BDA /* MinsFlyingLeft.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7D32D5FC672007C2BDA /* MinsFlyingLeft.swift */; };
 		F2BEB7D62D5FCE4E007C2BDA /* CurveWave.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7D52D5FCE4E007C2BDA /* CurveWave.swift */; };
 		F2BEB7D82D6084E8007C2BDA /* CurveContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7D72D6084E8007C2BDA /* CurveContainer.swift */; };
+		F2BEB7DA2D609D66007C2BDA /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7D92D609D66007C2BDA /* BatteryView.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -162,6 +163,7 @@
 		F2BEB7D32D5FC672007C2BDA /* MinsFlyingLeft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MinsFlyingLeft.swift; sourceTree = "<group>"; };
 		F2BEB7D52D5FCE4E007C2BDA /* CurveWave.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveWave.swift; sourceTree = "<group>"; };
 		F2BEB7D72D6084E8007C2BDA /* CurveContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveContainer.swift; sourceTree = "<group>"; };
+		F2BEB7D92D609D66007C2BDA /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -339,6 +341,7 @@
 			isa = PBXGroup;
 			children = (
 				F2BEB7CF2D5E8858007C2BDA /* DroneView.swift */,
+				F2BEB7D92D609D66007C2BDA /* BatteryView.swift */,
 				F2BEB7D12D5FBEB5007C2BDA /* TopDroneView.swift */,
 				F2BEB7D32D5FC672007C2BDA /* MinsFlyingLeft.swift */,
 				F2BEB7D52D5FCE4E007C2BDA /* CurveWave.swift */,
@@ -638,6 +641,7 @@
 				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
 				F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */,
 				F2BEB7A62D555A29007C2BDA /* MenuView.swift in Sources */,
+				F2BEB7DA2D609D66007C2BDA /* BatteryView.swift in Sources */,
 				F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */,
 				F2C5D93D2D29F6750023C830 /* CleaningView.swift in Sources */,
 				F2C5D92F2D26F0730023C830 /* GreenYellowSwitch.swift in Sources */,
