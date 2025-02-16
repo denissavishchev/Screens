@@ -62,6 +62,8 @@
 		F2BEB7D82D6084E8007C2BDA /* CurveContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7D72D6084E8007C2BDA /* CurveContainer.swift */; };
 		F2BEB7DA2D609D66007C2BDA /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7D92D609D66007C2BDA /* BatteryView.swift */; };
 		F2BEB7DC2D61E47C007C2BDA /* BottomDroneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7DB2D61E47C007C2BDA /* BottomDroneView.swift */; };
+		F2BEB7DF2D61F28B007C2BDA /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7DE2D61F28B007C2BDA /* ClockView.swift */; };
+		F2BEB7E22D624776007C2BDA /* PolyKit in Frameworks */ = {isa = PBXBuildFile; productRef = F2BEB7E12D624776007C2BDA /* PolyKit */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -166,6 +168,7 @@
 		F2BEB7D72D6084E8007C2BDA /* CurveContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveContainer.swift; sourceTree = "<group>"; };
 		F2BEB7D92D609D66007C2BDA /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
 		F2BEB7DB2D61E47C007C2BDA /* BottomDroneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDroneView.swift; sourceTree = "<group>"; };
+		F2BEB7DE2D61F28B007C2BDA /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -220,6 +223,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2BEB7E22D624776007C2BDA /* PolyKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +357,14 @@
 			path = DroneView;
 			sourceTree = "<group>";
 		};
+		F2BEB7DD2D61F27A007C2BDA /* ClockView */ = {
+			isa = PBXGroup;
+			children = (
+				F2BEB7DE2D61F28B007C2BDA /* ClockView.swift */,
+			);
+			path = ClockView;
+			sourceTree = "<group>";
+		};
 		F2C5D8FC2D1AEC360023C830 /* SushiView */ = {
 			isa = PBXGroup;
 			children = (
@@ -461,6 +473,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2BEB7DD2D61F27A007C2BDA /* ClockView */,
 				F2BEB7CE2D5E8840007C2BDA /* DroneView */,
 				F2BEB7BF2D5A8BA6007C2BDA /* RetroView */,
 				F2BEB7B22D58AC03007C2BDA /* LegoView */,
@@ -534,6 +547,9 @@
 			dependencies = (
 			);
 			name = Screens;
+			packageProductDependencies = (
+				F2BEB7E12D624776007C2BDA /* PolyKit */,
+			);
 			productName = Screens;
 			productReference = F2F501152CFB526600492BAA /* Screens.app */;
 			productType = "com.apple.product-type.application";
@@ -562,6 +578,9 @@
 				Base,
 			);
 			mainGroup = F2F5010C2CFB526600492BAA;
+			packageReferences = (
+				F2BEB7E02D624776007C2BDA /* XCRemoteSwiftPackageReference "PolyKit" */,
+			);
 			productRefGroup = F2F501162CFB526600492BAA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -589,6 +608,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2C5D94D2D2C31E10023C830 /* LightSlider.swift in Sources */,
+				F2BEB7DF2D61F28B007C2BDA /* ClockView.swift in Sources */,
 				F2C5D90A2D1D885A0023C830 /* SettingsBottomView.swift in Sources */,
 				F2BEB7D62D5FCE4E007C2BDA /* CurveWave.swift in Sources */,
 				F2C5D9492D2BCE950023C830 /* LampView.swift in Sources */,
@@ -894,6 +914,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F2BEB7E02D624776007C2BDA /* XCRemoteSwiftPackageReference "PolyKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/heestand-xyz/PolyKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F2BEB7E12D624776007C2BDA /* PolyKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F2BEB7E02D624776007C2BDA /* XCRemoteSwiftPackageReference "PolyKit" */;
+			productName = PolyKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2F5010D2CFB526600492BAA /* Project object */;
 }

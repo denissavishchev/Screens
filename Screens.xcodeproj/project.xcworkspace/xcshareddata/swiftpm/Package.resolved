@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "polykit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/heestand-xyz/PolyKit.git",
+      "state" : {
+        "revision" : "4d84c4469daf5e9ee4d1768dd3018d6b985ee868",
+        "version" : "2.2.0"
+      }
+    }
+  ],
+  "version" : 2
+}
