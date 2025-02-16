@@ -37,15 +37,3 @@ struct DroneView: View {
 #Preview {
     DroneView()
 }
-
-
-struct RightBottomView: View {
-    var body: some View {
-        VStack{
-            Text("82.3 GB")
-        }
-        .frame(width: UIScreen.main.bounds.width * 0.6, height: 150)
-        .background(.ampWhite.opacity(0.05))
-        .clipShape(RoundedRectangle(cornerRadius: 10))
-    }
-}
