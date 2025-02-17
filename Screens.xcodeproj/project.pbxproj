@@ -63,7 +63,10 @@
 		F2BEB7DA2D609D66007C2BDA /* BatteryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7D92D609D66007C2BDA /* BatteryView.swift */; };
 		F2BEB7DC2D61E47C007C2BDA /* BottomDroneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7DB2D61E47C007C2BDA /* BottomDroneView.swift */; };
 		F2BEB7DF2D61F28B007C2BDA /* ClockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7DE2D61F28B007C2BDA /* ClockView.swift */; };
-		F2BEB7E22D624776007C2BDA /* PolyKit in Frameworks */ = {isa = PBXBuildFile; productRef = F2BEB7E12D624776007C2BDA /* PolyKit */; };
+		F2BEB7E42D63C8A2007C2BDA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7E32D63C8A2007C2BDA /* DetailView.swift */; };
+		F2BEB7E62D63CB4B007C2BDA /* BackButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7E52D63CB4B007C2BDA /* BackButtonView.swift */; };
+		F2BEB7E82D63CFF5007C2BDA /* ScrollItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7E72D63CFF5007C2BDA /* ScrollItemView.swift */; };
+		F2BEB7EA2D63D019007C2BDA /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7E92D63D019007C2BDA /* Model.swift */; };
 		F2C5D8FE2D1AEC590023C830 /* SushiView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FD2D1AEC590023C830 /* SushiView.swift */; };
 		F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */; };
 		F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D9042D1C38820023C830 /* IngredientsView.swift */; };
@@ -169,6 +172,10 @@
 		F2BEB7D92D609D66007C2BDA /* BatteryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BatteryView.swift; sourceTree = "<group>"; };
 		F2BEB7DB2D61E47C007C2BDA /* BottomDroneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomDroneView.swift; sourceTree = "<group>"; };
 		F2BEB7DE2D61F28B007C2BDA /* ClockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockView.swift; sourceTree = "<group>"; };
+		F2BEB7E32D63C8A2007C2BDA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		F2BEB7E52D63CB4B007C2BDA /* BackButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButtonView.swift; sourceTree = "<group>"; };
+		F2BEB7E72D63CFF5007C2BDA /* ScrollItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollItemView.swift; sourceTree = "<group>"; };
+		F2BEB7E92D63D019007C2BDA /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		F2C5D8FD2D1AEC590023C830 /* SushiView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SushiView.swift; sourceTree = "<group>"; };
 		F2C5D8FF2D1B2A4A0023C830 /* UnitsButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UnitsButtonView.swift; sourceTree = "<group>"; };
 		F2C5D9042D1C38820023C830 /* IngredientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredientsView.swift; sourceTree = "<group>"; };
@@ -223,7 +230,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2BEB7E22D624776007C2BDA /* PolyKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,6 +367,10 @@
 			isa = PBXGroup;
 			children = (
 				F2BEB7DE2D61F28B007C2BDA /* ClockView.swift */,
+				F2BEB7E32D63C8A2007C2BDA /* DetailView.swift */,
+				F2BEB7E52D63CB4B007C2BDA /* BackButtonView.swift */,
+				F2BEB7E72D63CFF5007C2BDA /* ScrollItemView.swift */,
+				F2BEB7E92D63D019007C2BDA /* Model.swift */,
 			);
 			path = ClockView;
 			sourceTree = "<group>";
@@ -548,7 +558,6 @@
 			);
 			name = Screens;
 			packageProductDependencies = (
-				F2BEB7E12D624776007C2BDA /* PolyKit */,
 			);
 			productName = Screens;
 			productReference = F2F501152CFB526600492BAA /* Screens.app */;
@@ -579,7 +588,6 @@
 			);
 			mainGroup = F2F5010C2CFB526600492BAA;
 			packageReferences = (
-				F2BEB7E02D624776007C2BDA /* XCRemoteSwiftPackageReference "PolyKit" */,
 			);
 			productRefGroup = F2F501162CFB526600492BAA /* Products */;
 			projectDirPath = "";
@@ -635,6 +643,7 @@
 				F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */,
 				F2C5D9212D21BD7C0023C830 /* WatchFourButtons.swift in Sources */,
 				F2C5D9232D21C3D30023C830 /* ContainerOverlay.swift in Sources */,
+				F2BEB7E42D63C8A2007C2BDA /* DetailView.swift in Sources */,
 				F2BEB7A22D4FF998007C2BDA /* TopMenu.swift in Sources */,
 				F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */,
 				F2BEB7B12D58AB47007C2BDA /* GradientButton.swift in Sources */,
@@ -647,6 +656,7 @@
 				F2BEB7D82D6084E8007C2BDA /* CurveContainer.swift in Sources */,
 				F2BEB7A42D4FF9DC007C2BDA /* BikeUnitView.swift in Sources */,
 				F2BEB7912D4AB5B0007C2BDA /* BackgroundView.swift in Sources */,
+				F2BEB7E62D63CB4B007C2BDA /* BackButtonView.swift in Sources */,
 				F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */,
 				F2C5D9462D2AB45B0023C830 /* GraphType.swift in Sources */,
 				F2F5012A2CFB54C900492BAA /* WaveView.swift in Sources */,
@@ -676,6 +686,7 @@
 				F2C5D91D2D2176E10023C830 /* Container.swift in Sources */,
 				F2BEB7B62D58AC89007C2BDA /* LegoModel.swift in Sources */,
 				F2F501392CFF955200492BAA /* TopView.swift in Sources */,
+				F2BEB7EA2D63D019007C2BDA /* Model.swift in Sources */,
 				F2BEB7972D4D5DA8007C2BDA /* MiddleButtons.swift in Sources */,
 				F2BEB79B2D4D667E007C2BDA /* PaintView.swift in Sources */,
 				F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */,
@@ -686,6 +697,7 @@
 				F270F3AE2D05EB81007BBF4B /* CarSettingsView.swift in Sources */,
 				F270F3B82D0A2763007BBF4B /* CustomSlider.swift in Sources */,
 				F2F501282CFB54B300492BAA /* GuitarView.swift in Sources */,
+				F2BEB7E82D63CFF5007C2BDA /* ScrollItemView.swift in Sources */,
 				F2BEB78C2D497A59007C2BDA /* ScreenWidget.swift in Sources */,
 				F2C5D93B2D2939C20023C830 /* CCTVView.swift in Sources */,
 				F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */,
@@ -914,25 +926,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		F2BEB7E02D624776007C2BDA /* XCRemoteSwiftPackageReference "PolyKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/heestand-xyz/PolyKit.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.2.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		F2BEB7E12D624776007C2BDA /* PolyKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = F2BEB7E02D624776007C2BDA /* XCRemoteSwiftPackageReference "PolyKit" */;
-			productName = PolyKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F2F5010D2CFB526600492BAA /* Project object */;
 }
