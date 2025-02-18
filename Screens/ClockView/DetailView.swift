@@ -1,6 +1,7 @@
 import SwiftUI
 
 struct DetailView: View {
+    
     let item: Item
 
     var body: some View {
