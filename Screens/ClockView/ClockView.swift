@@ -24,7 +24,8 @@ struct ClockView: View {
                     RoundedRectangle(cornerRadius: 25)
                         .stroke(color, lineWidth: 3)
                 )
-                .offset(y: -50)            }
+                .offset(y: -50)
+            }
             .frame(maxWidth: .infinity, maxHeight: .infinity)
             .background(.ampDark)
         }
