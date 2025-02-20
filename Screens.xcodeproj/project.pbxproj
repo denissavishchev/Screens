@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2028DCD2D678711006F9C04 /* SideMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DCC2D678711006F9C04 /* SideMenuView.swift */; };
+		F2028DCF2D678749006F9C04 /* SideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DCE2D678749006F9C04 /* SideModel.swift */; };
+		F2028DD12D67885F006F9C04 /* CornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DD02D67885F006F9C04 /* CornerShape.swift */; };
+		F2028DD32D678A8D006F9C04 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DD22D678A8D006F9C04 /* MenuItem.swift */; };
 		F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */; };
 		F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39F2D022766007BBF4B /* TabBarPicker.swift */; };
 		F270F3A52D044073007BBF4B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A42D044073007BBF4B /* RoomView.swift */; };
@@ -116,6 +120,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F2028DCC2D678711006F9C04 /* SideMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuView.swift; sourceTree = "<group>"; };
+		F2028DCE2D678749006F9C04 /* SideModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideModel.swift; sourceTree = "<group>"; };
+		F2028DD02D67885F006F9C04 /* CornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerShape.swift; sourceTree = "<group>"; };
+		F2028DD22D678A8D006F9C04 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		F270F39F2D022766007BBF4B /* TabBarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPicker.swift; sourceTree = "<group>"; };
 		F270F3A42D044073007BBF4B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
@@ -236,6 +244,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F2028DCB2D6786F5006F9C04 /* SideMenuView */ = {
+			isa = PBXGroup;
+			children = (
+				F2028DCC2D678711006F9C04 /* SideMenuView.swift */,
+				F2028DCE2D678749006F9C04 /* SideModel.swift */,
+				F2028DD02D67885F006F9C04 /* CornerShape.swift */,
+				F2028DD22D678A8D006F9C04 /* MenuItem.swift */,
+			);
+			path = SideMenuView;
+			sourceTree = "<group>";
+		};
 		F270F3A32D044059007BBF4B /* RoomView */ = {
 			isa = PBXGroup;
 			children = (
@@ -483,6 +502,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2028DCB2D6786F5006F9C04 /* SideMenuView */,
 				F2BEB7DD2D61F27A007C2BDA /* ClockView */,
 				F2BEB7CE2D5E8840007C2BDA /* DroneView */,
 				F2BEB7BF2D5A8BA6007C2BDA /* RetroView */,
@@ -616,6 +636,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2C5D94D2D2C31E10023C830 /* LightSlider.swift in Sources */,
+				F2028DD12D67885F006F9C04 /* CornerShape.swift in Sources */,
 				F2BEB7DF2D61F28B007C2BDA /* ClockView.swift in Sources */,
 				F2C5D90A2D1D885A0023C830 /* SettingsBottomView.swift in Sources */,
 				F2BEB7D62D5FCE4E007C2BDA /* CurveWave.swift in Sources */,
@@ -672,6 +693,7 @@
 				F2BEB7C12D5A8BBF007C2BDA /* RetroView.swift in Sources */,
 				F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */,
 				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
+				F2028DCD2D678711006F9C04 /* SideMenuView.swift in Sources */,
 				F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */,
 				F2BEB7A62D555A29007C2BDA /* MenuView.swift in Sources */,
 				F2BEB7DA2D609D66007C2BDA /* BatteryView.swift in Sources */,
@@ -704,6 +726,7 @@
 				F2BEB7DC2D61E47C007C2BDA /* BottomDroneView.swift in Sources */,
 				F2C5D9422D2AAEFF0023C830 /* ChartsDownloads.swift in Sources */,
 				F270F3AB2D05C786007BBF4B /* SegmentView.swift in Sources */,
+				F2028DCF2D678749006F9C04 /* SideModel.swift in Sources */,
 				F2BEB7C52D5BDEFD007C2BDA /* TopContainer.swift in Sources */,
 				F2C5D9082D1C57D10023C830 /* AmpView.swift in Sources */,
 				F2BEB7CD2D5E85A5007C2BDA /* BottomContainerFour.swift in Sources */,
@@ -717,6 +740,7 @@
 				F2BEB7A02D4EA33E007C2BDA /* BikeView.swift in Sources */,
 				F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */,
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
+				F2028DD32D678A8D006F9C04 /* MenuItem.swift in Sources */,
 				F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */,
 				F2C5D92B2D25CDEF0023C830 /* GreenContainer.swift in Sources */,
 			);
