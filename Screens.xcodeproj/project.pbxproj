@@ -11,6 +11,7 @@
 		F2028DCF2D678749006F9C04 /* SideModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DCE2D678749006F9C04 /* SideModel.swift */; };
 		F2028DD12D67885F006F9C04 /* CornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DD02D67885F006F9C04 /* CornerShape.swift */; };
 		F2028DD32D678A8D006F9C04 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DD22D678A8D006F9C04 /* MenuItem.swift */; };
+		F2028DD52D678DE7006F9C04 /* HoverMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DD42D678DE7006F9C04 /* HoverMenuView.swift */; };
 		F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */; };
 		F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39F2D022766007BBF4B /* TabBarPicker.swift */; };
 		F270F3A52D044073007BBF4B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A42D044073007BBF4B /* RoomView.swift */; };
@@ -124,6 +125,7 @@
 		F2028DCE2D678749006F9C04 /* SideModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideModel.swift; sourceTree = "<group>"; };
 		F2028DD02D67885F006F9C04 /* CornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerShape.swift; sourceTree = "<group>"; };
 		F2028DD22D678A8D006F9C04 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
+		F2028DD42D678DE7006F9C04 /* HoverMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverMenuView.swift; sourceTree = "<group>"; };
 		F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		F270F39F2D022766007BBF4B /* TabBarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPicker.swift; sourceTree = "<group>"; };
 		F270F3A42D044073007BBF4B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
@@ -251,6 +253,7 @@
 				F2028DCE2D678749006F9C04 /* SideModel.swift */,
 				F2028DD02D67885F006F9C04 /* CornerShape.swift */,
 				F2028DD22D678A8D006F9C04 /* MenuItem.swift */,
+				F2028DD42D678DE7006F9C04 /* HoverMenuView.swift */,
 			);
 			path = SideMenuView;
 			sourceTree = "<group>";
@@ -725,6 +728,7 @@
 				F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */,
 				F2BEB7DC2D61E47C007C2BDA /* BottomDroneView.swift in Sources */,
 				F2C5D9422D2AAEFF0023C830 /* ChartsDownloads.swift in Sources */,
+				F2028DD52D678DE7006F9C04 /* HoverMenuView.swift in Sources */,
 				F270F3AB2D05C786007BBF4B /* SegmentView.swift in Sources */,
 				F2028DCF2D678749006F9C04 /* SideModel.swift in Sources */,
 				F2BEB7C52D5BDEFD007C2BDA /* TopContainer.swift in Sources */,
