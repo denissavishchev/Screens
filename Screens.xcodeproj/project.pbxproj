@@ -12,6 +12,7 @@
 		F2028DD12D67885F006F9C04 /* CornerShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DD02D67885F006F9C04 /* CornerShape.swift */; };
 		F2028DD32D678A8D006F9C04 /* MenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DD22D678A8D006F9C04 /* MenuItem.swift */; };
 		F2028DD52D678DE7006F9C04 /* HoverMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DD42D678DE7006F9C04 /* HoverMenuView.swift */; };
+		F2028DD72D6A5DCA006F9C04 /* DaySwitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2028DD62D6A5DCA006F9C04 /* DaySwitch.swift */; };
 		F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */; };
 		F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39F2D022766007BBF4B /* TabBarPicker.swift */; };
 		F270F3A52D044073007BBF4B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A42D044073007BBF4B /* RoomView.swift */; };
@@ -126,6 +127,7 @@
 		F2028DD02D67885F006F9C04 /* CornerShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerShape.swift; sourceTree = "<group>"; };
 		F2028DD22D678A8D006F9C04 /* MenuItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuItem.swift; sourceTree = "<group>"; };
 		F2028DD42D678DE7006F9C04 /* HoverMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HoverMenuView.swift; sourceTree = "<group>"; };
+		F2028DD62D6A5DCA006F9C04 /* DaySwitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaySwitch.swift; sourceTree = "<group>"; };
 		F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		F270F39F2D022766007BBF4B /* TabBarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPicker.swift; sourceTree = "<group>"; };
 		F270F3A42D044073007BBF4B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
@@ -479,6 +481,7 @@
 				F2BEB7AC2D588F3E007C2BDA /* BouncingButton.swift */,
 				F2BEB7AE2D589E72007C2BDA /* CapsuleButton.swift */,
 				F2BEB7B02D58AB47007C2BDA /* GradientButton.swift */,
+				F2028DD62D6A5DCA006F9C04 /* DaySwitch.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -672,6 +675,7 @@
 				F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */,
 				F2BEB7B12D58AB47007C2BDA /* GradientButton.swift in Sources */,
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
+				F2028DD72D6A5DCA006F9C04 /* DaySwitch.swift in Sources */,
 				F2BEB7BC2D58B0C1007C2BDA /* NetworkManager.swift in Sources */,
 				F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */,
 				F2BEB7AB2D575131007C2BDA /* FloatingTextField.swift in Sources */,

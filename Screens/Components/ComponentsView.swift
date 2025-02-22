@@ -3,6 +3,8 @@ import SwiftUI
 struct ComponentsView: View {
     var body: some View {
         VStack{
+            DaySwitch()
+                .padding(.bottom, 10)
             GradientButton()
                 .padding(.bottom, 10)
             CapsuleButton()
