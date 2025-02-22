@@ -3,7 +3,9 @@ import SwiftUI
 struct DetailView: View {
     
     let item: Item
-    @State private var offsets: [CGFloat] = [0, 40, 80, 120]
+    @State private var offset1: CGFloat = 240
+    @State private var offset2: CGFloat = 280
+    @State private var offset3: CGFloat = 320
 
     var body: some View {
         VStack {
@@ -37,15 +39,41 @@ struct DetailView: View {
                 .shadow(color: .black.opacity(0.5), radius: 10, x: 5, y: 5)
             
             ZStack(alignment: .bottom){
-                ForEach(0..<4, id: \.self) { index in
-                    ShuffleContainer(color: getColor(for: index))
-                        .offset(y: offsets[index])
-                        .onTapGesture {
-                            withAnimation(.spring(response: 1, dampingFraction: 0.8)){
-                                updateOffsets(for: index)
-                            }
+                ShuffleContainerOne()
+                    .onTapGesture {
+                        withAnimation{
+                            offset1 = 240
+                            offset2 = 280
+                            offset3 = 320
                         }
-                }
+                    }
+                ShuffleContainerTwo()
+                    .offset(y: offset1)
+                    .onTapGesture {
+                        withAnimation{
+                            offset1 = 40
+                            offset2 = 280
+                            offset3 = 320
+                        }
+                    }
+                ShuffleContainerThree()
+                    .offset(y: offset2)
+                    .onTapGesture {
+                        withAnimation{
+                            offset1 = 40
+                            offset2 = 80
+                            offset3 = 320
+                        }
+                    }
+                ShuffleContainerFour()
+                    .offset(y: offset3)
+                    .onTapGesture {
+                        withAnimation{
+                            offset1 = 40
+                            offset2 = 80
+                            offset3 = 120
+                        }
+                    }
             }
             .frame(maxHeight: .infinity)
             .ignoresSafeArea()
@@ -54,17 +82,6 @@ struct DetailView: View {
         .background(LinearGradient(colors: [item.color, .ampGray], startPoint: .topTrailing, endPoint: .bottomLeading))
         .navigationBarHidden(true)
     }
-    
-    private func updateOffsets(for tappedIndex: Int) {
-          for i in 0..<offsets.count {
-              offsets[i] = i <= tappedIndex ? 0 + CGFloat(i * 40) : 240 + CGFloat((i - tappedIndex) * 40)
-          }
-      }
-
-      private func getColor(for index: Int) -> Color {
-          let colors: [Color] = [.blue, .green, .orange, .red]
-          return colors[index % colors.count]
-      }
 }
 
 #Preview {
@@ -72,9 +89,7 @@ struct DetailView: View {
 }
 
 
-struct ShuffleContainer: View {
-    
-    let color: Color
+struct ShuffleContainerOne: View {
     
     var body: some View {
         VStack{
@@ -84,14 +99,75 @@ struct ShuffleContainer: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 20)
-                .foregroundColor(.white)
+            
+            VStack{
+                Color.white
+                    .padding(.horizontal, 18)
+            }
+            .padding(.horizontal, 18)
             Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: 430)
-        .background(
-            UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40))
-                .fill(color)
-        )
+        .background(.blue)
+        .clipShape(UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40)))
+        
     }
 }
 
+struct ShuffleContainerTwo: View {
+    
+    var body: some View {
+        VStack{
+            Spacer()
+                .frame(height: 12)
+            Image(systemName: "line.3.horizontal.decrease")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 20)
+           
+            Spacer()
+        }
+        
+        .frame(maxWidth: .infinity, maxHeight: 430)
+        .background(.red)
+        .clipShape(UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40)))
+    }
+}
+
+struct ShuffleContainerThree: View {
+    
+    var body: some View {
+        VStack{
+            Spacer()
+                .frame(height: 12)
+            Image(systemName: "line.3.horizontal.decrease")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 20)
+            Spacer()
+        }
+        
+        .frame(maxWidth: .infinity, maxHeight: 430)
+        .background(.green)
+        .clipShape(UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40)))
+    }
+}
+
+struct ShuffleContainerFour: View {
+    
+    var body: some View {
+        VStack{
+            Spacer()
+                .frame(height: 12)
+            Image(systemName: "line.3.horizontal.decrease")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 20)
+            Spacer()
+        }
+        
+        .frame(maxWidth: .infinity, maxHeight: 430)
+        .background(.yellow)
+        .clipShape(UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40)))
+    }
+}
