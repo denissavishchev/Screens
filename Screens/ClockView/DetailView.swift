@@ -39,7 +39,7 @@ struct DetailView: View {
                 .shadow(color: .black.opacity(0.5), radius: 10, x: 5, y: 5)
             
             ZStack(alignment: .bottom){
-                ShuffleContainerOne()
+                ShuffleContainerOne(item: item)
                     .onTapGesture {
                         withAnimation{
                             offset1 = 240
@@ -91,6 +91,8 @@ struct DetailView: View {
 
 struct ShuffleContainerOne: View {
     
+    let item: Item
+    
     var body: some View {
         VStack{
             Spacer()
@@ -100,17 +102,53 @@ struct ShuffleContainerOne: View {
                 .scaledToFit()
                 .frame(width: 20)
             
-            VStack{
-                Color.white
-                    .padding(.horizontal, 18)
+            VStack {
+                HStack {
+                    VStack(alignment: .leading){
+                        HStack {
+                            Text(item.image)
+                            Text("#\(item.catalogId)")
+                        }
+                        .font(.system(size: 24, weight: .bold, design: .rounded))
+                        HStack{
+                            Text("by")
+                            Image(systemName: "globe.europe.africa.fill")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(height: 24)
+                            Text("STEAM WORLD")
+                                .font(.system(size: 16, weight: .bold, design: .rounded))
+                            Text("oficial")
+                                .font(.system(size: 12, weight: .bold, design: .rounded))
+                            Image(systemName: "checkmark.seal.fill")
+                                .resizable()
+                                .scaledToFit()
+                                .frame(height: 20)
+                                .foregroundColor(.ampBlue)
+                        }
+                    }
+                    Spacer()
+                    Image(systemName: "link")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 20)
+                        .foregroundColor(.black)
+                        .padding(8)
+                        .background(.ampDark)
+                        .clipShape(Circle())
+                }
             }
-            .padding(.horizontal, 18)
+            .padding(.vertical, 12)
+            .padding(.horizontal, 24)
             Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: 430)
-        .background(.blue)
+        .background(.ampGray)
         .clipShape(UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40)))
-        
+        .overlay(
+            UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40))
+                .stroke(.ampBlue, lineWidth: 1)
+        )
     }
 }
 
@@ -127,10 +165,13 @@ struct ShuffleContainerTwo: View {
            
             Spacer()
         }
-        
         .frame(maxWidth: .infinity, maxHeight: 430)
-        .background(.red)
+        .background(.ampGray)
         .clipShape(UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40)))
+        .overlay(
+            UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40))
+                .stroke(.ampBlue, lineWidth: 1)
+        )
     }
 }
 
@@ -146,10 +187,13 @@ struct ShuffleContainerThree: View {
                 .frame(width: 20)
             Spacer()
         }
-        
         .frame(maxWidth: .infinity, maxHeight: 430)
-        .background(.green)
+        .background(.ampGray)
         .clipShape(UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40)))
+        .overlay(
+            UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40))
+                .stroke(.ampBlue, lineWidth: 1)
+        )
     }
 }
 
@@ -165,9 +209,12 @@ struct ShuffleContainerFour: View {
                 .frame(width: 20)
             Spacer()
         }
-        
         .frame(maxWidth: .infinity, maxHeight: 430)
-        .background(.yellow)
+        .background(.ampGray)
         .clipShape(UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40)))
+        .overlay(
+            UnevenRoundedRectangle(cornerRadii: .init(topLeading: 40, topTrailing: 40))
+                .stroke(.ampBlue, lineWidth: 1)
+        )
     }
 }
