@@ -3,6 +3,7 @@ import SwiftUI
 struct HomeView: View {
     var body: some View {
         TabView{
+            ThemeSwitcher()
             SideMenuView()
             ClockView()
             DroneView()
