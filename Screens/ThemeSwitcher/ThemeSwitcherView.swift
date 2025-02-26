@@ -5,7 +5,23 @@ struct ThemeSwitcherView: View {
     @ObservedObject var vm: ThemeViewModel
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack(spacing: 0){
+            LightModeView(isDarkMode: vm.isDarkMode)
+            
+            DarkModeView(isDarkMode: vm.isDarkMode)
+        }
+        .frame(width: 180, height: 44)
+        .background(
+            SwitchBackground(isDarkMode: vm.isDarkMode)
+        )
+        .overlay(
+        RoundedRectangle(cornerRadius: 22)
+            .stroke(vm.isDarkMode ? .white.opacity(0.2) : .black.opacity(0.1), lineWidth: 1)
+        )
+        .onTapGesture {
+            vm.toggleTheme()
+        }
+        .shadow(color: .gray.opacity(0.15), radius: 4, x: 0, y: 2)
     }
 }
 
