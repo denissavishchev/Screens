@@ -17,6 +17,13 @@
 		F21447BF2D6E41CA0027B57B /* ThemeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447BE2D6E41CA0027B57B /* ThemeViewModel.swift */; };
 		F21447C12D6E44490027B57B /* InfoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447C02D6E44490027B57B /* InfoRow.swift */; };
 		F21447C32D6E453B0027B57B /* ThemeSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447C22D6E453B0027B57B /* ThemeSwitcherView.swift */; };
+		F21447E92D7D75C30027B57B /* WorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447E82D7D75C30027B57B /* WorkoutView.swift */; };
+		F21447EB2D7D884C0027B57B /* TabsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447EA2D7D884C0027B57B /* TabsView.swift */; };
+		F21447ED2D7D88B90027B57B /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447EC2D7D88B90027B57B /* BackButton.swift */; };
+		F21447F12D7DEAC90027B57B /* MainWorkoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447F02D7DEAC90027B57B /* MainWorkoutView.swift */; };
+		F21447F32D7DEAE40027B57B /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447F22D7DEAE40027B57B /* StatisticsView.swift */; };
+		F21447F52D7DEB080027B57B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447F42D7DEB080027B57B /* ProfileView.swift */; };
+		F21447F72D7DEB220027B57B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447F62D7DEB220027B57B /* SettingsView.swift */; };
 		F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */; };
 		F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39F2D022766007BBF4B /* TabBarPicker.swift */; };
 		F270F3A52D044073007BBF4B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A42D044073007BBF4B /* RoomView.swift */; };
@@ -110,6 +117,8 @@
 		F2C5D94D2D2C31E10023C830 /* LightSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2C5D94C2D2C31E10023C830 /* LightSlider.swift */; };
 		F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50A22D00B59300A23361 /* ButtonView.swift */; };
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
+		F2F2CD412D7DFA1200CCA2EE /* AvatarBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F2CD402D7DFA1200CCA2EE /* AvatarBarItem.swift */; };
+		F2F2CD432D7E042200CCA2EE /* DailyChallengeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F2CD422D7E042200CCA2EE /* DailyChallengeItem.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
 		F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5011A2CFB526600492BAA /* HomeView.swift */; };
 		F2F5011D2CFB526900492BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F5011C2CFB526900492BAA /* Assets.xcassets */; };
@@ -136,6 +145,13 @@
 		F21447BE2D6E41CA0027B57B /* ThemeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeViewModel.swift; sourceTree = "<group>"; };
 		F21447C02D6E44490027B57B /* InfoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoRow.swift; sourceTree = "<group>"; };
 		F21447C22D6E453B0027B57B /* ThemeSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThemeSwitcherView.swift; sourceTree = "<group>"; };
+		F21447E82D7D75C30027B57B /* WorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutView.swift; sourceTree = "<group>"; };
+		F21447EA2D7D884C0027B57B /* TabsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabsView.swift; sourceTree = "<group>"; };
+		F21447EC2D7D88B90027B57B /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		F21447F02D7DEAC90027B57B /* MainWorkoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainWorkoutView.swift; sourceTree = "<group>"; };
+		F21447F22D7DEAE40027B57B /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		F21447F42D7DEB080027B57B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		F21447F62D7DEB220027B57B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		F270F39F2D022766007BBF4B /* TabBarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPicker.swift; sourceTree = "<group>"; };
 		F270F3A42D044073007BBF4B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
@@ -229,6 +245,8 @@
 		F2C5D94C2D2C31E10023C830 /* LightSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightSlider.swift; sourceTree = "<group>"; };
 		F2DF50A22D00B59300A23361 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
+		F2F2CD402D7DFA1200CCA2EE /* AvatarBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarBarItem.swift; sourceTree = "<group>"; };
+		F2F2CD422D7E042200CCA2EE /* DailyChallengeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeItem.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F501182CFB526600492BAA /* ScreensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensApp.swift; sourceTree = "<group>"; };
 		F2F5011A2CFB526600492BAA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -277,6 +295,15 @@
 				F21447C22D6E453B0027B57B /* ThemeSwitcherView.swift */,
 			);
 			path = ThemeSwitcher;
+			sourceTree = "<group>";
+		};
+		F21447E72D7D75A70027B57B /* WorkoutView */ = {
+			isa = PBXGroup;
+			children = (
+				F2F2CD3A2D7DF7EA00CCA2EE /* Widgets */,
+				F2F2CD392D7DF7CE00CCA2EE /* View */,
+			);
+			path = WorkoutView;
 			sourceTree = "<group>";
 		};
 		F270F3A32D044059007BBF4B /* RoomView */ = {
@@ -495,7 +522,6 @@
 			isa = PBXGroup;
 			children = (
 				F2DF50AE2D021A7100A23361 /* ComponentsView.swift */,
-				F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */,
 				F270F39F2D022766007BBF4B /* TabBarPicker.swift */,
 				F2BEB7AC2D588F3E007C2BDA /* BouncingButton.swift */,
 				F2BEB7AE2D589E72007C2BDA /* CapsuleButton.swift */,
@@ -503,6 +529,62 @@
 				F2028DD62D6A5DCA006F9C04 /* DaySwitch.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		F2F2CD392D7DF7CE00CCA2EE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F2F2CD3C2D7DF85500CCA2EE /* Main */,
+				F2F2CD3D2D7DF87400CCA2EE /* Statistic */,
+				F2F2CD3F2D7DF8AC00CCA2EE /* Settings */,
+				F2F2CD3E2D7DF89600CCA2EE /* Profile */,
+				F21447EA2D7D884C0027B57B /* TabsView.swift */,
+				F21447E82D7D75C30027B57B /* WorkoutView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F2F2CD3A2D7DF7EA00CCA2EE /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */,
+				F21447EC2D7D88B90027B57B /* BackButton.swift */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		F2F2CD3C2D7DF85500CCA2EE /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				F21447F02D7DEAC90027B57B /* MainWorkoutView.swift */,
+				F2F2CD402D7DFA1200CCA2EE /* AvatarBarItem.swift */,
+				F2F2CD422D7E042200CCA2EE /* DailyChallengeItem.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		F2F2CD3D2D7DF87400CCA2EE /* Statistic */ = {
+			isa = PBXGroup;
+			children = (
+				F21447F22D7DEAE40027B57B /* StatisticsView.swift */,
+			);
+			path = Statistic;
+			sourceTree = "<group>";
+		};
+		F2F2CD3E2D7DF89600CCA2EE /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				F21447F42D7DEB080027B57B /* ProfileView.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		F2F2CD3F2D7DF8AC00CCA2EE /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				F21447F62D7DEB220027B57B /* SettingsView.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		F2F5010C2CFB526600492BAA = {
@@ -527,6 +609,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F21447E72D7D75A70027B57B /* WorkoutView */,
 				F21447BD2D6E41790027B57B /* ThemeSwitcher */,
 				F2028DCB2D6786F5006F9C04 /* SideMenuView */,
 				F2BEB7DD2D61F27A007C2BDA /* ClockView */,
@@ -680,7 +763,9 @@
 				F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */,
 				F2C5D9312D26F0F60023C830 /* BlueContainer.swift in Sources */,
 				F2BEB7AF2D589E72007C2BDA /* CapsuleButton.swift in Sources */,
+				F21447F12D7DEAC90027B57B /* MainWorkoutView.swift in Sources */,
 				F2BEB7D02D5E8858007C2BDA /* DroneView.swift in Sources */,
+				F21447EB2D7D884C0027B57B /* TabsView.swift in Sources */,
 				F2C5D9402D2A93C10023C830 /* ChartsView.swift in Sources */,
 				F2BEB7D42D5FC672007C2BDA /* MinsFlyingLeft.swift in Sources */,
 				F2BEB7C92D5D3B12007C2BDA /* BottomContainerTwo.swift in Sources */,
@@ -710,11 +795,13 @@
 				F2F5012A2CFB54C900492BAA /* WaveView.swift in Sources */,
 				F2C5D9292D253B320023C830 /* GoodMorningView.swift in Sources */,
 				F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */,
+				F21447ED2D7D88B90027B57B /* BackButton.swift in Sources */,
 				F2BEB7932D4C0418007C2BDA /* TopButtons.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
 				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
 				F2BEB7992D4D62CE007C2BDA /* DottedButton.swift in Sources */,
 				F2BEB7B42D58AC1A007C2BDA /* LegoView.swift in Sources */,
+				F2F2CD432D7E042200CCA2EE /* DailyChallengeItem.swift in Sources */,
 				F2BEB78A2D494816007C2BDA /* SeatsView.swift in Sources */,
 				F21447C32D6E453B0027B57B /* ThemeSwitcherView.swift in Sources */,
 				F2BEB7952D4D4F9B007C2BDA /* StarsView.swift in Sources */,
@@ -723,14 +810,17 @@
 				F21447C12D6E44490027B57B /* InfoRow.swift in Sources */,
 				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
 				F2028DCD2D678711006F9C04 /* SideMenuView.swift in Sources */,
+				F21447F72D7DEB220027B57B /* SettingsView.swift in Sources */,
 				F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */,
 				F2BEB7A62D555A29007C2BDA /* MenuView.swift in Sources */,
+				F21447E92D7D75C30027B57B /* WorkoutView.swift in Sources */,
 				F2BEB7DA2D609D66007C2BDA /* BatteryView.swift in Sources */,
 				F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */,
 				F2C5D93D2D29F6750023C830 /* CleaningView.swift in Sources */,
 				F2C5D92F2D26F0730023C830 /* GreenYellowSwitch.swift in Sources */,
 				F2C5D94B2D2BEFBA0023C830 /* LightShine.swift in Sources */,
 				F2BEB7BE2D58B6E1007C2BDA /* FigureTile.swift in Sources */,
+				F2F2CD412D7DFA1200CCA2EE /* AvatarBarItem.swift in Sources */,
 				F21447BC2D6E41710027B57B /* ThemeSwitcher.swift in Sources */,
 				F2BEB7C72D5D36B1007C2BDA /* BottomContainerOne.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
@@ -769,9 +859,11 @@
 				F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */,
 				F2BEB79D2D4E9E9C007C2BDA /* UnderView.swift in Sources */,
 				F2BEB7A02D4EA33E007C2BDA /* BikeView.swift in Sources */,
+				F21447F52D7DEB080027B57B /* ProfileView.swift in Sources */,
 				F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */,
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
 				F2028DD32D678A8D006F9C04 /* MenuItem.swift in Sources */,
+				F21447F32D7DEAE40027B57B /* StatisticsView.swift in Sources */,
 				F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */,
 				F21447BF2D6E41CA0027B57B /* ThemeViewModel.swift in Sources */,
 				F2C5D92B2D25CDEF0023C830 /* GreenContainer.swift in Sources */,

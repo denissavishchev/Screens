@@ -11,8 +11,6 @@ struct ComponentsView: View {
                 .padding(.bottom, 10)
             BouncingButton()
                 .padding(.bottom, 10)
-            CustomTabBar()
-                .padding(.bottom, 10)
             TabBarPicker()
                 .padding(.bottom, 10)
         }

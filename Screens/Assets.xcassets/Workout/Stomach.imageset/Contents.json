@@ -1,0 +1,12 @@
+{
+  "images" : [
+    {
+      "filename" : "Stomach.jpg",
+      "idiom" : "universal"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
