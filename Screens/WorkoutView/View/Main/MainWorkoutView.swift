@@ -41,16 +41,32 @@ struct MainWorkoutView: View {
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack(spacing: 10) {
                         ForEach(Array(challengeImages.enumerated()), id: \.element) { index, image in
-                            HStack {
-                                Image(image)
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(maxWidth: .infinity, maxHeight: .infinity)
+                            ZStack {
+                                HStack{
+                                    Image(image)
+                                        .resizable()
+                                        .scaledToFit()
+                                        .clipShape(RoundedRectangle(cornerRadius: 10))
+                                    Spacer()
+                                }
+                                VStack{
+                                    
+                                }
+                                .frame(maxWidth: .infinity)
+                                .frame(height: selectedIndex == index ? 150 : 60)
+                                .background(selectedIndex == index
+                                            ? LinearGradient(colors: [.clear, .black.opacity(0.5), .black], startPoint: .leading, endPoint: .trailing)
+                                            : nil)
                             }
                             .frame(maxWidth: .infinity)
                             .frame(height: selectedIndex == index ? 150 : 60)
-                            .background(Color.blue.opacity(0.3))
+                            .background(.black)
                             .cornerRadius(10)
+                            .overlay{
+                                RoundedRectangle(cornerRadius: 10)
+                                    .stroke(
+                                        LinearGradient(gradient: Gradient(colors: [.clear, .clear, .white.opacity(0.6)]), startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 0.5)
+                            }
                             .onTapGesture {
                                 withAnimation {
                                     if selectedIndex == index {
@@ -59,7 +75,7 @@ struct MainWorkoutView: View {
                                         selectedIndex = index
                                     }
                                 }
-                            }
+                        }
                         }
                     }
                     .padding()
