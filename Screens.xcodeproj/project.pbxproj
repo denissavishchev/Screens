@@ -119,6 +119,7 @@
 		F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2DF50AE2D021A7100A23361 /* ComponentsView.swift */; };
 		F2F2CD412D7DFA1200CCA2EE /* AvatarBarItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F2CD402D7DFA1200CCA2EE /* AvatarBarItem.swift */; };
 		F2F2CD432D7E042200CCA2EE /* DailyChallengeItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F2CD422D7E042200CCA2EE /* DailyChallengeItem.swift */; };
+		F2F2CD452D7F3A1B00CCA2EE /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F2CD442D7F3A1B00CCA2EE /* Models.swift */; };
 		F2F501192CFB526600492BAA /* ScreensApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F501182CFB526600492BAA /* ScreensApp.swift */; };
 		F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2F5011A2CFB526600492BAA /* HomeView.swift */; };
 		F2F5011D2CFB526900492BAA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2F5011C2CFB526900492BAA /* Assets.xcassets */; };
@@ -247,6 +248,7 @@
 		F2DF50AE2D021A7100A23361 /* ComponentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComponentsView.swift; sourceTree = "<group>"; };
 		F2F2CD402D7DFA1200CCA2EE /* AvatarBarItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvatarBarItem.swift; sourceTree = "<group>"; };
 		F2F2CD422D7E042200CCA2EE /* DailyChallengeItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyChallengeItem.swift; sourceTree = "<group>"; };
+		F2F2CD442D7F3A1B00CCA2EE /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 		F2F501152CFB526600492BAA /* Screens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Screens.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2F501182CFB526600492BAA /* ScreensApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreensApp.swift; sourceTree = "<group>"; };
 		F2F5011A2CFB526600492BAA /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
@@ -300,6 +302,7 @@
 		F21447E72D7D75A70027B57B /* WorkoutView */ = {
 			isa = PBXGroup;
 			children = (
+				F2F2CD442D7F3A1B00CCA2EE /* Models.swift */,
 				F2F2CD3A2D7DF7EA00CCA2EE /* Widgets */,
 				F2F2CD392D7DF7CE00CCA2EE /* View */,
 			);
@@ -799,6 +802,7 @@
 				F2BEB7932D4C0418007C2BDA /* TopButtons.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
 				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
+				F2F2CD452D7F3A1B00CCA2EE /* Models.swift in Sources */,
 				F2BEB7992D4D62CE007C2BDA /* DottedButton.swift in Sources */,
 				F2BEB7B42D58AC1A007C2BDA /* LegoView.swift in Sources */,
 				F2F2CD432D7E042200CCA2EE /* DailyChallengeItem.swift in Sources */,

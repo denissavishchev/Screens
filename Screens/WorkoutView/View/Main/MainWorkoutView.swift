@@ -4,7 +4,15 @@ struct MainWorkoutView: View {
     
     @State private var selectedIndex: Int? = nil
     
-    private var challengeImages: [String] = ["Back", "Chest", "Legs", "Pomps", "Pull", "Running", "Stomach"]
+    private var challenges: [ChalengesModel] = [
+        ChalengesModel(name: "Back", image: "Back", description: "Focuses on strengthening and building the back muscles, including the latissimus dorsi, traps, rhomboids, and lower back. Common exercises include pull-ups, deadlifts, barbell rows, and lat pulldowns to improve posture and overall upper body strength."),
+        ChalengesModel(name: "Chest", image: "Chest", description: "Builds the pectorals, triceps, and shoulders, enhancing upper body definition and pushing strength. Key movements include bench press, dumbbell flyes, dips, and push-ups to develop a well-rounded chest."),
+        ChalengesModel(name: "Legs", image: "Legs", description: "Targets the quadriceps, hamstrings, glutes, and calves, essential for power and balance. Exercises like squats, lunges, leg presses, and Romanian deadlifts help build lower body strength, endurance, and explosiveness."),
+        ChalengesModel(name: "Arms", image: "Pomps", description: "Targets the biceps, triceps, and forearms to improve grip strength and arm definition. Exercises like bicep curls, tricep dips, hammer curls, and skull crushers help create stronger, more muscular arms."),
+        ChalengesModel(name: "Shoulders", image: "Pull", description: "Develops the deltoids and traps for broader, stronger shoulders. Key exercises include overhead presses, lateral raises, face pulls, and Arnold presses, contributing to upper body strength and aesthetics."),
+        ChalengesModel(name: "Cardio", image: "Running", description: "Improves cardiovascular endurance and burns fat through running, cycling, rowing, jump rope, HIIT, or swimming. Helps strengthen the heart, improve stamina, and aid in recovery between strength training sessions."),
+        ChalengesModel(name: "Abdominal", image: "Stomach", description: "Strengthens the abdominal muscles, obliques, and lower back, improving core stability and overall performance. Key movements include planks, crunches, leg raises, Russian twists, and hanging knee tucks for a strong and defined core."),
+    ]
     
     var body: some View {
         VStack {
@@ -40,17 +48,23 @@ struct MainWorkoutView: View {
                 
                 ScrollView(.vertical, showsIndicators: false) {
                     VStack(spacing: 10) {
-                        ForEach(Array(challengeImages.enumerated()), id: \.element) { index, image in
+                        ForEach(Array(challenges.enumerated()), id: \.element.image) { index, challenge in
                             ZStack {
-                                HStack{
-                                    Image(image)
+                                HStack {
+                                    Image(challenge.image)
                                         .resizable()
                                         .scaledToFit()
                                         .clipShape(RoundedRectangle(cornerRadius: 10))
                                     Spacer()
                                 }
-                                VStack{
-                                    
+                                VStack {
+                                    if selectedIndex == index {
+                                        Text(challenge.description)
+                                            .foregroundColor(.white)
+                                            .font(.system(size: 14))
+                                            .multilineTextAlignment(.center)
+                                            .padding()
+                                    }
                                 }
                                 .frame(maxWidth: .infinity)
                                 .frame(height: selectedIndex == index ? 150 : 60)
@@ -62,20 +76,19 @@ struct MainWorkoutView: View {
                             .frame(height: selectedIndex == index ? 150 : 60)
                             .background(.black)
                             .cornerRadius(10)
-                            .overlay{
+                            .overlay(
                                 RoundedRectangle(cornerRadius: 10)
                                     .stroke(
-                                        LinearGradient(gradient: Gradient(colors: [.clear, .clear, .white.opacity(0.6)]), startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 0.5)
-                            }
+                                        LinearGradient(gradient: Gradient(colors: [.clear, .clear, .white.opacity(0.6)]),
+                                                       startPoint: .topLeading, endPoint: .bottomTrailing),
+                                        lineWidth: 0.5
+                                    )
+                            )
                             .onTapGesture {
                                 withAnimation {
-                                    if selectedIndex == index {
-                                        selectedIndex = nil
-                                    } else {
-                                        selectedIndex = index
-                                    }
+                                    selectedIndex = (selectedIndex == index) ? nil : index
                                 }
-                        }
+                            }
                         }
                     }
                     .padding()
