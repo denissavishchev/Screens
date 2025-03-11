@@ -25,6 +25,7 @@
 		F21447F52D7DEB080027B57B /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447F42D7DEB080027B57B /* ProfileView.swift */; };
 		F21447F72D7DEB220027B57B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447F62D7DEB220027B57B /* SettingsView.swift */; };
 		F23C20502D7F825C00B772EF /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C204F2D7F825C00B772EF /* ChallengeView.swift */; };
+		F23C20522D80A98500B772EF /* StatisticChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C20512D80A98500B772EF /* StatisticChartsView.swift */; };
 		F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */; };
 		F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39F2D022766007BBF4B /* TabBarPicker.swift */; };
 		F270F3A52D044073007BBF4B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A42D044073007BBF4B /* RoomView.swift */; };
@@ -155,6 +156,7 @@
 		F21447F42D7DEB080027B57B /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		F21447F62D7DEB220027B57B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F23C204F2D7F825C00B772EF /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
+		F23C20512D80A98500B772EF /* StatisticChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticChartsView.swift; sourceTree = "<group>"; };
 		F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		F270F39F2D022766007BBF4B /* TabBarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPicker.swift; sourceTree = "<group>"; };
 		F270F3A42D044073007BBF4B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
@@ -573,6 +575,7 @@
 			isa = PBXGroup;
 			children = (
 				F21447F22D7DEAE40027B57B /* StatisticsView.swift */,
+				F23C20512D80A98500B772EF /* StatisticChartsView.swift */,
 			);
 			path = Statistic;
 			sourceTree = "<group>";
@@ -822,6 +825,7 @@
 				F2BEB7A62D555A29007C2BDA /* MenuView.swift in Sources */,
 				F21447E92D7D75C30027B57B /* WorkoutView.swift in Sources */,
 				F2BEB7DA2D609D66007C2BDA /* BatteryView.swift in Sources */,
+				F23C20522D80A98500B772EF /* StatisticChartsView.swift in Sources */,
 				F270F3A72D045FF9007BBF4B /* SofaView.swift in Sources */,
 				F2C5D93D2D29F6750023C830 /* CleaningView.swift in Sources */,
 				F2C5D92F2D26F0730023C830 /* GreenYellowSwitch.swift in Sources */,

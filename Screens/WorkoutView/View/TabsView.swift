@@ -2,7 +2,7 @@ import SwiftUI
 
 struct TabsView: View {
     
-    @State private var selectedTab: String = "house"
+    @State private var selectedTab: String = "chart.bar.xaxis"
     
     init(){
         UITabBar.appearance().isHidden = true

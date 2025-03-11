@@ -10,7 +10,6 @@ struct MainWorkoutView: View {
             
             ChallengeView()
             
-            Spacer()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .padding(.horizontal, 30)

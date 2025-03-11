@@ -35,7 +35,7 @@ struct CustomTabBar: View {
             }
         }
         .frame(height: 60)
-        .background(Color(.bikeGray), in: .capsule)
+        .background(.gray.opacity(0.6), in: .capsule)
         .padding(.horizontal, 80)
     }
 }
