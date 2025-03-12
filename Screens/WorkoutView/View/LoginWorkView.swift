@@ -4,7 +4,6 @@ struct LoginWorkView: View {
     
     @State private var email = ""
     @State private var password = ""
-    @State private var isAnimation = false
     
     var body: some View {
         VStack{
@@ -12,6 +11,10 @@ struct LoginWorkView: View {
             Spacer()
                 .frame(maxHeight: 50)
             WorkoutTextField(title: "Password", text: $password, iconName: "lock.fill", isSecure: true)
+            
+            SignInButton()
+            
+            NoAccountWidget()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(.black)

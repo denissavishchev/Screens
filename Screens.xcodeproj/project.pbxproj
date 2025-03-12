@@ -43,6 +43,7 @@
 		F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3BD2D0EF48A007BBF4B /* CarouselView.swift */; };
 		F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */; };
 		F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */; };
+		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -177,6 +178,7 @@
 		F270F3BD2D0EF48A007BBF4B /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
+		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -565,6 +567,7 @@
 				F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */,
 				F21447EC2D7D88B90027B57B /* BackButton.swift */,
 				F23C20572D82082C00B772EF /* WorkoutTextField.swift */,
+				F2A06D172D822FDC00FF5B45 /* SignInButton.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -817,6 +820,7 @@
 				F21447ED2D7D88B90027B57B /* BackButton.swift in Sources */,
 				F2BEB7932D4C0418007C2BDA /* TopButtons.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
+				F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */,
 				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
 				F2F2CD452D7F3A1B00CCA2EE /* Models.swift in Sources */,
 				F23C20582D82082C00B772EF /* WorkoutTextField.swift in Sources */,
