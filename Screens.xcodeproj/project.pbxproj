@@ -26,6 +26,9 @@
 		F21447F72D7DEB220027B57B /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21447F62D7DEB220027B57B /* SettingsView.swift */; };
 		F23C20502D7F825C00B772EF /* ChallengeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C204F2D7F825C00B772EF /* ChallengeView.swift */; };
 		F23C20522D80A98500B772EF /* StatisticChartsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C20512D80A98500B772EF /* StatisticChartsView.swift */; };
+		F23C20542D80D0CC00B772EF /* LoginWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C20532D80D0CC00B772EF /* LoginWorkView.swift */; };
+		F23C20562D80D0F400B772EF /* CreateWorkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C20552D80D0F400B772EF /* CreateWorkView.swift */; };
+		F23C20582D82082C00B772EF /* WorkoutTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F23C20572D82082C00B772EF /* WorkoutTextField.swift */; };
 		F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */; };
 		F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F39F2D022766007BBF4B /* TabBarPicker.swift */; };
 		F270F3A52D044073007BBF4B /* RoomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3A42D044073007BBF4B /* RoomView.swift */; };
@@ -157,6 +160,9 @@
 		F21447F62D7DEB220027B57B /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		F23C204F2D7F825C00B772EF /* ChallengeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChallengeView.swift; sourceTree = "<group>"; };
 		F23C20512D80A98500B772EF /* StatisticChartsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticChartsView.swift; sourceTree = "<group>"; };
+		F23C20532D80D0CC00B772EF /* LoginWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginWorkView.swift; sourceTree = "<group>"; };
+		F23C20552D80D0F400B772EF /* CreateWorkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateWorkView.swift; sourceTree = "<group>"; };
+		F23C20572D82082C00B772EF /* WorkoutTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorkoutTextField.swift; sourceTree = "<group>"; };
 		F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		F270F39F2D022766007BBF4B /* TabBarPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarPicker.swift; sourceTree = "<group>"; };
 		F270F3A42D044073007BBF4B /* RoomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomView.swift; sourceTree = "<group>"; };
@@ -547,6 +553,8 @@
 				F2F2CD3E2D7DF89600CCA2EE /* Profile */,
 				F21447EA2D7D884C0027B57B /* TabsView.swift */,
 				F21447E82D7D75C30027B57B /* WorkoutView.swift */,
+				F23C20532D80D0CC00B772EF /* LoginWorkView.swift */,
+				F23C20552D80D0F400B772EF /* CreateWorkView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -556,6 +564,7 @@
 			children = (
 				F270F39D2D0221DE007BBF4B /* CustomTabBar.swift */,
 				F21447EC2D7D88B90027B57B /* BackButton.swift */,
+				F23C20572D82082C00B772EF /* WorkoutTextField.swift */,
 			);
 			path = Widgets;
 			sourceTree = "<group>";
@@ -754,6 +763,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2C5D94D2D2C31E10023C830 /* LightSlider.swift in Sources */,
+				F23C20562D80D0F400B772EF /* CreateWorkView.swift in Sources */,
 				F2028DD12D67885F006F9C04 /* CornerShape.swift in Sources */,
 				F2BEB7DF2D61F28B007C2BDA /* ClockView.swift in Sources */,
 				F2C5D90A2D1D885A0023C830 /* SettingsBottomView.swift in Sources */,
@@ -809,6 +819,7 @@
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
 				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
 				F2F2CD452D7F3A1B00CCA2EE /* Models.swift in Sources */,
+				F23C20582D82082C00B772EF /* WorkoutTextField.swift in Sources */,
 				F2BEB7992D4D62CE007C2BDA /* DottedButton.swift in Sources */,
 				F2BEB7B42D58AC1A007C2BDA /* LegoView.swift in Sources */,
 				F2F2CD432D7E042200CCA2EE /* DailyChallengeItem.swift in Sources */,
@@ -873,6 +884,7 @@
 				F2BEB7A02D4EA33E007C2BDA /* BikeView.swift in Sources */,
 				F21447F52D7DEB080027B57B /* ProfileView.swift in Sources */,
 				F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */,
+				F23C20542D80D0CC00B772EF /* LoginWorkView.swift in Sources */,
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
 				F2028DD32D678A8D006F9C04 /* MenuItem.swift in Sources */,
 				F21447F32D7DEAE40027B57B /* StatisticsView.swift in Sources */,
