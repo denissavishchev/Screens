@@ -44,6 +44,7 @@
 		F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */; };
 		F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
+		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -179,6 +180,7 @@
 		F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
+		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -359,6 +361,14 @@
 				F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */,
 			);
 			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		F2A06D192D834E0C00FF5B45 /* PhonesView */ = {
+			isa = PBXGroup;
+			children = (
+				F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */,
+			);
+			path = PhonesView;
 			sourceTree = "<group>";
 		};
 		F2BEB7822D481FAE007C2BDA /* Cinema */ = {
@@ -630,6 +640,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2A06D192D834E0C00FF5B45 /* PhonesView */,
 				F21447E72D7D75A70027B57B /* WorkoutView */,
 				F21447BD2D6E41790027B57B /* ThemeSwitcher */,
 				F2028DCB2D6786F5006F9C04 /* SideMenuView */,
@@ -781,6 +792,7 @@
 				F2C5D9332D2703370023C830 /* GeneralModel.swift in Sources */,
 				F2F5012C2CFB76D800492BAA /* LogoView.swift in Sources */,
 				F2BEB7AD2D588F3E007C2BDA /* BouncingButton.swift in Sources */,
+				F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */,
 				F270F3A52D044073007BBF4B /* RoomView.swift in Sources */,
 				F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */,
 				F2C5D9312D26F0F60023C830 /* BlueContainer.swift in Sources */,
