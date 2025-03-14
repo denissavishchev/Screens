@@ -45,6 +45,7 @@
 		F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
+		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -181,6 +182,7 @@
 		F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
+		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -369,6 +371,14 @@
 				F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */,
 			);
 			path = PhonesView;
+			sourceTree = "<group>";
+		};
+		F2A06D1E2D84CDFE00FF5B45 /* WeatherApp */ = {
+			isa = PBXGroup;
+			children = (
+				F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */,
+			);
+			path = WeatherApp;
 			sourceTree = "<group>";
 		};
 		F2BEB7822D481FAE007C2BDA /* Cinema */ = {
@@ -640,6 +650,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2A06D1E2D84CDFE00FF5B45 /* WeatherApp */,
 				F2A06D192D834E0C00FF5B45 /* PhonesView */,
 				F21447E72D7D75A70027B57B /* WorkoutView */,
 				F21447BD2D6E41790027B57B /* ThemeSwitcher */,
@@ -780,6 +791,7 @@
 				F23C20562D80D0F400B772EF /* CreateWorkView.swift in Sources */,
 				F2028DD12D67885F006F9C04 /* CornerShape.swift in Sources */,
 				F2BEB7DF2D61F28B007C2BDA /* ClockView.swift in Sources */,
+				F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */,
 				F2C5D90A2D1D885A0023C830 /* SettingsBottomView.swift in Sources */,
 				F2BEB7D62D5FCE4E007C2BDA /* CurveWave.swift in Sources */,
 				F2C5D9492D2BCE950023C830 /* LampView.swift in Sources */,
