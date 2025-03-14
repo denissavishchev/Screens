@@ -49,6 +49,8 @@ struct PhonesView: View {
                     .resizable()
                     .scaledToFit()
                     .frame(width: 300)
+                    .shadow(color: .black.opacity(0.4), radius: 10, x: 5, y: 10 )
+                    .shadow(color: .black.opacity(0.5), radius: 8, x: -5, y: 10 )
                 
                 HStack(spacing: 135){
                     BatteryLevelView(level: lBattery)
