@@ -1,17 +1,19 @@
 import SwiftUI
 
 struct WeatherApp: View {
+    
+    @State private var isNight = false
+    
     var body: some View {
         ZStack{
-            LinearGradient(colors: [.blue, .white], startPoint: .topLeading, endPoint: .bottomTrailing)
-                .ignoresSafeArea()
+            WeatherBackgroundView(isNight: $isNight)
             VStack{
                 Text("Cupertino, CA")
                     .font(.system(size: 32, weight: .medium, design: .default))
                     .foregroundColor(.white)
                     .padding()
                 VStack(spacing: 8){
-                    Image(systemName: "cloud.sun.fill")
+                    Image(systemName: isNight ? "moon.stars.fill" : "cloud.sun.fill")
                         .renderingMode(.original)
                         .resizable()
                         .scaledToFit()
@@ -39,6 +41,16 @@ struct WeatherApp: View {
                         }
                     }
                     Spacer()
+                    Button{
+                        isNight.toggle()
+                    }label: {
+                        Text("Change")
+                            .frame(width: 280, height: 50)
+                            .background(.white)
+                            .font(.system(size: 20, weight: .bold, design: .default))
+                            .cornerRadius(10)
+                    }
+                    Spacer()
                 }
                 
             }
@@ -48,4 +60,14 @@ struct WeatherApp: View {
 
 #Preview {
     WeatherApp()
+}
+
+struct WeatherBackgroundView: View {
+    
+    @Binding var isNight: Bool
+    
+    var body: some View {
+        LinearGradient(colors: [isNight ? .black : .blue, isNight ? .gray : .white], startPoint: .topLeading, endPoint: .bottomTrailing)
+            .ignoresSafeArea()
+    }
 }

@@ -47,6 +47,8 @@
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
 		F2A06D222D857A8C00FF5B45 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D212D857A8C00FF5B45 /* WeatherModel.swift */; };
+		F2A06D242D85DCA600FF5B45 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D232D85DCA600FF5B45 /* StatusView.swift */; };
+		F2A06D272D85EA2A00FF5B45 /* TodaysDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D262D85EA2A00FF5B45 /* TodaysDateView.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -185,6 +187,8 @@
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
 		F2A06D212D857A8C00FF5B45 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
+		F2A06D232D85DCA600FF5B45 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		F2A06D262D85EA2A00FF5B45 /* TodaysDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysDateView.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -382,6 +386,15 @@
 				F2A06D212D857A8C00FF5B45 /* WeatherModel.swift */,
 			);
 			path = WeatherApp;
+			sourceTree = "<group>";
+		};
+		F2A06D252D85E61700FF5B45 /* StatusView */ = {
+			isa = PBXGroup;
+			children = (
+				F2A06D232D85DCA600FF5B45 /* StatusView.swift */,
+				F2A06D262D85EA2A00FF5B45 /* TodaysDateView.swift */,
+			);
+			path = StatusView;
 			sourceTree = "<group>";
 		};
 		F2BEB7822D481FAE007C2BDA /* Cinema */ = {
@@ -653,6 +666,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2A06D252D85E61700FF5B45 /* StatusView */,
 				F2A06D1E2D84CDFE00FF5B45 /* WeatherApp */,
 				F2A06D192D834E0C00FF5B45 /* PhonesView */,
 				F21447E72D7D75A70027B57B /* WorkoutView */,
@@ -817,6 +831,7 @@
 				F21447EB2D7D884C0027B57B /* TabsView.swift in Sources */,
 				F2C5D9402D2A93C10023C830 /* ChartsView.swift in Sources */,
 				F2BEB7D42D5FC672007C2BDA /* MinsFlyingLeft.swift in Sources */,
+				F2A06D272D85EA2A00FF5B45 /* TodaysDateView.swift in Sources */,
 				F2BEB7C92D5D3B12007C2BDA /* BottomContainerTwo.swift in Sources */,
 				F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */,
 				F2C5D9352D2708E50023C830 /* GreenContainerOverlay.swift in Sources */,
@@ -918,6 +933,7 @@
 				F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */,
 				F23C20542D80D0CC00B772EF /* LoginWorkView.swift in Sources */,
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
+				F2A06D242D85DCA600FF5B45 /* StatusView.swift in Sources */,
 				F2028DD32D678A8D006F9C04 /* MenuItem.swift in Sources */,
 				F21447F32D7DEAE40027B57B /* StatisticsView.swift in Sources */,
 				F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */,
@@ -981,7 +997,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -1038,7 +1054,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
