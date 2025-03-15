@@ -49,6 +49,8 @@
 		F2A06D222D857A8C00FF5B45 /* WeatherModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D212D857A8C00FF5B45 /* WeatherModel.swift */; };
 		F2A06D242D85DCA600FF5B45 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D232D85DCA600FF5B45 /* StatusView.swift */; };
 		F2A06D272D85EA2A00FF5B45 /* TodaysDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D262D85EA2A00FF5B45 /* TodaysDateView.swift */; };
+		F2A06D292D8616B000FF5B45 /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D282D8616B000FF5B45 /* StatusViewModel.swift */; };
+		F2A06D2B2D86192300FF5B45 /* CircularWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D2A2D86192300FF5B45 /* CircularWatchView.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -189,6 +191,8 @@
 		F2A06D212D857A8C00FF5B45 /* WeatherModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherModel.swift; sourceTree = "<group>"; };
 		F2A06D232D85DCA600FF5B45 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
 		F2A06D262D85EA2A00FF5B45 /* TodaysDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysDateView.swift; sourceTree = "<group>"; };
+		F2A06D282D8616B000FF5B45 /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
+		F2A06D2A2D86192300FF5B45 /* CircularWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularWatchView.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -393,6 +397,8 @@
 			children = (
 				F2A06D232D85DCA600FF5B45 /* StatusView.swift */,
 				F2A06D262D85EA2A00FF5B45 /* TodaysDateView.swift */,
+				F2A06D282D8616B000FF5B45 /* StatusViewModel.swift */,
+				F2A06D2A2D86192300FF5B45 /* CircularWatchView.swift */,
 			);
 			path = StatusView;
 			sourceTree = "<group>";
@@ -804,6 +810,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2A06D292D8616B000FF5B45 /* StatusViewModel.swift in Sources */,
 				F2C5D94D2D2C31E10023C830 /* LightSlider.swift in Sources */,
 				F23C20562D80D0F400B772EF /* CreateWorkView.swift in Sources */,
 				F2028DD12D67885F006F9C04 /* CornerShape.swift in Sources */,
@@ -839,6 +846,7 @@
 				F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */,
 				F2C5D9212D21BD7C0023C830 /* WatchFourButtons.swift in Sources */,
 				F2C5D9232D21C3D30023C830 /* ContainerOverlay.swift in Sources */,
+				F2A06D2B2D86192300FF5B45 /* CircularWatchView.swift in Sources */,
 				F2BEB7E42D63C8A2007C2BDA /* DetailView.swift in Sources */,
 				F2BEB7A22D4FF998007C2BDA /* TopMenu.swift in Sources */,
 				F2DF50A32D00B59300A23361 /* ButtonView.swift in Sources */,

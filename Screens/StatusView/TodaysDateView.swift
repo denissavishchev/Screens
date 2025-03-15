@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct TodaysDateView: View {
+    
+    @StateObject var svm = StatusViewModel()
+    
     var body: some View {
         HStack{
             VStack(spacing: -30){
                 HStack{
-                    Text("16")
+                    Text("\(svm.formattedTime(value: svm.hours))")
                         .font(.system(size: 60, weight: .regular, design: .rounded))
                         .foregroundColor(.black)
                     Text("H")
@@ -22,10 +25,19 @@ struct TodaysDateView: View {
                 }
                 HStack {
                     Spacer()
-                    Text("07")
+                    Text("\(svm.formattedTime(value: svm.minutes))")
                         .font(.system(size: 60, weight: .regular, design: .rounded))
                         .foregroundColor(.gray)
                 }
+                Spacer()
+                HStack {
+                    Spacer()
+                    Text("\(svm.formattedTime(value: Double(svm.seconds)))")
+                        .font(.system(size: 20, weight: .regular, design: .rounded))
+                        .foregroundColor(.turco)
+                        .shadow(color: .blue, radius: 5)
+                }
+                .padding(.top, 12)
                 Spacer()
             }
             .frame(width: 130, height: 130)
@@ -34,8 +46,8 @@ struct TodaysDateView: View {
                 .foregroundColor(.gray)
             VStack(alignment: .leading){
                 HStack{
-                    Text("SUNDAY")
-                        .font(.system(size: 32, weight: .regular, design: .rounded))
+                    Text("\(svm.dayOfWeek.uppercased())")
+                        .font(.system(size: 22, weight: .regular, design: .rounded))
                         .foregroundColor(.black)
                     Spacer()
                     Image(systemName: "bolt.fill")
@@ -43,9 +55,14 @@ struct TodaysDateView: View {
                         .font(.system(size: 14, weight: .bold, design: .rounded))
                         .foregroundColor(.black)
                 }
-                Text("SEPTEMBER 02")
-                    .font(.system(size: 24, weight: .semibold, design: .rounded))
-                    .foregroundColor(.gray)
+                HStack{
+                    Text("\(svm.month.uppercased())")
+                        .font(.system(size: 20, weight: .semibold, design: .rounded))
+                        .foregroundColor(.gray)
+                    Text("\(svm.dayOfMonth.uppercased())")
+                        .font(.system(size: 20, weight: .semibold, design: .rounded))
+                        .foregroundColor(.gray)
+                }
             }
         }
         .padding(.horizontal, 18)
