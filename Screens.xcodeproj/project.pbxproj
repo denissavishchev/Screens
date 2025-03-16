@@ -52,6 +52,7 @@
 		F2A06D292D8616B000FF5B45 /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D282D8616B000FF5B45 /* StatusViewModel.swift */; };
 		F2A06D2B2D86192300FF5B45 /* CircularWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D2A2D86192300FF5B45 /* CircularWatchView.swift */; };
 		F2A06D2D2D86BEFD00FF5B45 /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D2C2D86BEFD00FF5B45 /* ArcShape.swift */; };
+		F2A06D2F2D86C68300FF5B45 /* DotElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D2E2D86C68300FF5B45 /* DotElement.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -195,6 +196,7 @@
 		F2A06D282D8616B000FF5B45 /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
 		F2A06D2A2D86192300FF5B45 /* CircularWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularWatchView.swift; sourceTree = "<group>"; };
 		F2A06D2C2D86BEFD00FF5B45 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
+		F2A06D2E2D86C68300FF5B45 /* DotElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotElement.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -402,6 +404,7 @@
 				F2A06D282D8616B000FF5B45 /* StatusViewModel.swift */,
 				F2A06D2A2D86192300FF5B45 /* CircularWatchView.swift */,
 				F2A06D2C2D86BEFD00FF5B45 /* ArcShape.swift */,
+				F2A06D2E2D86C68300FF5B45 /* DotElement.swift */,
 			);
 			path = StatusView;
 			sourceTree = "<group>";
@@ -833,6 +836,7 @@
 				F2BEB7AD2D588F3E007C2BDA /* BouncingButton.swift in Sources */,
 				F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */,
 				F270F3A52D044073007BBF4B /* RoomView.swift in Sources */,
+				F2A06D2F2D86C68300FF5B45 /* DotElement.swift in Sources */,
 				F270F39E2D0221DE007BBF4B /* CustomTabBar.swift in Sources */,
 				F2C5D9312D26F0F60023C830 /* BlueContainer.swift in Sources */,
 				F2BEB7AF2D589E72007C2BDA /* CapsuleButton.swift in Sources */,
