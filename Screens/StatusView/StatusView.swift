@@ -14,6 +14,10 @@ struct StatusView: View {
             
             CircularWatchView(svm: svm)
             
+            ArcShape()
+                .stroke(.gray, lineWidth: 3)
+                .frame(width: 330, height: 330)
+    
         }
         .background(.statusGray)
         .onAppear {
@@ -21,14 +25,13 @@ struct StatusView: View {
             svm.startTimer()
             }
     }
-    
-
-    }
-
+}
 
 #Preview {
     StatusView()
 }
+
+
 
 
 

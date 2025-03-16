@@ -51,6 +51,7 @@
 		F2A06D272D85EA2A00FF5B45 /* TodaysDateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D262D85EA2A00FF5B45 /* TodaysDateView.swift */; };
 		F2A06D292D8616B000FF5B45 /* StatusViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D282D8616B000FF5B45 /* StatusViewModel.swift */; };
 		F2A06D2B2D86192300FF5B45 /* CircularWatchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D2A2D86192300FF5B45 /* CircularWatchView.swift */; };
+		F2A06D2D2D86BEFD00FF5B45 /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D2C2D86BEFD00FF5B45 /* ArcShape.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -193,6 +194,7 @@
 		F2A06D262D85EA2A00FF5B45 /* TodaysDateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodaysDateView.swift; sourceTree = "<group>"; };
 		F2A06D282D8616B000FF5B45 /* StatusViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusViewModel.swift; sourceTree = "<group>"; };
 		F2A06D2A2D86192300FF5B45 /* CircularWatchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularWatchView.swift; sourceTree = "<group>"; };
+		F2A06D2C2D86BEFD00FF5B45 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -399,6 +401,7 @@
 				F2A06D262D85EA2A00FF5B45 /* TodaysDateView.swift */,
 				F2A06D282D8616B000FF5B45 /* StatusViewModel.swift */,
 				F2A06D2A2D86192300FF5B45 /* CircularWatchView.swift */,
+				F2A06D2C2D86BEFD00FF5B45 /* ArcShape.swift */,
 			);
 			path = StatusView;
 			sourceTree = "<group>";
@@ -904,6 +907,7 @@
 				F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */,
 				F2C5D91D2D2176E10023C830 /* Container.swift in Sources */,
 				F2BEB7B62D58AC89007C2BDA /* LegoModel.swift in Sources */,
+				F2A06D2D2D86BEFD00FF5B45 /* ArcShape.swift in Sources */,
 				F2F501392CFF955200492BAA /* TopView.swift in Sources */,
 				F2BEB7EA2D63D019007C2BDA /* Model.swift in Sources */,
 				F2BEB7972D4D5DA8007C2BDA /* MiddleButtons.swift in Sources */,
