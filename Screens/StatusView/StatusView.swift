@@ -38,13 +38,3 @@ struct StatusView: View {
     StatusView()
 }
 
-struct DotsMenuView: View {
-    var body: some View {
-        VStack{
-            
-        }
-        .frame(width: 200, height: 200)
-        .background()
-        .offset(x: -80, y: 270)
-    }
-}
