@@ -54,6 +54,10 @@
 		F2A06D2D2D86BEFD00FF5B45 /* ArcShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D2C2D86BEFD00FF5B45 /* ArcShape.swift */; };
 		F2A06D2F2D86C68300FF5B45 /* DotElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D2E2D86C68300FF5B45 /* DotElement.swift */; };
 		F2A06D312D871C9500FF5B45 /* DotsMenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D302D871C9500FF5B45 /* DotsMenuView.swift */; };
+		F2A06D392D88B6AA00FF5B45 /* FoodyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D382D88B6AA00FF5B45 /* FoodyView.swift */; };
+		F2A06D3C2D88B77100FF5B45 /* FoodyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D3B2D88B77100FF5B45 /* FoodyListView.swift */; };
+		F2A06D3E2D88B78200FF5B45 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D3D2D88B78200FF5B45 /* AccountView.swift */; };
+		F2A06D402D88B79000FF5B45 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D3F2D88B79000FF5B45 /* OrderView.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -199,6 +203,11 @@
 		F2A06D2C2D86BEFD00FF5B45 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
 		F2A06D2E2D86C68300FF5B45 /* DotElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotElement.swift; sourceTree = "<group>"; };
 		F2A06D302D871C9500FF5B45 /* DotsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsMenuView.swift; sourceTree = "<group>"; };
+		F2A06D352D88B40C00FF5B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F2A06D382D88B6AA00FF5B45 /* FoodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyView.swift; sourceTree = "<group>"; };
+		F2A06D3B2D88B77100FF5B45 /* FoodyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyListView.swift; sourceTree = "<group>"; };
+		F2A06D3D2D88B78200FF5B45 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
+		F2A06D3F2D88B79000FF5B45 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -410,6 +419,17 @@
 				F2A06D302D871C9500FF5B45 /* DotsMenuView.swift */,
 			);
 			path = StatusView;
+			sourceTree = "<group>";
+		};
+		F2A06D3A2D88B6C400FF5B45 /* Foody */ = {
+			isa = PBXGroup;
+			children = (
+				F2A06D382D88B6AA00FF5B45 /* FoodyView.swift */,
+				F2A06D3B2D88B77100FF5B45 /* FoodyListView.swift */,
+				F2A06D3D2D88B78200FF5B45 /* AccountView.swift */,
+				F2A06D3F2D88B79000FF5B45 /* OrderView.swift */,
+			);
+			path = Foody;
 			sourceTree = "<group>";
 		};
 		F2BEB7822D481FAE007C2BDA /* Cinema */ = {
@@ -678,9 +698,11 @@
 		F2F501172CFB526600492BAA /* Screens */ = {
 			isa = PBXGroup;
 			children = (
+				F2A06D352D88B40C00FF5B45 /* Info.plist */,
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2A06D3A2D88B6C400FF5B45 /* Foody */,
 				F2A06D252D85E61700FF5B45 /* StatusView */,
 				F2A06D1E2D84CDFE00FF5B45 /* WeatherApp */,
 				F2A06D192D834E0C00FF5B45 /* PhonesView */,
@@ -852,10 +874,12 @@
 				F2BEB7C92D5D3B12007C2BDA /* BottomContainerTwo.swift in Sources */,
 				F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */,
 				F2C5D9352D2708E50023C830 /* GreenContainerOverlay.swift in Sources */,
+				F2A06D402D88B79000FF5B45 /* OrderView.swift in Sources */,
 				F2C5D92D2D26EFF30023C830 /* GreenContainerImages.swift in Sources */,
 				F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */,
 				F2C5D9212D21BD7C0023C830 /* WatchFourButtons.swift in Sources */,
 				F2C5D9232D21C3D30023C830 /* ContainerOverlay.swift in Sources */,
+				F2A06D3E2D88B78200FF5B45 /* AccountView.swift in Sources */,
 				F2A06D2B2D86192300FF5B45 /* CircularWatchView.swift in Sources */,
 				F2BEB7E42D63C8A2007C2BDA /* DetailView.swift in Sources */,
 				F2BEB7A22D4FF998007C2BDA /* TopMenu.swift in Sources */,
@@ -863,6 +887,7 @@
 				F2BEB7B12D58AB47007C2BDA /* GradientButton.swift in Sources */,
 				F2F5012E2CFB99DB00492BAA /* WoodView.swift in Sources */,
 				F2028DD72D6A5DCA006F9C04 /* DaySwitch.swift in Sources */,
+				F2A06D3C2D88B77100FF5B45 /* FoodyListView.swift in Sources */,
 				F2BEB7BC2D58B0C1007C2BDA /* NetworkManager.swift in Sources */,
 				F2C5D9102D1F31A50023C830 /* EQSlider.swift in Sources */,
 				F2BEB7AB2D575131007C2BDA /* FloatingTextField.swift in Sources */,
@@ -955,6 +980,7 @@
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
 				F2A06D242D85DCA600FF5B45 /* StatusView.swift in Sources */,
 				F2028DD32D678A8D006F9C04 /* MenuItem.swift in Sources */,
+				F2A06D392D88B6AA00FF5B45 /* FoodyView.swift in Sources */,
 				F21447F32D7DEAE40027B57B /* StatisticsView.swift in Sources */,
 				F270F3A02D022766007BBF4B /* TabBarPicker.swift in Sources */,
 				F21447BF2D6E41CA0027B57B /* ThemeViewModel.swift in Sources */,
@@ -1095,6 +1121,7 @@
 				DEVELOPMENT_TEAM = M37X5B5U46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Screens/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -1125,6 +1152,7 @@
 				DEVELOPMENT_TEAM = M37X5B5U46;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Screens/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
