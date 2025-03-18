@@ -58,6 +58,9 @@
 		F2A06D3C2D88B77100FF5B45 /* FoodyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D3B2D88B77100FF5B45 /* FoodyListView.swift */; };
 		F2A06D3E2D88B78200FF5B45 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D3D2D88B78200FF5B45 /* AccountView.swift */; };
 		F2A06D402D88B79000FF5B45 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D3F2D88B79000FF5B45 /* OrderView.swift */; };
+		F2A06D422D89FA2800FF5B45 /* FoodyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D412D89FA2800FF5B45 /* FoodyModel.swift */; };
+		F2A06D452D89FB5D00FF5B45 /* GamersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D442D89FB5D00FF5B45 /* GamersView.swift */; };
+		F2A06D472D8A0B6100FF5B45 /* FoodyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D462D8A0B6100FF5B45 /* FoodyListCell.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -203,11 +206,14 @@
 		F2A06D2C2D86BEFD00FF5B45 /* ArcShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArcShape.swift; sourceTree = "<group>"; };
 		F2A06D2E2D86C68300FF5B45 /* DotElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotElement.swift; sourceTree = "<group>"; };
 		F2A06D302D871C9500FF5B45 /* DotsMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsMenuView.swift; sourceTree = "<group>"; };
-		F2A06D352D88B40C00FF5B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		F2A06D352D88B40C00FF5B45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F2A06D382D88B6AA00FF5B45 /* FoodyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyView.swift; sourceTree = "<group>"; };
 		F2A06D3B2D88B77100FF5B45 /* FoodyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyListView.swift; sourceTree = "<group>"; };
 		F2A06D3D2D88B78200FF5B45 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		F2A06D3F2D88B79000FF5B45 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		F2A06D412D89FA2800FF5B45 /* FoodyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyModel.swift; sourceTree = "<group>"; };
+		F2A06D442D89FB5D00FF5B45 /* GamersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamersView.swift; sourceTree = "<group>"; };
+		F2A06D462D8A0B6100FF5B45 /* FoodyListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyListCell.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -428,8 +434,18 @@
 				F2A06D3B2D88B77100FF5B45 /* FoodyListView.swift */,
 				F2A06D3D2D88B78200FF5B45 /* AccountView.swift */,
 				F2A06D3F2D88B79000FF5B45 /* OrderView.swift */,
+				F2A06D412D89FA2800FF5B45 /* FoodyModel.swift */,
+				F2A06D462D8A0B6100FF5B45 /* FoodyListCell.swift */,
 			);
 			path = Foody;
+			sourceTree = "<group>";
+		};
+		F2A06D432D89FB3600FF5B45 /* Gamers */ = {
+			isa = PBXGroup;
+			children = (
+				F2A06D442D89FB5D00FF5B45 /* GamersView.swift */,
+			);
+			path = Gamers;
 			sourceTree = "<group>";
 		};
 		F2BEB7822D481FAE007C2BDA /* Cinema */ = {
@@ -702,6 +718,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2A06D432D89FB3600FF5B45 /* Gamers */,
 				F2A06D3A2D88B6C400FF5B45 /* Foody */,
 				F2A06D252D85E61700FF5B45 /* StatusView */,
 				F2A06D1E2D84CDFE00FF5B45 /* WeatherApp */,
@@ -904,6 +921,7 @@
 				F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */,
 				F21447ED2D7D88B90027B57B /* BackButton.swift in Sources */,
 				F2BEB7932D4C0418007C2BDA /* TopButtons.swift in Sources */,
+				F2A06D452D89FB5D00FF5B45 /* GamersView.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
 				F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */,
 				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
@@ -965,6 +983,7 @@
 				F2028DCF2D678749006F9C04 /* SideModel.swift in Sources */,
 				F2BEB7C52D5BDEFD007C2BDA /* TopContainer.swift in Sources */,
 				F2C5D9082D1C57D10023C830 /* AmpView.swift in Sources */,
+				F2A06D422D89FA2800FF5B45 /* FoodyModel.swift in Sources */,
 				F2BEB7CD2D5E85A5007C2BDA /* BottomContainerFour.swift in Sources */,
 				F2C5D9442D2AB3A30023C830 /* Home.swift in Sources */,
 				F2BEB7D22D5FBEB5007C2BDA /* TopDroneView.swift in Sources */,
@@ -974,6 +993,7 @@
 				F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */,
 				F2BEB79D2D4E9E9C007C2BDA /* UnderView.swift in Sources */,
 				F2BEB7A02D4EA33E007C2BDA /* BikeView.swift in Sources */,
+				F2A06D472D8A0B6100FF5B45 /* FoodyListCell.swift in Sources */,
 				F21447F52D7DEB080027B57B /* ProfileView.swift in Sources */,
 				F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */,
 				F23C20542D80D0CC00B772EF /* LoginWorkView.swift in Sources */,

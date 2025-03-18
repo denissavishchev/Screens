@@ -1,10 +1,3 @@
-//
-//  FoodyView.swift
-//  Screens
-//
-//  Created by Devis on 17/03/2025.
-//
-
 import SwiftUI
 
 struct Foody: View {
