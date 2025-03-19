@@ -3,8 +3,8 @@ import SwiftUI
 struct GamersView: View {
     var body: some View {
         ZStack(alignment: .topLeading){
-            Circle()
-                .frame(width: 135, height: 135)
+            CircleContaimer()
+                .stroke(.black, lineWidth: 2)
                 .offset(y: -10)
             GameContainer()
         }
@@ -16,6 +16,37 @@ struct GamersView: View {
 
 #Preview {
     GamersView()
+}
+
+struct CircleContaimer: Shape{
+    func path(in rect: CGRect) -> Path {
+        let cornerRadius: CGFloat = 67
+        var path = Path()
+        
+        path.addArc(center: CGPoint(x: rect.minX + cornerRadius, y: rect.minY + cornerRadius),
+                            radius: cornerRadius,
+                            startAngle: .degrees(0),
+                            endAngle: .degrees(270),
+                            clockwise: false)
+        path.addArc(center: CGPoint(x: rect.minX + cornerRadius, y: rect.minY + 2.5),
+                            radius: 2.5,
+                            startAngle: .degrees(-90),
+                            endAngle: .degrees(90),
+                            clockwise: false)
+        path.addArc(center: CGPoint(x: rect.minX + cornerRadius, y: rect.minY + cornerRadius),
+                            radius: cornerRadius - 5,
+                            startAngle: .degrees(270),
+                            endAngle: .degrees(0),
+                            clockwise: true)
+        path.addArc(center: CGPoint(x: rect.minX + cornerRadius * 2 - 2.5, y: rect.minY + cornerRadius),
+                            radius: 2.5,
+                            startAngle: .degrees(-180),
+                            endAngle: .degrees(0),
+                            clockwise: false)
+
+        
+        return path
+    }
 }
 
 struct GameContainer: Shape {
