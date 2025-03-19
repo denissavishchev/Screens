@@ -698,6 +698,7 @@
 		F2F5010C2CFB526600492BAA = {
 			isa = PBXGroup;
 			children = (
+				F2F5011C2CFB526900492BAA /* Assets.xcassets */,
 				F2F501172CFB526600492BAA /* Screens */,
 				F2F501162CFB526600492BAA /* Products */,
 			);
@@ -747,7 +748,6 @@
 				F2F501262CFB548900492BAA /* GuitarView */,
 				F2F501312CFE437700492BAA /* MealView */,
 				F2DF50AD2D021A5400A23361 /* Components */,
-				F2F5011C2CFB526900492BAA /* Assets.xcassets */,
 				F2F5011E2CFB526900492BAA /* Preview Content */,
 			);
 			path = Screens;

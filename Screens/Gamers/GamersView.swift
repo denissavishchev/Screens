@@ -2,15 +2,38 @@ import SwiftUI
 
 struct GamersView: View {
     var body: some View {
-        ZStack(alignment: .topLeading){
-            CircleContaimer()
-                .stroke(.black, lineWidth: 2)
-                .offset(y: -10)
-            GameContainer()
-        }
-        .frame(maxWidth: .infinity, maxHeight: 300)
-        .background(.blue)
+        VStack {
+            ZStack(alignment: .topLeading){
+                CircleContaimer()
+                    .stroke(LinearGradient(colors: [.droneYellow.opacity(0.8), .icyWhite], startPoint: .topLeading, endPoint: .bottomTrailing), lineWidth: 2)
+                    .offset(y: -10)
+                    .shadow(color: .ampWhite, radius: 10, x: 0)
+                GameContainer()
+                    .foregroundStyle(LinearGradient(colors: [.droneYellow.opacity(0.55), .princeBlue], startPoint: .topLeading, endPoint: .bottomTrailing))
+                HStack {
+                    Spacer()
+                    Image("Prince")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(height: 300)
+                        .shadow(color: .black, radius: 10, x: 5, y: 5)
+                }
+                VStack{
+                    Spacer()
+                    Image("PrinceLogo")
+                        .resizable()
+                        .scaledToFit()
+                        .frame(width: 200)
+                        .shadow(color: .icyGray, radius: 10, x: 5)
+                }
+                .frame(height: 280)
+                .padding(.leading, 12)
+            }
+            .frame(maxWidth: .infinity, maxHeight: 300)
         .padding(.horizontal, 12)
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(.black)
     }
 }
 
