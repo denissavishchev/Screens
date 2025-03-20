@@ -43,6 +43,9 @@
 		F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3BD2D0EF48A007BBF4B /* CarouselView.swift */; };
 		F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */; };
 		F270F3C22D0EF663007BBF4B /* CarouselViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */; };
+		F28C4C3E2D8BDE68008C1D3C /* FoodyNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C3D2D8BDE68008C1D3C /* FoodyNetworkManager.swift */; };
+		F28C4C402D8C8D49008C1D3C /* GameContainers.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C3F2D8C8D49008C1D3C /* GameContainers.swift */; };
+		F28C4C422D8CBB05008C1D3C /* PrinceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C412D8CBB05008C1D3C /* PrinceView.swift */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
@@ -195,6 +198,9 @@
 		F270F3BD2D0EF48A007BBF4B /* CarouselView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselView.swift; sourceTree = "<group>"; };
 		F270F3BF2D0EF5F8007BBF4B /* CardModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardModel.swift; sourceTree = "<group>"; };
 		F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarouselViewModel.swift; sourceTree = "<group>"; };
+		F28C4C3D2D8BDE68008C1D3C /* FoodyNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyNetworkManager.swift; sourceTree = "<group>"; };
+		F28C4C3F2D8C8D49008C1D3C /* GameContainers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameContainers.swift; sourceTree = "<group>"; };
+		F28C4C412D8CBB05008C1D3C /* PrinceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceView.swift; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
@@ -436,6 +442,7 @@
 				F2A06D3F2D88B79000FF5B45 /* OrderView.swift */,
 				F2A06D412D89FA2800FF5B45 /* FoodyModel.swift */,
 				F2A06D462D8A0B6100FF5B45 /* FoodyListCell.swift */,
+				F28C4C3D2D8BDE68008C1D3C /* FoodyNetworkManager.swift */,
 			);
 			path = Foody;
 			sourceTree = "<group>";
@@ -444,6 +451,8 @@
 			isa = PBXGroup;
 			children = (
 				F2A06D442D89FB5D00FF5B45 /* GamersView.swift */,
+				F28C4C3F2D8C8D49008C1D3C /* GameContainers.swift */,
+				F28C4C412D8CBB05008C1D3C /* PrinceView.swift */,
 			);
 			path = Gamers;
 			sourceTree = "<group>";
@@ -914,6 +923,7 @@
 				F2BEB7A42D4FF9DC007C2BDA /* BikeUnitView.swift in Sources */,
 				F2BEB7912D4AB5B0007C2BDA /* BackgroundView.swift in Sources */,
 				F2BEB7E62D63CB4B007C2BDA /* BackButtonView.swift in Sources */,
+				F28C4C3E2D8BDE68008C1D3C /* FoodyNetworkManager.swift in Sources */,
 				F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */,
 				F2C5D9462D2AB45B0023C830 /* GraphType.swift in Sources */,
 				F2F5012A2CFB54C900492BAA /* WaveView.swift in Sources */,
@@ -923,6 +933,7 @@
 				F2BEB7932D4C0418007C2BDA /* TopButtons.swift in Sources */,
 				F2A06D452D89FB5D00FF5B45 /* GamersView.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
+				F28C4C402D8C8D49008C1D3C /* GameContainers.swift in Sources */,
 				F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */,
 				F2C5D91F2D217E1C0023C830 /* WatchButtonView.swift in Sources */,
 				F2F2CD452D7F3A1B00CCA2EE /* Models.swift in Sources */,
@@ -985,6 +996,7 @@
 				F2C5D9082D1C57D10023C830 /* AmpView.swift in Sources */,
 				F2A06D422D89FA2800FF5B45 /* FoodyModel.swift in Sources */,
 				F2BEB7CD2D5E85A5007C2BDA /* BottomContainerFour.swift in Sources */,
+				F28C4C422D8CBB05008C1D3C /* PrinceView.swift in Sources */,
 				F2C5D9442D2AB3A30023C830 /* Home.swift in Sources */,
 				F2BEB7D22D5FBEB5007C2BDA /* TopDroneView.swift in Sources */,
 				F270F3B22D078A23007BBF4B /* CarView.swift in Sources */,
