@@ -30,13 +30,41 @@ struct RobotView: View {
                     .shadow(color: .icyWhite, radius: 5)
                     .padding(.trailing, 150)
                     .padding(.bottom, 12)
-                RoundedRectangle(cornerRadius: 20)
+                ZStack {
+                    Capsule()
+                        .frame(width: 220, height: 40)
+                        .foregroundColor(.black)
+                    Capsule()
+                        .stroke(lineWidth: 1)
+                        .frame(width: 218, height: 40)
+                        .foregroundColor(.white.opacity(0.2))
+                    HStack{
+                        Capsule()
+                            .frame(width: 60, height: 34)
+                            .foregroundColor(.princeGray)
+                            .overlay{
+                                HStack(spacing: 4){
+                                    Text("321")
+                                        .font(.system(size: 14, weight: .bold, design: .rounded))
+                                        .foregroundColor(.icyWhite)
+                                    Image(systemName: "person")
+                                        .resizable()
+                                        .scaledToFit()
+                                        .frame(height: 13)
+                                        .foregroundColor(.goodYellow)
+                                }
+                                .padding(.horizontal, 2)
+                            }
+                        Spacer()
+                    }
+                    .padding(.horizontal, 4)
                     .frame(width: 220, height: 40)
-                    .foregroundColor(.white)
-                    .padding(.bottom, 12)
+                }
+                .padding(.bottom, 12)
                 Text("Abillity")
                     .font(.system(size: 22, weight: .bold, design: .rounded))
                     .foregroundColor(.icyWhite.opacity(0.8))
+                    .padding(.bottom, 4)
                 RoundedRectangle(cornerRadius: 20)
                     .frame(width: 220, height: 120)
                     .foregroundColor(.white)
