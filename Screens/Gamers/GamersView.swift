@@ -18,6 +18,9 @@ struct GamersView: View {
 }
 
 struct RobotView: View {
+    
+    private let avatars: [String] = ["Avatar1", "Avatar2", "Avatar3", "B1", "B2", "B3", "B4", "A1", "A2", "A3"]
+    
     var body: some View {
         ZStack{
             VStack(alignment: .leading, spacing: 0){
@@ -56,8 +59,37 @@ struct RobotView: View {
                                 .padding(.horizontal, 2)
                             }
                         Spacer()
+                        HStack(spacing: -12) {
+                            let shuffledAvatars = avatars.shuffled()
+                            ForEach(shuffledAvatars.prefix(4), id: \.self) { avatar in
+                                ZStack {
+                                    Image(avatar)
+                                        .resizable()
+                                        .frame(width: 34, height: 34)
+                                        .clipShape(Circle())
+                                    Circle()
+                                        .stroke(.black, lineWidth: 1)
+                                        .frame(width: 34, height: 34)
+                                }
+                            }
+                            
+                            if shuffledAvatars.count > 4 {
+                                ZStack {
+                                    Text("+\(shuffledAvatars.count - 4)")
+                                        .font(.system(size: 14, weight: .bold))
+                                        .foregroundColor(.white)
+                                        .frame(width: 34, height: 34)
+                                        .background(Color.gray)
+                                        .clipShape(Circle())
+                                    Circle()
+                                        .stroke(.black, lineWidth: 1)
+                                        .frame(width: 34, height: 34)
+                                }
+                            }
+                        }
                     }
-                    .padding(.horizontal, 4)
+                    .padding(.leading, 4)
+                    .padding(.trailing, 4)
                     .frame(width: 220, height: 40)
                 }
                 .padding(.bottom, 12)
@@ -65,9 +97,7 @@ struct RobotView: View {
                     .font(.system(size: 22, weight: .bold, design: .rounded))
                     .foregroundColor(.icyWhite.opacity(0.8))
                     .padding(.bottom, 4)
-                RoundedRectangle(cornerRadius: 20)
-                    .frame(width: 220, height: 120)
-                    .foregroundColor(.white)
+                GamerStatisticsView()
             }
             .frame(maxWidth: .infinity, maxHeight: 320, alignment: .leading)
             .background(LinearGradient(colors: [.retroBlack, .bikeGray], startPoint: .topLeading, endPoint: .bottomTrailing))
@@ -88,4 +118,51 @@ struct RobotView: View {
         .clipShape(RoundedRectangle(cornerRadius: 12))
         .padding(.leading, 12)
     }
+}
+
+struct GamerStatisticsView: View {
+    
+    let statistics: [StatisticModel] = [
+        .init(title: "Move", icon: "star.fill.left", percent: 39, color: .goodYellow),
+        .init(title: "Attack", icon: "bolt.fill", percent: 68, color: .goodRed),
+        .init(title: "Enhance", icon: "drop.degreesign.fill", percent: 81, color: .goodGreen),
+    ]
+    
+    var body: some View {
+        VStack(spacing: 8){
+            ForEach(statistics, id: \.id){statistic in
+                VStack(spacing: 2){
+                    HStack{
+                        Text(statistic.title)
+                            .font(.system(size: 12, weight: .bold, design: .rounded))
+                            .foregroundColor(.icyWhite.opacity(0.8))
+                        Spacer()
+                        Text("\(statistic.percent, specifier: "%.0f")%")
+                            .font(.system(size: 12, weight: .bold, design: .rounded))
+                            .foregroundColor(.icyWhite.opacity(0.8))
+                    }
+                    .padding(.leading, 25)
+                    HStack {
+                        Image(systemName: statistic.icon)
+                            .resizable()
+                            .scaledToFit()
+                            .frame(width: 15, height: 15)
+                        Capsule()
+                            .frame(width: 200, height: 10)
+                    }
+                    
+                }
+            }
+        }
+        .frame(width: 220, height: 120)
+        .background(.white.opacity(0.1))
+    }
+}
+
+struct StatisticModel: Identifiable {
+    var id = UUID()
+    let title: String
+    let icon: String
+    let percent: Double
+    let color: Color
 }
