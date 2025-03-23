@@ -48,6 +48,9 @@
 		F28C4C422D8CBB05008C1D3C /* PrinceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C412D8CBB05008C1D3C /* PrinceView.swift */; };
 		F28C4C442D8F5EE5008C1D3C /* GamesStatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C432D8F5EE5008C1D3C /* GamesStatisticsView.swift */; };
 		F28C4C462D8F5F07008C1D3C /* RobotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C452D8F5F07008C1D3C /* RobotView.swift */; };
+		F28C4C492D8FF42C008C1D3C /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C482D8FF42C008C1D3C /* Spinner.swift */; };
+		F28C4C4B2D8FF784008C1D3C /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C4A2D8FF784008C1D3C /* AnimatedButton.swift */; };
+		F28C4C4D2D9006E0008C1D3C /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C4C2D9006E0008C1D3C /* ButtonsView.swift */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
@@ -205,6 +208,9 @@
 		F28C4C412D8CBB05008C1D3C /* PrinceView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrinceView.swift; sourceTree = "<group>"; };
 		F28C4C432D8F5EE5008C1D3C /* GamesStatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamesStatisticsView.swift; sourceTree = "<group>"; };
 		F28C4C452D8F5F07008C1D3C /* RobotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RobotView.swift; sourceTree = "<group>"; };
+		F28C4C482D8FF42C008C1D3C /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
+		F28C4C4A2D8FF784008C1D3C /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
+		F28C4C4C2D9006E0008C1D3C /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
@@ -404,6 +410,16 @@
 				F270F3C12D0EF663007BBF4B /* CarouselViewModel.swift */,
 			);
 			path = CarouselView;
+			sourceTree = "<group>";
+		};
+		F28C4C472D8FF3D7008C1D3C /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				F28C4C482D8FF42C008C1D3C /* Spinner.swift */,
+				F28C4C4C2D9006E0008C1D3C /* ButtonsView.swift */,
+				F28C4C4A2D8FF784008C1D3C /* AnimatedButton.swift */,
+			);
+			path = Buttons;
 			sourceTree = "<group>";
 		};
 		F2A06D192D834E0C00FF5B45 /* PhonesView */ = {
@@ -734,6 +750,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F28C4C472D8FF3D7008C1D3C /* Buttons */,
 				F2A06D432D89FB3600FF5B45 /* Gamers */,
 				F2A06D3A2D88B6C400FF5B45 /* Foody */,
 				F2A06D252D85E61700FF5B45 /* StatusView */,
@@ -874,6 +891,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2A06D292D8616B000FF5B45 /* StatusViewModel.swift in Sources */,
+				F28C4C4D2D9006E0008C1D3C /* ButtonsView.swift in Sources */,
 				F2C5D94D2D2C31E10023C830 /* LightSlider.swift in Sources */,
 				F23C20562D80D0F400B772EF /* CreateWorkView.swift in Sources */,
 				F2028DD12D67885F006F9C04 /* CornerShape.swift in Sources */,
@@ -987,10 +1005,12 @@
 				F2BEB7CB2D5E81DB007C2BDA /* BottomContainerThree.swift in Sources */,
 				F2BEB78F2D4AAF6D007C2BDA /* JellyView.swift in Sources */,
 				F2F501372CFF8E5300492BAA /* CustomColors.swift in Sources */,
+				F28C4C4B2D8FF784008C1D3C /* AnimatedButton.swift in Sources */,
 				F270F3AE2D05EB81007BBF4B /* CarSettingsView.swift in Sources */,
 				F270F3B82D0A2763007BBF4B /* CustomSlider.swift in Sources */,
 				F2F501282CFB54B300492BAA /* GuitarView.swift in Sources */,
 				F2BEB7E82D63CFF5007C2BDA /* ScrollItemView.swift in Sources */,
+				F28C4C492D8FF42C008C1D3C /* Spinner.swift in Sources */,
 				F2BEB78C2D497A59007C2BDA /* ScreenWidget.swift in Sources */,
 				F2C5D93B2D2939C20023C830 /* CCTVView.swift in Sources */,
 				F270F3C02D0EF5F8007BBF4B /* CardModel.swift in Sources */,
