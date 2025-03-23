@@ -14,7 +14,38 @@ struct AnimatedButton: View {
     @State private var isLoading: Bool = false
     
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Button{
+            Task{
+                isLoading = true
+                await onTap()
+                isLoading = false
+            }
+                
+        }label:{
+            HStack(spacing: 10){
+                if let symbolImage = config.symbolImage{
+                    Image(systemName: symbolImage)
+                        .font(.title3)
+                        .transition(.blurReplace)
+                }
+                if isLoading{
+                    Spinner(tint: config.foregroundColor, lineWidth: 4)
+                        .frame(width: 20, height: 20)
+                        .transition(.blurReplace)
+                }
+                Text(config.title)
+                    .contentTransition(.interpolate)
+                    .fontWeight(.semibold)
+            }
+            .padding(.horizontal, config.hPadding)
+            .padding(.vertical, config.vPadding)
+            .foregroundStyle(config.foregroundColor)
+            .background(config.background.gradient)
+            .clipShape(config.shape)
+            .contentShape(config.shape)
+        }
+        .disabled(isLoading)
+        .buttonStyle(ScaleButtonStyle())
     }
     
     struct Config{
@@ -24,8 +55,19 @@ struct AnimatedButton: View {
         var symbolImage: String?
         var hPadding: CGFloat = 15
         var vPadding: CGFloat = 10
+        var shape: AnyShape = .init(.capsule)
     }
     
+}
+
+fileprivate struct ScaleButtonStyle: ButtonStyle{
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .animation(.linear(duration: 0.2)){
+                $0
+                    .scaleEffect(configuration.isPressed ? 0.9 : 1)
+            }
+    }
 }
 
 #Preview {
