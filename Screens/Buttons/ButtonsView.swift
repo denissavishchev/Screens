@@ -53,7 +53,7 @@ struct ButtonsView: View {
                     background: transactionState.color,
                     symbolImage: transactionState.image
                 )
-                
+                LazySwitch()
                 AnimatedButton(config: config){
                     transactionState = .analyzing
                     try? await Task.sleep(for: .seconds(3))
@@ -62,9 +62,10 @@ struct ButtonsView: View {
                     transactionState = .failed
                     try? await Task.sleep(for: .seconds(1))
                     transactionState = .idle
-                 
                 }
                 .animation(.easeInOut(duration: 0.25), value: transactionState)
+                .padding(.top, 50)
+                
             }
             .navigationTitle("Custom Button")
         }
@@ -74,3 +75,5 @@ struct ButtonsView: View {
 #Preview {
     ButtonsView()
 }
+
+

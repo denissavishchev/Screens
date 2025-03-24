@@ -51,6 +51,7 @@
 		F28C4C492D8FF42C008C1D3C /* Spinner.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C482D8FF42C008C1D3C /* Spinner.swift */; };
 		F28C4C4B2D8FF784008C1D3C /* AnimatedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C4A2D8FF784008C1D3C /* AnimatedButton.swift */; };
 		F28C4C4D2D9006E0008C1D3C /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C4C2D9006E0008C1D3C /* ButtonsView.swift */; };
+		F28C4C4F2D9168AC008C1D3C /* LazySwiitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C4E2D9168AC008C1D3C /* LazySwiitch.swift */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
@@ -211,6 +212,7 @@
 		F28C4C482D8FF42C008C1D3C /* Spinner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spinner.swift; sourceTree = "<group>"; };
 		F28C4C4A2D8FF784008C1D3C /* AnimatedButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedButton.swift; sourceTree = "<group>"; };
 		F28C4C4C2D9006E0008C1D3C /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
+		F28C4C4E2D9168AC008C1D3C /* LazySwiitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazySwiitch.swift; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
@@ -418,6 +420,7 @@
 				F28C4C482D8FF42C008C1D3C /* Spinner.swift */,
 				F28C4C4C2D9006E0008C1D3C /* ButtonsView.swift */,
 				F28C4C4A2D8FF784008C1D3C /* AnimatedButton.swift */,
+				F28C4C4E2D9168AC008C1D3C /* LazySwiitch.swift */,
 			);
 			path = Buttons;
 			sourceTree = "<group>";
@@ -965,6 +968,7 @@
 				F23C20582D82082C00B772EF /* WorkoutTextField.swift in Sources */,
 				F2BEB7992D4D62CE007C2BDA /* DottedButton.swift in Sources */,
 				F2BEB7B42D58AC1A007C2BDA /* LegoView.swift in Sources */,
+				F28C4C4F2D9168AC008C1D3C /* LazySwiitch.swift in Sources */,
 				F2F2CD432D7E042200CCA2EE /* DailyChallengeItem.swift in Sources */,
 				F28C4C462D8F5F07008C1D3C /* RobotView.swift in Sources */,
 				F2BEB78A2D494816007C2BDA /* SeatsView.swift in Sources */,
