@@ -53,7 +53,9 @@ struct ButtonsView: View {
                     background: transactionState.color,
                     symbolImage: transactionState.image
                 )
+                SnakeButton()
                 LazySwitch()
+                    .padding(.top, 50)
                 AnimatedButton(config: config){
                     transactionState = .analyzing
                     try? await Task.sleep(for: .seconds(3))
@@ -75,5 +77,6 @@ struct ButtonsView: View {
 #Preview {
     ButtonsView()
 }
+
 
 
