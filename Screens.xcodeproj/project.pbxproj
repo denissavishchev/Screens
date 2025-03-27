@@ -53,6 +53,8 @@
 		F28C4C4D2D9006E0008C1D3C /* ButtonsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C4C2D9006E0008C1D3C /* ButtonsView.swift */; };
 		F28C4C4F2D9168AC008C1D3C /* LazySwiitch.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C4E2D9168AC008C1D3C /* LazySwiitch.swift */; };
 		F28C4C512D932467008C1D3C /* SnakeButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C502D932467008C1D3C /* SnakeButton.swift */; };
+		F28C4C542D95AA65008C1D3C /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C532D95AA65008C1D3C /* ColorPickerView.swift */; };
+		F28C4C562D95AA79008C1D3C /* ColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C552D95AA79008C1D3C /* ColorPickerSlider.swift */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
@@ -215,6 +217,8 @@
 		F28C4C4C2D9006E0008C1D3C /* ButtonsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonsView.swift; sourceTree = "<group>"; };
 		F28C4C4E2D9168AC008C1D3C /* LazySwiitch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LazySwiitch.swift; sourceTree = "<group>"; };
 		F28C4C502D932467008C1D3C /* SnakeButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnakeButton.swift; sourceTree = "<group>"; };
+		F28C4C532D95AA65008C1D3C /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
+		F28C4C552D95AA79008C1D3C /* ColorPickerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerSlider.swift; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
@@ -426,6 +430,15 @@
 				F28C4C502D932467008C1D3C /* SnakeButton.swift */,
 			);
 			path = Buttons;
+			sourceTree = "<group>";
+		};
+		F28C4C522D95AA46008C1D3C /* ColorPicker */ = {
+			isa = PBXGroup;
+			children = (
+				F28C4C532D95AA65008C1D3C /* ColorPickerView.swift */,
+				F28C4C552D95AA79008C1D3C /* ColorPickerSlider.swift */,
+			);
+			path = ColorPicker;
 			sourceTree = "<group>";
 		};
 		F2A06D192D834E0C00FF5B45 /* PhonesView */ = {
@@ -756,6 +769,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F28C4C522D95AA46008C1D3C /* ColorPicker */,
 				F28C4C472D8FF3D7008C1D3C /* Buttons */,
 				F2A06D432D89FB3600FF5B45 /* Gamers */,
 				F2A06D3A2D88B6C400FF5B45 /* Foody */,
@@ -970,6 +984,7 @@
 				F2F2CD452D7F3A1B00CCA2EE /* Models.swift in Sources */,
 				F23C20582D82082C00B772EF /* WorkoutTextField.swift in Sources */,
 				F2BEB7992D4D62CE007C2BDA /* DottedButton.swift in Sources */,
+				F28C4C542D95AA65008C1D3C /* ColorPickerView.swift in Sources */,
 				F2BEB7B42D58AC1A007C2BDA /* LegoView.swift in Sources */,
 				F28C4C4F2D9168AC008C1D3C /* LazySwiitch.swift in Sources */,
 				F2F2CD432D7E042200CCA2EE /* DailyChallengeItem.swift in Sources */,
@@ -998,6 +1013,7 @@
 				F21447BC2D6E41710027B57B /* ThemeSwitcher.swift in Sources */,
 				F2BEB7C72D5D36B1007C2BDA /* BottomContainerOne.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
+				F28C4C562D95AA79008C1D3C /* ColorPickerSlider.swift in Sources */,
 				F28C4C512D932467008C1D3C /* SnakeButton.swift in Sources */,
 				F2A06D222D857A8C00FF5B45 /* WeatherModel.swift in Sources */,
 				F2C5D9052D1C38820023C830 /* IngredientsView.swift in Sources */,
