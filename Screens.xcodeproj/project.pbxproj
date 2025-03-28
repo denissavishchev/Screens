@@ -56,6 +56,7 @@
 		F28C4C542D95AA65008C1D3C /* ColorPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C532D95AA65008C1D3C /* ColorPickerView.swift */; };
 		F28C4C562D95AA79008C1D3C /* ColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C552D95AA79008C1D3C /* ColorPickerSlider.swift */; };
 		F28C4C582D95F0A5008C1D3C /* CircularColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C572D95F0A5008C1D3C /* CircularColorPicker.swift */; };
+		F28C4C5B2D970B9B008C1D3C /* StaggeredAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C5A2D970B9B008C1D3C /* StaggeredAnimation.swift */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
@@ -221,6 +222,7 @@
 		F28C4C532D95AA65008C1D3C /* ColorPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerView.swift; sourceTree = "<group>"; };
 		F28C4C552D95AA79008C1D3C /* ColorPickerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerSlider.swift; sourceTree = "<group>"; };
 		F28C4C572D95F0A5008C1D3C /* CircularColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularColorPicker.swift; sourceTree = "<group>"; };
+		F28C4C5A2D970B9B008C1D3C /* StaggeredAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredAnimation.swift; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
@@ -442,6 +444,14 @@
 				F28C4C572D95F0A5008C1D3C /* CircularColorPicker.swift */,
 			);
 			path = ColorPicker;
+			sourceTree = "<group>";
+		};
+		F28C4C592D970B79008C1D3C /* StaggeredAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				F28C4C5A2D970B9B008C1D3C /* StaggeredAnimation.swift */,
+			);
+			path = StaggeredAnimation;
 			sourceTree = "<group>";
 		};
 		F2A06D192D834E0C00FF5B45 /* PhonesView */ = {
@@ -772,6 +782,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F28C4C592D970B79008C1D3C /* StaggeredAnimation */,
 				F28C4C522D95AA46008C1D3C /* ColorPicker */,
 				F28C4C472D8FF3D7008C1D3C /* Buttons */,
 				F2A06D432D89FB3600FF5B45 /* Gamers */,
@@ -969,6 +980,7 @@
 				F2BEB7C32D5BDC46007C2BDA /* CircularIcon.swift in Sources */,
 				F2BEB7D82D6084E8007C2BDA /* CurveContainer.swift in Sources */,
 				F2BEB7A42D4FF9DC007C2BDA /* BikeUnitView.swift in Sources */,
+				F28C4C5B2D970B9B008C1D3C /* StaggeredAnimation.swift in Sources */,
 				F2BEB7912D4AB5B0007C2BDA /* BackgroundView.swift in Sources */,
 				F2BEB7E62D63CB4B007C2BDA /* BackButtonView.swift in Sources */,
 				F28C4C3E2D8BDE68008C1D3C /* FoodyNetworkManager.swift in Sources */,
