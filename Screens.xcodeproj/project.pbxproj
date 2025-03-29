@@ -59,6 +59,7 @@
 		F28C4C5B2D970B9B008C1D3C /* StaggeredAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C5A2D970B9B008C1D3C /* StaggeredAnimation.swift */; };
 		F28C4C5D2D97EBC5008C1D3C /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C5C2D97EBC5008C1D3C /* OptionsView.swift */; };
 		F28C4C5F2D97F212008C1D3C /* OptionLine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C5E2D97F212008C1D3C /* OptionLine.swift */; };
+		F28C4C612D984686008C1D3C /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C602D984686008C1D3C /* OptionButton.swift */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
@@ -227,6 +228,7 @@
 		F28C4C5A2D970B9B008C1D3C /* StaggeredAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredAnimation.swift; sourceTree = "<group>"; };
 		F28C4C5C2D97EBC5008C1D3C /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
 		F28C4C5E2D97F212008C1D3C /* OptionLine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionLine.swift; sourceTree = "<group>"; };
+		F28C4C602D984686008C1D3C /* OptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
@@ -456,6 +458,7 @@
 				F28C4C5A2D970B9B008C1D3C /* StaggeredAnimation.swift */,
 				F28C4C5C2D97EBC5008C1D3C /* OptionsView.swift */,
 				F28C4C5E2D97F212008C1D3C /* OptionLine.swift */,
+				F28C4C602D984686008C1D3C /* OptionButton.swift */,
 			);
 			path = StaggeredAnimation;
 			sourceTree = "<group>";
@@ -1036,6 +1039,7 @@
 				F21447BC2D6E41710027B57B /* ThemeSwitcher.swift in Sources */,
 				F2BEB7C72D5D36B1007C2BDA /* BottomContainerOne.swift in Sources */,
 				F28C4C582D95F0A5008C1D3C /* CircularColorPicker.swift in Sources */,
+				F28C4C612D984686008C1D3C /* OptionButton.swift in Sources */,
 				F2DF50AF2D021A7100A23361 /* ComponentsView.swift in Sources */,
 				F28C4C562D95AA79008C1D3C /* ColorPickerSlider.swift in Sources */,
 				F28C4C512D932467008C1D3C /* SnakeButton.swift in Sources */,
