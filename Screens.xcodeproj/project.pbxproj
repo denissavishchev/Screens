@@ -57,6 +57,7 @@
 		F28C4C562D95AA79008C1D3C /* ColorPickerSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C552D95AA79008C1D3C /* ColorPickerSlider.swift */; };
 		F28C4C582D95F0A5008C1D3C /* CircularColorPicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C572D95F0A5008C1D3C /* CircularColorPicker.swift */; };
 		F28C4C5B2D970B9B008C1D3C /* StaggeredAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C5A2D970B9B008C1D3C /* StaggeredAnimation.swift */; };
+		F28C4C5D2D97EBC5008C1D3C /* OptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C5C2D97EBC5008C1D3C /* OptionsView.swift */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
@@ -223,6 +224,7 @@
 		F28C4C552D95AA79008C1D3C /* ColorPickerSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPickerSlider.swift; sourceTree = "<group>"; };
 		F28C4C572D95F0A5008C1D3C /* CircularColorPicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularColorPicker.swift; sourceTree = "<group>"; };
 		F28C4C5A2D970B9B008C1D3C /* StaggeredAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StaggeredAnimation.swift; sourceTree = "<group>"; };
+		F28C4C5C2D97EBC5008C1D3C /* OptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsView.swift; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
@@ -450,6 +452,7 @@
 			isa = PBXGroup;
 			children = (
 				F28C4C5A2D970B9B008C1D3C /* StaggeredAnimation.swift */,
+				F28C4C5C2D97EBC5008C1D3C /* OptionsView.swift */,
 			);
 			path = StaggeredAnimation;
 			sourceTree = "<group>";
@@ -927,6 +930,7 @@
 				F2A06D292D8616B000FF5B45 /* StatusViewModel.swift in Sources */,
 				F28C4C4D2D9006E0008C1D3C /* ButtonsView.swift in Sources */,
 				F2C5D94D2D2C31E10023C830 /* LightSlider.swift in Sources */,
+				F28C4C5D2D97EBC5008C1D3C /* OptionsView.swift in Sources */,
 				F23C20562D80D0F400B772EF /* CreateWorkView.swift in Sources */,
 				F2028DD12D67885F006F9C04 /* CornerShape.swift in Sources */,
 				F2BEB7DF2D61F28B007C2BDA /* ClockView.swift in Sources */,

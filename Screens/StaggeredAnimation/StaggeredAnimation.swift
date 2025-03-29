@@ -1,14 +1,33 @@
 import SwiftUI
 
 struct StaggeredAnimation: View {
+    
+    @State var isPaused: Bool = false
+    
     var body: some View {
-        VStack(spacing: 12){
-            ForEach(1...10, id: \.self){ _ in
-                    DummyView()
+        VStack {
+            Image(systemName: "wifi.router")
+                .resizable()
+                .scaledToFit()
+                .frame(width: 100)
+                .symbolEffect(.variableColor.iterative.reversing)
+            Spacer()
+            
+            Button{
+                isPaused.toggle()
+            }label: {
+                Image(systemName: isPaused ? "pause.fill" : "play.fill")
+                    .contentTransition(.symbolEffect(.replace.offUp))
             }
-            Spacer(minLength: 0)
+                
+            VStack(spacing: 12){
+                ForEach(1...5, id: \.self){ _ in
+                        DummyView()
+                }
+                Spacer(minLength: 0)
+            }
+            .padding(15)
         }
-        .padding(15)
     }
     
     @ViewBuilder
