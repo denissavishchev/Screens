@@ -8,8 +8,30 @@
 import SwiftUI
 
 struct RadialMenu: View {
+    
+    @State private var selectedIndex: Int = 0
+    @State private var isAnimating: Bool = false
+    @State private var animatingIndex: CGFloat = 1
+    
     var body: some View {
         ZStack{
+            Circle()
+                .frame(width: 330, height: 330)
+                .foregroundColor(.cyan)
+            ForEach(0..<180, id: \.self) { i in
+                let angle = Double(i) / Double(180) * 2 * .pi
+                let radius: CGFloat = 95
+                
+                Rectangle()
+                    .frame(width: 3, height: 136)
+                    .foregroundColor(.white)
+                    .rotationEffect(.degrees(-90 + Double(i) * 2))
+                    .offset(
+                        x: radius * cos(angle),
+                        y: radius * sin(angle)
+                    )
+            }
+            
             ForEach(0..<6, id: \.self) { i in
                 let angle = Double(i) / Double(6) * 2 * .pi
                 let radius: CGFloat = 95
@@ -22,10 +44,63 @@ struct RadialMenu: View {
                         x: radius * cos(angle),
                         y: radius * sin(angle)
                     )
+                    .onTapGesture {
+                        if !isAnimating {
+                            animateSelection(from: selectedIndex, to: i)
+                        }
+                    }
+                    .shadow(color: .black.opacity(0.5), radius: 4, x: 2, y: 2)
+            }
+            if selectedIndex >= 0 {
+                let angle = Double(selectedIndex) / Double(6) * 2 * .pi
+                let radius: CGFloat = 95
+                    
+                RoundedTrapezoid()
+                    .frame(width: 100, height: 100)
+                        .foregroundColor(.white)
+                        .rotationEffect(.degrees(-90 + Double(selectedIndex * 60)))
+                        .offset(
+                            x: radius * cos(angle),
+                            y: radius * sin(angle)
+                        )
+                        .shadow(color: .black.opacity(0.5), radius: 4, x: 2, y: 2)
+            }
+            ZStack {
+                Circle()
+                    .stroke(lineWidth: 10)
+                    .frame(width: 108, height: 108)
+                    .foregroundStyle(LinearGradient(colors: [.yellow, .red], startPoint: .topLeading, endPoint: .bottomTrailing))
+                    .shadow(color: .black, radius: 10)
+                Circle()
+                    .frame(width: 100, height: 100)
+                    .foregroundStyle(LinearGradient(colors: [.white, .gray], startPoint: .topLeading, endPoint: .bottomTrailing))
+                    .shadow(color: .black.opacity(0.8), radius: 10, x: 5, y: 5)
+                    .shadow(color: .black.opacity(0.3), radius: 10, x: -5, y: -5)
             }
         }
         .frame(maxWidth: .infinity, maxHeight: 380)
-        .background(.blue.opacity(0.1))
+    }
+    
+    private func animateSelection(from start: Int, to end: Int) {
+        guard start != end else { return }
+        
+        isAnimating = true
+        let step = start < end ? 1 : -1
+        
+        DispatchQueue.global().async {
+            for i in stride(from: start, to: end + step, by: step) {
+                DispatchQueue.main.asyncAfter(deadline: .now() + Double(abs(i - start)) * 0.2) {
+                    withAnimation(.easeInOut(duration: 0.5)){
+                        selectedIndex = i
+                    }
+                    if i == end {
+                        withAnimation{
+                            isAnimating = false
+                        }
+                    }
+                }
+            }
+        }
     }
 }
 
@@ -33,45 +108,3 @@ struct RadialMenu: View {
     RadialMenu()
 }
 
-struct RoundedTrapezoid: Shape {
-    let topWidthRatio: CGFloat = 0.6
-    let cornerRadius: CGFloat = 10
-    let bottomWidthRatio: CGFloat = 1.5
-    var bottomCurveHeight: CGFloat = 10
-
-    func path(in rect: CGRect) -> Path {
-        let fullWidth = rect.width
-        let topWidth = fullWidth * topWidthRatio
-        let bottomWidth = fullWidth * bottomWidthRatio
-        let height = rect.height
-        let topXOffset = (fullWidth - topWidth) / 2
-        let bottomXOffset = (fullWidth - bottomWidth) / 2
-        
-
-        var path = Path()
-
-        // top
-        path.move(to: CGPoint(x: topXOffset + cornerRadius, y: 0))
-        path.addLine(to: CGPoint(x: topXOffset + topWidth - cornerRadius, y: 0))
-        path.addArc(center: CGPoint(x: topXOffset + topWidth - cornerRadius, y: cornerRadius),
-                    radius: cornerRadius, startAngle: Angle(degrees: -90), endAngle: Angle(degrees: -20), clockwise: false)
-
-        // reght
-        path.addLine(to: CGPoint(x: fullWidth - bottomXOffset - cornerRadius + 5, y: height - cornerRadius - 11))
-        path.addArc(center: CGPoint(x: fullWidth - bottomXOffset - cornerRadius - 4, y: height - cornerRadius - 6),
-                    radius: cornerRadius, startAngle: Angle(degrees: -20), endAngle: Angle(degrees: 60), clockwise: false)
-
-        // bottom
-        path.addQuadCurve(to: CGPoint(x: bottomXOffset + 10, y: height - bottomCurveHeight + 6),
-                                  control: CGPoint(x: fullWidth / 2, y: height + 28))
-        path.addArc(center: CGPoint(x: bottomXOffset + cornerRadius + 4, y: height - cornerRadius - 4),
-                           radius: cornerRadius, startAngle: Angle(degrees: 130), endAngle: Angle(degrees: 220), clockwise: false)
-
-        // left
-        path.addLine(to: CGPoint(x: topXOffset + cornerRadius - 8, y: cornerRadius))
-        path.addArc(center: CGPoint(x: topXOffset + cornerRadius + 4, y: cornerRadius),
-                    radius: cornerRadius, startAngle: Angle(degrees: 210), endAngle: Angle(degrees: 270), clockwise: false)
-
-        return path
-    }
-}
