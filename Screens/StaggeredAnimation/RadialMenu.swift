@@ -12,9 +12,9 @@ struct RadialMenu: View {
         ZStack{
             ForEach(0..<6, id: \.self) { i in
                 let angle = Double(i) / Double(6) * 2 * .pi
-                let radius: CGFloat = 130
+                let radius: CGFloat = 95
                 
-                RoundedTrapezoid(topWidthRatio: 0.6, cornerRadius: 10)
+                RoundedTrapezoid()
                     .frame(width: 100, height: 100)
                     .foregroundColor(.black)
                     .rotationEffect(.degrees(-90 + Double(i * 60)))
@@ -22,9 +22,6 @@ struct RadialMenu: View {
                         x: radius * cos(angle),
                         y: radius * sin(angle)
                     )
-                    
-                    .background()
-                    
             }
         }
         .frame(maxWidth: .infinity, maxHeight: 380)
@@ -37,30 +34,43 @@ struct RadialMenu: View {
 }
 
 struct RoundedTrapezoid: Shape {
-    var topWidthRatio: CGFloat
-    var cornerRadius: CGFloat
+    let topWidthRatio: CGFloat = 0.6
+    let cornerRadius: CGFloat = 10
+    let bottomWidthRatio: CGFloat = 1.5
+    var bottomCurveHeight: CGFloat = 10
 
     func path(in rect: CGRect) -> Path {
-        let bottomWidth = rect.width
-        let topWidth = bottomWidth * topWidthRatio
+        let fullWidth = rect.width
+        let topWidth = fullWidth * topWidthRatio
+        let bottomWidth = fullWidth * bottomWidthRatio
         let height = rect.height
-        let xOffset = (bottomWidth - topWidth) / 2
+        let topXOffset = (fullWidth - topWidth) / 2
+        let bottomXOffset = (fullWidth - bottomWidth) / 2
+        
 
         var path = Path()
 
-        path.move(to: CGPoint(x: xOffset + cornerRadius, y: 0))
-        path.addLine(to: CGPoint(x: xOffset + topWidth - cornerRadius, y: 0))
-        path.addArc(center: CGPoint(x: xOffset + topWidth - cornerRadius, y: cornerRadius),
-                    radius: cornerRadius, startAngle: Angle(degrees: -90), endAngle: Angle(degrees: 0), clockwise: false)
-        path.addLine(to: CGPoint(x: bottomWidth - cornerRadius + 10, y: height - cornerRadius))
-        path.addArc(center: CGPoint(x: bottomWidth - cornerRadius, y: height - cornerRadius),
-                    radius: cornerRadius, startAngle: Angle(degrees: 0), endAngle: Angle(degrees: 90), clockwise: false)
-        path.addLine(to: CGPoint(x: cornerRadius, y: height))
-        path.addArc(center: CGPoint(x: cornerRadius, y: height - cornerRadius),
-                    radius: cornerRadius, startAngle: Angle(degrees: 90), endAngle: Angle(degrees: 180), clockwise: false)
-        path.addLine(to: CGPoint(x: xOffset + cornerRadius - 10, y: cornerRadius))
-        path.addArc(center: CGPoint(x: xOffset + cornerRadius, y: cornerRadius),
-                    radius: cornerRadius, startAngle: Angle(degrees: 180), endAngle: Angle(degrees: 270), clockwise: false)
+        // top
+        path.move(to: CGPoint(x: topXOffset + cornerRadius, y: 0))
+        path.addLine(to: CGPoint(x: topXOffset + topWidth - cornerRadius, y: 0))
+        path.addArc(center: CGPoint(x: topXOffset + topWidth - cornerRadius, y: cornerRadius),
+                    radius: cornerRadius, startAngle: Angle(degrees: -90), endAngle: Angle(degrees: -20), clockwise: false)
+
+        // reght
+        path.addLine(to: CGPoint(x: fullWidth - bottomXOffset - cornerRadius + 5, y: height - cornerRadius - 11))
+        path.addArc(center: CGPoint(x: fullWidth - bottomXOffset - cornerRadius - 4, y: height - cornerRadius - 6),
+                    radius: cornerRadius, startAngle: Angle(degrees: -20), endAngle: Angle(degrees: 60), clockwise: false)
+
+        // bottom
+        path.addQuadCurve(to: CGPoint(x: bottomXOffset + 10, y: height - bottomCurveHeight + 6),
+                                  control: CGPoint(x: fullWidth / 2, y: height + 28))
+        path.addArc(center: CGPoint(x: bottomXOffset + cornerRadius + 4, y: height - cornerRadius - 4),
+                           radius: cornerRadius, startAngle: Angle(degrees: 130), endAngle: Angle(degrees: 220), clockwise: false)
+
+        // left
+        path.addLine(to: CGPoint(x: topXOffset + cornerRadius - 8, y: cornerRadius))
+        path.addArc(center: CGPoint(x: topXOffset + cornerRadius + 4, y: cornerRadius),
+                    radius: cornerRadius, startAngle: Angle(degrees: 210), endAngle: Angle(degrees: 270), clockwise: false)
 
         return path
     }
