@@ -1,10 +1,3 @@
-//
-//  RadialMenu.swift
-//  Screens
-//
-//  Created by Devis on 30/03/2025.
-//
-
 import SwiftUI
 
 struct RadialMenu: View {
