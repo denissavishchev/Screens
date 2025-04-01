@@ -62,6 +62,8 @@
 		F28C4C612D984686008C1D3C /* OptionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C602D984686008C1D3C /* OptionButton.swift */; };
 		F28C4C632D991437008C1D3C /* RadialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C622D991437008C1D3C /* RadialMenu.swift */; };
 		F28C4C652D99AD1D008C1D3C /* RoundedTrapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C642D99AD1D008C1D3C /* RoundedTrapezoid.swift */; };
+		F28C4C682D9C3F6F008C1D3C /* MagicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C672D9C3F6F008C1D3C /* MagicView.swift */; };
+		F28C4C6D2D9C5E02008C1D3C /* Planewalker.otf in Resources */ = {isa = PBXBuildFile; fileRef = F28C4C6C2D9C5E02008C1D3C /* Planewalker.otf */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
@@ -233,6 +235,8 @@
 		F28C4C602D984686008C1D3C /* OptionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionButton.swift; sourceTree = "<group>"; };
 		F28C4C622D991437008C1D3C /* RadialMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialMenu.swift; sourceTree = "<group>"; };
 		F28C4C642D99AD1D008C1D3C /* RoundedTrapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTrapezoid.swift; sourceTree = "<group>"; };
+		F28C4C672D9C3F6F008C1D3C /* MagicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicView.swift; sourceTree = "<group>"; };
+		F28C4C6C2D9C5E02008C1D3C /* Planewalker.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Planewalker.otf; path = ../../../../Downloads/planewalker/Planewalker.otf; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
@@ -467,6 +471,14 @@
 				F28C4C642D99AD1D008C1D3C /* RoundedTrapezoid.swift */,
 			);
 			path = StaggeredAnimation;
+			sourceTree = "<group>";
+		};
+		F28C4C662D9C3F51008C1D3C /* Magic */ = {
+			isa = PBXGroup;
+			children = (
+				F28C4C672D9C3F6F008C1D3C /* MagicView.swift */,
+			);
+			path = Magic;
 			sourceTree = "<group>";
 		};
 		F2A06D192D834E0C00FF5B45 /* PhonesView */ = {
@@ -777,6 +789,7 @@
 			isa = PBXGroup;
 			children = (
 				F2F5011C2CFB526900492BAA /* Assets.xcassets */,
+				F28C4C6C2D9C5E02008C1D3C /* Planewalker.otf */,
 				F2F501172CFB526600492BAA /* Screens */,
 				F2F501162CFB526600492BAA /* Products */,
 			);
@@ -797,6 +810,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F28C4C662D9C3F51008C1D3C /* Magic */,
 				F28C4C592D970B79008C1D3C /* StaggeredAnimation */,
 				F28C4C522D95AA46008C1D3C /* ColorPicker */,
 				F28C4C472D8FF3D7008C1D3C /* Buttons */,
@@ -927,6 +941,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28C4C6D2D9C5E02008C1D3C /* Planewalker.otf in Resources */,
 				F2F501202CFB526900492BAA /* Preview Assets.xcassets in Resources */,
 				F2F5011D2CFB526900492BAA /* Assets.xcassets in Resources */,
 			);
@@ -951,6 +966,7 @@
 				F2BEB7D62D5FCE4E007C2BDA /* CurveWave.swift in Sources */,
 				F2C5D9492D2BCE950023C830 /* LampView.swift in Sources */,
 				F2F5013B2CFFA46700492BAA /* QuantityButton.swift in Sources */,
+				F28C4C682D9C3F6F008C1D3C /* MagicView.swift in Sources */,
 				F2C5D9132D1F37DB0023C830 /* WatchView.swift in Sources */,
 				F28C4C442D8F5EE5008C1D3C /* GamesStatisticsView.swift in Sources */,
 				F270F3B02D0784CD007BBF4B /* RoundView.swift in Sources */,
