@@ -64,6 +64,8 @@
 		F28C4C652D99AD1D008C1D3C /* RoundedTrapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C642D99AD1D008C1D3C /* RoundedTrapezoid.swift */; };
 		F28C4C682D9C3F6F008C1D3C /* MagicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C672D9C3F6F008C1D3C /* MagicView.swift */; };
 		F28C4C6D2D9C5E02008C1D3C /* Planewalker.otf in Resources */ = {isa = PBXBuildFile; fileRef = F28C4C6C2D9C5E02008C1D3C /* Planewalker.otf */; };
+		F28C4C712D9D9E58008C1D3C /* ManaCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C702D9D9E58008C1D3C /* ManaCost.swift */; };
+		F28C4C732D9D9E89008C1D3C /* ManaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C722D9D9E89008C1D3C /* ManaView.swift */; };
 		F2A06D182D822FDC00FF5B45 /* SignInButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D172D822FDC00FF5B45 /* SignInButton.swift */; };
 		F2A06D1B2D834E2B00FF5B45 /* PhonesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */; };
 		F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */; };
@@ -237,6 +239,8 @@
 		F28C4C642D99AD1D008C1D3C /* RoundedTrapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTrapezoid.swift; sourceTree = "<group>"; };
 		F28C4C672D9C3F6F008C1D3C /* MagicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicView.swift; sourceTree = "<group>"; };
 		F28C4C6C2D9C5E02008C1D3C /* Planewalker.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Planewalker.otf; path = ../../../../Downloads/planewalker/Planewalker.otf; sourceTree = "<group>"; };
+		F28C4C702D9D9E58008C1D3C /* ManaCost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManaCost.swift; sourceTree = "<group>"; };
+		F28C4C722D9D9E89008C1D3C /* ManaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManaView.swift; sourceTree = "<group>"; };
 		F2A06D172D822FDC00FF5B45 /* SignInButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInButton.swift; sourceTree = "<group>"; };
 		F2A06D1A2D834E2B00FF5B45 /* PhonesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhonesView.swift; sourceTree = "<group>"; };
 		F2A06D1F2D84CE2400FF5B45 /* WeatherApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherApp.swift; sourceTree = "<group>"; };
@@ -477,6 +481,8 @@
 			isa = PBXGroup;
 			children = (
 				F28C4C672D9C3F6F008C1D3C /* MagicView.swift */,
+				F28C4C702D9D9E58008C1D3C /* ManaCost.swift */,
+				F28C4C722D9D9E89008C1D3C /* ManaView.swift */,
 			);
 			path = Magic;
 			sourceTree = "<group>";
@@ -1046,6 +1052,7 @@
 				F21447C12D6E44490027B57B /* InfoRow.swift in Sources */,
 				F2F501302CFBA28100492BAA /* BottomView.swift in Sources */,
 				F2A06D312D871C9500FF5B45 /* DotsMenuView.swift in Sources */,
+				F28C4C732D9D9E89008C1D3C /* ManaView.swift in Sources */,
 				F2028DCD2D678711006F9C04 /* SideMenuView.swift in Sources */,
 				F21447F72D7DEB220027B57B /* SettingsView.swift in Sources */,
 				F270F3BB2D0B468B007BBF4B /* SmileView.swift in Sources */,
@@ -1113,6 +1120,7 @@
 				F21447F52D7DEB080027B57B /* ProfileView.swift in Sources */,
 				F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */,
 				F23C20542D80D0CC00B772EF /* LoginWorkView.swift in Sources */,
+				F28C4C712D9D9E58008C1D3C /* ManaCost.swift in Sources */,
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
 				F2A06D242D85DCA600FF5B45 /* StatusView.swift in Sources */,
 				F2028DD32D678A8D006F9C04 /* MenuItem.swift in Sources */,
