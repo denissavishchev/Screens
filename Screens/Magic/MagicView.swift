@@ -19,6 +19,11 @@ struct MagicView: View {
                         .shadow(color: .black, radius: 5)
                         .shadow(color: .black.opacity(0.5), radius: 5)
                     LegendaryView()
+                    CountShape()
+                        .frame(width: 50, height: 30)
+                    
+                        .background()
+                        .offset(x: -150, y: 70)
                 }
                 .frame(width: UIScreen.main.bounds.width - 36, height: 250)
                 .padding(.bottom, 50)
@@ -33,7 +38,24 @@ struct MagicView: View {
     MagicView()
 }
 
-
+struct CountShape: Shape{
+    func path(in rect: CGRect) -> Path{
+        var path = Path()
+        
+        path.move(to: CGPoint(x: rect.midX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX - 15, y: rect.minY))
+        path.addArc(center: CGPoint(x: rect.maxX - 15, y: rect.minY + 15),
+                    radius: 15,
+                    startAngle: Angle(degrees: -90),
+                    endAngle: Angle(degrees: 0),
+                    clockwise: false)
+        path.addQuadCurve(
+                    to: CGPoint(x: rect.minX + 80, y: rect.maxY - 20),
+                    control: CGPoint(x: rect.minX + 45, y: rect.maxY - 20))
+        
+        return path
+    }
+}
 
 struct Description: View {
     var body: some View {

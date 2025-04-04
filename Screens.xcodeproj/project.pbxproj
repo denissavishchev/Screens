@@ -86,6 +86,8 @@
 		F2A06D422D89FA2800FF5B45 /* FoodyModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D412D89FA2800FF5B45 /* FoodyModel.swift */; };
 		F2A06D452D89FB5D00FF5B45 /* GamersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D442D89FB5D00FF5B45 /* GamersView.swift */; };
 		F2A06D472D8A0B6100FF5B45 /* FoodyListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A06D462D8A0B6100FF5B45 /* FoodyListCell.swift */; };
+		F2A800AD2DA044C6009ADA55 /* MouseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800AC2DA044C6009ADA55 /* MouseView.swift */; };
+		F2A800AF2DA05199009ADA55 /* MouseShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800AE2DA05199009ADA55 /* MouseShape.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -264,6 +266,8 @@
 		F2A06D412D89FA2800FF5B45 /* FoodyModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyModel.swift; sourceTree = "<group>"; };
 		F2A06D442D89FB5D00FF5B45 /* GamersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamersView.swift; sourceTree = "<group>"; };
 		F2A06D462D8A0B6100FF5B45 /* FoodyListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodyListCell.swift; sourceTree = "<group>"; };
+		F2A800AC2DA044C6009ADA55 /* MouseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseView.swift; sourceTree = "<group>"; };
+		F2A800AE2DA05199009ADA55 /* MouseShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseShape.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -550,6 +554,15 @@
 			path = Gamers;
 			sourceTree = "<group>";
 		};
+		F2A800AB2DA044B1009ADA55 /* Mouse */ = {
+			isa = PBXGroup;
+			children = (
+				F2A800AC2DA044C6009ADA55 /* MouseView.swift */,
+				F2A800AE2DA05199009ADA55 /* MouseShape.swift */,
+			);
+			path = Mouse;
+			sourceTree = "<group>";
+		};
 		F2BEB7822D481FAE007C2BDA /* Cinema */ = {
 			isa = PBXGroup;
 			children = (
@@ -822,6 +835,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2A800AB2DA044B1009ADA55 /* Mouse */,
 				F28C4C662D9C3F51008C1D3C /* Magic */,
 				F28C4C592D970B79008C1D3C /* StaggeredAnimation */,
 				F28C4C522D95AA46008C1D3C /* ColorPicker */,
@@ -1004,6 +1018,7 @@
 				F2C5D9002D1B2A4A0023C830 /* UnitsButtonView.swift in Sources */,
 				F2C5D9352D2708E50023C830 /* GreenContainerOverlay.swift in Sources */,
 				F2A06D402D88B79000FF5B45 /* OrderView.swift in Sources */,
+				F2A800AF2DA05199009ADA55 /* MouseShape.swift in Sources */,
 				F2C5D92D2D26EFF30023C830 /* GreenContainerImages.swift in Sources */,
 				F270F3BE2D0EF48A007BBF4B /* CarouselView.swift in Sources */,
 				F2C5D9212D21BD7C0023C830 /* WatchFourButtons.swift in Sources */,
@@ -1052,6 +1067,7 @@
 				F28C4C462D8F5F07008C1D3C /* RobotView.swift in Sources */,
 				F2BEB78A2D494816007C2BDA /* SeatsView.swift in Sources */,
 				F21447C32D6E453B0027B57B /* ThemeSwitcherView.swift in Sources */,
+				F2A800AD2DA044C6009ADA55 /* MouseView.swift in Sources */,
 				F2BEB7952D4D4F9B007C2BDA /* StarsView.swift in Sources */,
 				F2BEB7C12D5A8BBF007C2BDA /* RetroView.swift in Sources */,
 				F2F5011B2CFB526600492BAA /* HomeView.swift in Sources */,
