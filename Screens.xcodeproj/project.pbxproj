@@ -63,7 +63,6 @@
 		F28C4C632D991437008C1D3C /* RadialMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C622D991437008C1D3C /* RadialMenu.swift */; };
 		F28C4C652D99AD1D008C1D3C /* RoundedTrapezoid.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C642D99AD1D008C1D3C /* RoundedTrapezoid.swift */; };
 		F28C4C682D9C3F6F008C1D3C /* MagicView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C672D9C3F6F008C1D3C /* MagicView.swift */; };
-		F28C4C6D2D9C5E02008C1D3C /* Planewalker.otf in Resources */ = {isa = PBXBuildFile; fileRef = F28C4C6C2D9C5E02008C1D3C /* Planewalker.otf */; };
 		F28C4C712D9D9E58008C1D3C /* ManaCost.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C702D9D9E58008C1D3C /* ManaCost.swift */; };
 		F28C4C732D9D9E89008C1D3C /* ManaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C722D9D9E89008C1D3C /* ManaView.swift */; };
 		F28C4C752D9DC8B0008C1D3C /* DescriptionShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28C4C742D9DC8B0008C1D3C /* DescriptionShape.swift */; };
@@ -92,6 +91,8 @@
 		F2A800B32DA258F9009ADA55 /* MouseOveralay.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800B22DA258F9009ADA55 /* MouseOveralay.swift */; };
 		F2A800B62DA26254009ADA55 /* TrapezoidShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800B52DA26254009ADA55 /* TrapezoidShape.swift */; };
 		F2A800B82DA26296009ADA55 /* RGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800B72DA26296009ADA55 /* RGBView.swift */; };
+		F2A800BA2DA42392009ADA55 /* Planewalker.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2A800B92DA42392009ADA55 /* Planewalker.otf */; };
+		F2A800BC2DA42E1A009ADA55 /* BlueShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800BB2DA42E1A009ADA55 /* BlueShape.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -246,7 +247,6 @@
 		F28C4C622D991437008C1D3C /* RadialMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadialMenu.swift; sourceTree = "<group>"; };
 		F28C4C642D99AD1D008C1D3C /* RoundedTrapezoid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTrapezoid.swift; sourceTree = "<group>"; };
 		F28C4C672D9C3F6F008C1D3C /* MagicView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagicView.swift; sourceTree = "<group>"; };
-		F28C4C6C2D9C5E02008C1D3C /* Planewalker.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Planewalker.otf; path = ../../../../Downloads/planewalker/Planewalker.otf; sourceTree = "<group>"; };
 		F28C4C702D9D9E58008C1D3C /* ManaCost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManaCost.swift; sourceTree = "<group>"; };
 		F28C4C722D9D9E89008C1D3C /* ManaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManaView.swift; sourceTree = "<group>"; };
 		F28C4C742D9DC8B0008C1D3C /* DescriptionShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionShape.swift; sourceTree = "<group>"; };
@@ -276,6 +276,8 @@
 		F2A800B22DA258F9009ADA55 /* MouseOveralay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseOveralay.swift; sourceTree = "<group>"; };
 		F2A800B52DA26254009ADA55 /* TrapezoidShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrapezoidShape.swift; sourceTree = "<group>"; };
 		F2A800B72DA26296009ADA55 /* RGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBView.swift; sourceTree = "<group>"; };
+		F2A800B92DA42392009ADA55 /* Planewalker.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Planewalker.otf; path = /Users/devis/Desktop/Devis/Swift/Screens/Planewalker.otf; sourceTree = "<absolute>"; };
+		F2A800BB2DA42E1A009ADA55 /* BlueShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueShape.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -571,6 +573,7 @@
 				F2A800B22DA258F9009ADA55 /* MouseOveralay.swift */,
 				F2A800B52DA26254009ADA55 /* TrapezoidShape.swift */,
 				F2A800B72DA26296009ADA55 /* RGBView.swift */,
+				F2A800BB2DA42E1A009ADA55 /* BlueShape.swift */,
 			);
 			path = Mouse;
 			sourceTree = "<group>";
@@ -826,7 +829,7 @@
 			isa = PBXGroup;
 			children = (
 				F2F5011C2CFB526900492BAA /* Assets.xcassets */,
-				F28C4C6C2D9C5E02008C1D3C /* Planewalker.otf */,
+				F2A800B92DA42392009ADA55 /* Planewalker.otf */,
 				F2F501172CFB526600492BAA /* Screens */,
 				F2F501162CFB526600492BAA /* Products */,
 			);
@@ -979,7 +982,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F28C4C6D2D9C5E02008C1D3C /* Planewalker.otf in Resources */,
+				F2A800BA2DA42392009ADA55 /* Planewalker.otf in Resources */,
 				F2F501202CFB526900492BAA /* Preview Assets.xcassets in Resources */,
 				F2F5011D2CFB526900492BAA /* Assets.xcassets in Resources */,
 			);
@@ -1067,6 +1070,7 @@
 				F21447ED2D7D88B90027B57B /* BackButton.swift in Sources */,
 				F2BEB7932D4C0418007C2BDA /* TopButtons.swift in Sources */,
 				F2A06D452D89FB5D00FF5B45 /* GamersView.swift in Sources */,
+				F2A800BC2DA42E1A009ADA55 /* BlueShape.swift in Sources */,
 				F2F501332CFE439A00492BAA /* MealView.swift in Sources */,
 				F2A800B32DA258F9009ADA55 /* MouseOveralay.swift in Sources */,
 				F28C4C402D8C8D49008C1D3C /* GameContainers.swift in Sources */,

@@ -19,6 +19,7 @@ struct MouseView: View {
                 .resizable()
                 .scaledToFit()
                 .frame(width: 280)
+                .offset(x: -10)
                 .shadow(color: .black, radius: 10, y: 5)
             TringleShape()
                 .frame(width: 20, height: 20)
@@ -39,7 +40,7 @@ struct MouseView: View {
                 .shadow(color: .mouseGreen, radius: 8)
                 .padding(18)
             RGBView()
-                
+            BlueShapeView()
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
         .background(LinearGradient(colors: [.black, .bikeGray], startPoint: .bottomLeading, endPoint: .topTrailing))
@@ -50,4 +51,5 @@ struct MouseView: View {
 #Preview {
     MouseView()
 }
+
 
