@@ -93,6 +93,7 @@
 		F2A800B82DA26296009ADA55 /* RGBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800B72DA26296009ADA55 /* RGBView.swift */; };
 		F2A800BA2DA42392009ADA55 /* Planewalker.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2A800B92DA42392009ADA55 /* Planewalker.otf */; };
 		F2A800BC2DA42E1A009ADA55 /* BlueShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800BB2DA42E1A009ADA55 /* BlueShape.swift */; };
+		F2A800BF2DA5AF6D009ADA55 /* DarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800BE2DA5AF6D009ADA55 /* DarkView.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -278,6 +279,7 @@
 		F2A800B72DA26296009ADA55 /* RGBView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RGBView.swift; sourceTree = "<group>"; };
 		F2A800B92DA42392009ADA55 /* Planewalker.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Planewalker.otf; path = /Users/devis/Desktop/Devis/Swift/Screens/Planewalker.otf; sourceTree = "<absolute>"; };
 		F2A800BB2DA42E1A009ADA55 /* BlueShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueShape.swift; sourceTree = "<group>"; };
+		F2A800BE2DA5AF6D009ADA55 /* DarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkView.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -578,6 +580,14 @@
 			path = Mouse;
 			sourceTree = "<group>";
 		};
+		F2A800BD2DA5AF4A009ADA55 /* DarkEQ */ = {
+			isa = PBXGroup;
+			children = (
+				F2A800BE2DA5AF6D009ADA55 /* DarkView.swift */,
+			);
+			path = DarkEQ;
+			sourceTree = "<group>";
+		};
 		F2BEB7822D481FAE007C2BDA /* Cinema */ = {
 			isa = PBXGroup;
 			children = (
@@ -850,6 +860,7 @@
 				F2F501182CFB526600492BAA /* ScreensApp.swift */,
 				F2F5011A2CFB526600492BAA /* HomeView.swift */,
 				F2F501362CFF8E5300492BAA /* CustomColors.swift */,
+				F2A800BD2DA5AF4A009ADA55 /* DarkEQ */,
 				F2A800AB2DA044B1009ADA55 /* Mouse */,
 				F28C4C662D9C3F51008C1D3C /* Magic */,
 				F28C4C592D970B79008C1D3C /* StaggeredAnimation */,
@@ -1002,6 +1013,7 @@
 				F23C20562D80D0F400B772EF /* CreateWorkView.swift in Sources */,
 				F2028DD12D67885F006F9C04 /* CornerShape.swift in Sources */,
 				F2BEB7DF2D61F28B007C2BDA /* ClockView.swift in Sources */,
+				F2A800BF2DA5AF6D009ADA55 /* DarkView.swift in Sources */,
 				F2A06D202D84CE2400FF5B45 /* WeatherApp.swift in Sources */,
 				F2C5D90A2D1D885A0023C830 /* SettingsBottomView.swift in Sources */,
 				F2A800B82DA26296009ADA55 /* RGBView.swift in Sources */,
