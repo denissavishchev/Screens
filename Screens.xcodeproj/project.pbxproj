@@ -94,6 +94,8 @@
 		F2A800BA2DA42392009ADA55 /* Planewalker.otf in Resources */ = {isa = PBXBuildFile; fileRef = F2A800B92DA42392009ADA55 /* Planewalker.otf */; };
 		F2A800BC2DA42E1A009ADA55 /* BlueShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800BB2DA42E1A009ADA55 /* BlueShape.swift */; };
 		F2A800BF2DA5AF6D009ADA55 /* DarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800BE2DA5AF6D009ADA55 /* DarkView.swift */; };
+		F2A800C12DA70970009ADA55 /* DarkSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800C02DA70970009ADA55 /* DarkSlider.swift */; };
+		F2A800C32DA709D8009ADA55 /* SlidersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800C22DA709D8009ADA55 /* SlidersView.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -280,6 +282,8 @@
 		F2A800B92DA42392009ADA55 /* Planewalker.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Planewalker.otf; path = /Users/devis/Desktop/Devis/Swift/Screens/Planewalker.otf; sourceTree = "<absolute>"; };
 		F2A800BB2DA42E1A009ADA55 /* BlueShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlueShape.swift; sourceTree = "<group>"; };
 		F2A800BE2DA5AF6D009ADA55 /* DarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkView.swift; sourceTree = "<group>"; };
+		F2A800C02DA70970009ADA55 /* DarkSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSlider.swift; sourceTree = "<group>"; };
+		F2A800C22DA709D8009ADA55 /* SlidersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidersView.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -584,6 +588,8 @@
 			isa = PBXGroup;
 			children = (
 				F2A800BE2DA5AF6D009ADA55 /* DarkView.swift */,
+				F2A800C02DA70970009ADA55 /* DarkSlider.swift */,
+				F2A800C22DA709D8009ADA55 /* SlidersView.swift */,
 			);
 			path = DarkEQ;
 			sourceTree = "<group>";
@@ -1142,6 +1148,7 @@
 				F2BEB7CB2D5E81DB007C2BDA /* BottomContainerThree.swift in Sources */,
 				F2BEB78F2D4AAF6D007C2BDA /* JellyView.swift in Sources */,
 				F2F501372CFF8E5300492BAA /* CustomColors.swift in Sources */,
+				F2A800C12DA70970009ADA55 /* DarkSlider.swift in Sources */,
 				F28C4C4B2D8FF784008C1D3C /* AnimatedButton.swift in Sources */,
 				F270F3AE2D05EB81007BBF4B /* CarSettingsView.swift in Sources */,
 				F270F3B82D0A2763007BBF4B /* CustomSlider.swift in Sources */,
@@ -1178,6 +1185,7 @@
 				F23C20542D80D0CC00B772EF /* LoginWorkView.swift in Sources */,
 				F28C4C712D9D9E58008C1D3C /* ManaCost.swift in Sources */,
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
+				F2A800C32DA709D8009ADA55 /* SlidersView.swift in Sources */,
 				F2A06D242D85DCA600FF5B45 /* StatusView.swift in Sources */,
 				F2028DD32D678A8D006F9C04 /* MenuItem.swift in Sources */,
 				F2A06D392D88B6AA00FF5B45 /* FoodyView.swift in Sources */,
