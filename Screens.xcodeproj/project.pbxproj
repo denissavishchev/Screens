@@ -96,6 +96,7 @@
 		F2A800BF2DA5AF6D009ADA55 /* DarkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800BE2DA5AF6D009ADA55 /* DarkView.swift */; };
 		F2A800C12DA70970009ADA55 /* DarkSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800C02DA70970009ADA55 /* DarkSlider.swift */; };
 		F2A800C32DA709D8009ADA55 /* SlidersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800C22DA709D8009ADA55 /* SlidersView.swift */; };
+		F2A800C52DA82208009ADA55 /* PreButtons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2A800C42DA82208009ADA55 /* PreButtons.swift */; };
 		F2BEB7842D481FC3007C2BDA /* CinemaView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7832D481FC3007C2BDA /* CinemaView.swift */; };
 		F2BEB7862D4831F7007C2BDA /* TicketShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7852D4831F7007C2BDA /* TicketShape.swift */; };
 		F2BEB7882D483253007C2BDA /* TicketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2BEB7872D483253007C2BDA /* TicketsView.swift */; };
@@ -284,6 +285,7 @@
 		F2A800BE2DA5AF6D009ADA55 /* DarkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkView.swift; sourceTree = "<group>"; };
 		F2A800C02DA70970009ADA55 /* DarkSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSlider.swift; sourceTree = "<group>"; };
 		F2A800C22DA709D8009ADA55 /* SlidersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidersView.swift; sourceTree = "<group>"; };
+		F2A800C42DA82208009ADA55 /* PreButtons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreButtons.swift; sourceTree = "<group>"; };
 		F2BEB7832D481FC3007C2BDA /* CinemaView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaView.swift; sourceTree = "<group>"; };
 		F2BEB7852D4831F7007C2BDA /* TicketShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketShape.swift; sourceTree = "<group>"; };
 		F2BEB7872D483253007C2BDA /* TicketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketsView.swift; sourceTree = "<group>"; };
@@ -590,6 +592,7 @@
 				F2A800BE2DA5AF6D009ADA55 /* DarkView.swift */,
 				F2A800C02DA70970009ADA55 /* DarkSlider.swift */,
 				F2A800C22DA709D8009ADA55 /* SlidersView.swift */,
+				F2A800C42DA82208009ADA55 /* PreButtons.swift */,
 			);
 			path = DarkEQ;
 			sourceTree = "<group>";
@@ -1183,6 +1186,7 @@
 				F21447F52D7DEB080027B57B /* ProfileView.swift in Sources */,
 				F2C5D9372D286F3D0023C830 /* OnOffSwitch.swift in Sources */,
 				F23C20542D80D0CC00B772EF /* LoginWorkView.swift in Sources */,
+				F2A800C52DA82208009ADA55 /* PreButtons.swift in Sources */,
 				F28C4C712D9D9E58008C1D3C /* ManaCost.swift in Sources */,
 				F2C5D90E2D1DCC9A0023C830 /* SettingSwitch.swift in Sources */,
 				F2A800C32DA709D8009ADA55 /* SlidersView.swift in Sources */,
