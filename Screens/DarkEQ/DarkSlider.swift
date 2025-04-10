@@ -11,7 +11,7 @@ struct DarkSlider: View {
     
     private let height: CGFloat = 280
     private let width: CGFloat = 16
-    @Binding var yValue: CGFloat
+    @Binding var yValue: Double
     var name: String
     
     var body: some View {

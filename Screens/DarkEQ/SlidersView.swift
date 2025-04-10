@@ -9,9 +9,9 @@ import SwiftUI
 
 struct SlidersView: View {
     
-    @State private var low: CGFloat = -30
-    @State private var mid: CGFloat = -150
-    @State private var high: CGFloat = -120
+    @AppStorage("low") private var low: Double = -30
+    @AppStorage("mid") private var mid: Double = -30
+    @AppStorage("high") private var high: Double = -30
     
     var body: some View {
         HStack(spacing: 30){
